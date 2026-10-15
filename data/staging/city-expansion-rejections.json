@@ -1,0 +1,62 @@
+[
+  {
+    "sourceName": "Kabul",
+    "iso2": "AF",
+    "reason": "REJECT_UNSUPPORTED_COUNTRY",
+    "details": "Country AF (Afghanistan) is not in currently supported 38 countries"
+  },
+  {
+    "sourceName": "Tokyo",
+    "iso2": "JP",
+    "reason": "REJECT_UNSUPPORTED_COUNTRY",
+    "details": "Country JP (Japan) is not in currently supported 38 countries"
+  },
+  {
+    "sourceName": "Trablous",
+    "iso2": "LB",
+    "reason": "REJECT_SLUG_COLLISION",
+    "details": "Slug prayer-times-in-tripoli would collide with existing Libya capital record"
+  },
+  {
+    "sourceName": "I-n-Amenas",
+    "iso2": "DZ",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 216 is below pilot viability threshold of 20,000 for useful city pages"
+  },
+  {
+    "sourceName": "Sayhut",
+    "iso2": "YE",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 189 is below pilot viability threshold of 20,000"
+  },
+  {
+    "sourceName": "Dawwah",
+    "iso2": "OM",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 1,485 is below pilot viability threshold of 20,000"
+  },
+  {
+    "sourceName": "Zillah",
+    "iso2": "LY",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 10 is below pilot viability threshold of 20,000"
+  },
+  {
+    "sourceName": "As Sidr",
+    "iso2": "LY",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 50 is an industrial port facility, not an urban population center"
+  },
+  {
+    "sourceName": "Al Jaghbub",
+    "iso2": "LY",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 1,744 is below pilot viability threshold of 20,000"
+  },
+  {
+    "sourceName": "Dehibat",
+    "iso2": "TN",
+    "reason": "REJECT_LOW_POPULATION",
+    "details": "Population 3,525 is a border outpost, below pilot viability threshold"
+  }
+]

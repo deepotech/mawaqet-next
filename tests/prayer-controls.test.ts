@@ -137,7 +137,7 @@ describe('Prayer Controls & Calculation Engine Quality Assurance', () => {
       const unverifiedCount = allCities.filter((c) => !isCityIndependentlyVerified(c.slug)).length;
 
       expect(verifiedCount).toBe(42);
-      expect(unverifiedCount).toBe(328 - 42); // exactly 286 cities are Level 1-3 regional configurations
+      expect(unverifiedCount).toBe(allCities.length - 42); // exactly 42 cities are Level 4 hubs, remaining are regional configurations
     });
   });
 });
