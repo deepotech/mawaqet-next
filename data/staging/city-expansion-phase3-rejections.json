@@ -1,0 +1,74 @@
+[
+  {
+    "sourceName": "Banghazi",
+    "iso2": "LY",
+    "reason": "REJECT_DUPLICATE_PHONETIC_AND_COORDINATE",
+    "details": "Alternate phonetic romanization of Benghazi; proximity distance 1.4km < 20km threshold"
+  },
+  {
+    "sourceName": "Taizz",
+    "iso2": "YE",
+    "reason": "REJECT_DUPLICATE_PHONETIC_AND_COORDINATE",
+    "details": "Alternate phonetic romanization of Taiz; proximity distance 0.4km < 20km threshold"
+  },
+  {
+    "sourceName": "Shibin el Kom",
+    "iso2": "EG",
+    "reason": "REJECT_METROPOLITAN_PROXIMITY_COLLISION",
+    "details": "Within 19.5km of existing Banha record"
+  },
+  {
+    "sourceName": "Niyala",
+    "iso2": "SD",
+    "reason": "REJECT_DUPLICATE_PHONETIC_AND_COORDINATE",
+    "details": "Alternate phonetic romanization of existing Nyala record (added in Phase 2)"
+  },
+  {
+    "sourceName": "Medani",
+    "iso2": "SD",
+    "reason": "REJECT_DUPLICATE_PHONETIC_AND_COORDINATE",
+    "details": "Alternate phonetic romanization of existing Wad Madani record"
+  },
+  {
+    "sourceName": "Al Mukalla",
+    "iso2": "YE",
+    "reason": "REJECT_DUPLICATE_PHONETIC_AND_COORDINATE",
+    "details": "Alternate phonetic romanization of existing Mukalla record"
+  },
+  {
+    "sourceName": "Icel",
+    "iso2": "TR",
+    "reason": "REJECT_METROPOLITAN_PROXIMITY_COLLISION",
+    "details": "Metropolitan center of Mersin (already present in baseline dataset)"
+  },
+  {
+    "sourceName": "Adapazari",
+    "iso2": "TR",
+    "reason": "REJECT_METROPOLITAN_PROXIMITY_COLLISION",
+    "details": "Only 3.7km from Sakarya city center"
+  },
+  {
+    "sourceName": "George Town",
+    "iso2": "MY",
+    "reason": "REJECT_EXISTING_RECORD",
+    "details": "Penang/George Town already present in baseline Malaysia dataset"
+  },
+  {
+    "sourceName": "Ulaanbaatar",
+    "iso2": "MN",
+    "reason": "REJECT_UNSUPPORTED_COUNTRY",
+    "details": "Mongolia is not in the supported 38 countries"
+  },
+  {
+    "sourceName": "Brasilia",
+    "iso2": "BR",
+    "reason": "REJECT_UNSUPPORTED_COUNTRY",
+    "details": "Brazil is not in the supported 38 countries"
+  },
+  {
+    "sourceName": "Tokyo",
+    "iso2": "JP",
+    "reason": "REJECT_UNSUPPORTED_COUNTRY",
+    "details": "Japan is not in the supported 38 countries"
+  }
+]

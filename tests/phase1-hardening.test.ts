@@ -25,7 +25,7 @@ describe('Phase 1 — Pre-Expansion Hardening Regressions', () => {
       expect(getCitiesByCountryId(sweden!.id)).toHaveLength(43);
     });
 
-    it('verifies Bahrain, Philippines, and Uzbekistan have exactly 1 city each', () => {
+    it('verifies Bahrain and Philippines have 1 city each, and Uzbekistan has 5 cities', () => {
       const bh = countries.find(c => c.code === 'BH');
       const ph = countries.find(c => c.code === 'PH');
       const uz = countries.find(c => c.code === 'UZ');
@@ -36,8 +36,8 @@ describe('Phase 1 — Pre-Expansion Hardening Regressions', () => {
       expect(ph?.totalCities).toBe(1);
       expect(getCitiesByCountryId(ph!.id)).toHaveLength(1);
 
-      expect(uz?.totalCities).toBe(1);
-      expect(getCitiesByCountryId(uz!.id)).toHaveLength(1);
+      expect(uz?.totalCities).toBe(5);
+      expect(getCitiesByCountryId(uz!.id)).toHaveLength(5);
     });
   });
 

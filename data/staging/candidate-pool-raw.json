@@ -1,0 +1,1002 @@
+[
+  {
+    "city": "Arak",
+    "city_ascii": "Arak",
+    "countryCode": "DZ",
+    "pop": 423251,
+    "lat": 25.2799931,
+    "lng": 3.749993041,
+    "tz": "Africa/Algiers",
+    "province": "Tamanghasset"
+  },
+  {
+    "city": "Sidi bel Abbes",
+    "city_ascii": "Sidi bel Abbes",
+    "countryCode": "DZ",
+    "pop": 200187,
+    "lat": 35.19034426,
+    "lng": -0.639971559,
+    "tz": "Africa/Algiers",
+    "province": "Sidi Bel Abbès"
+  },
+  {
+    "city": "Tiarat",
+    "city_ascii": "Tiarat",
+    "countryCode": "DZ",
+    "pop": 184195,
+    "lat": 35.38043601,
+    "lng": 1.319960489,
+    "tz": "Africa/Algiers",
+    "province": "Tiaret"
+  },
+  {
+    "city": "El Oued",
+    "city_ascii": "El Oued",
+    "countryCode": "DZ",
+    "pop": 177497,
+    "lat": 33.37040367,
+    "lng": 6.859984089,
+    "tz": "Africa/Algiers",
+    "province": "Biskra"
+  },
+  {
+    "city": "Ouargla",
+    "city_ascii": "Ouargla",
+    "countryCode": "DZ",
+    "pop": 176271,
+    "lat": 31.96997235,
+    "lng": 5.340025186,
+    "tz": "Africa/Algiers",
+    "province": "Ouargla"
+  },
+  {
+    "city": "Tebessa",
+    "city_ascii": "Tebessa",
+    "countryCode": "DZ",
+    "pop": 171742,
+    "lat": 35.41043418,
+    "lng": 8.120010537,
+    "tz": "Africa/Algiers",
+    "province": "Tébessa"
+  },
+  {
+    "city": "Djelfa",
+    "city_ascii": "Djelfa",
+    "countryCode": "DZ",
+    "pop": 170901,
+    "lat": 34.67998781,
+    "lng": 3.250023558,
+    "tz": "Africa/Algiers",
+    "province": "Djelfa"
+  },
+  {
+    "city": "Mostaganem",
+    "city_ascii": "Mostaganem",
+    "countryCode": "DZ",
+    "pop": 159177,
+    "lat": 35.940376,
+    "lng": 0.089983885,
+    "tz": "Africa/Algiers",
+    "province": "Mostaganem"
+  },
+  {
+    "city": "Jijel",
+    "city_ascii": "Jijel",
+    "countryCode": "DZ",
+    "pop": 148000,
+    "lat": 36.82199703,
+    "lng": 5.76600356,
+    "tz": "Africa/Algiers",
+    "province": "Jijel"
+  },
+  {
+    "city": "Tizi-Ouzou",
+    "city_ascii": "Tizi-Ouzou",
+    "countryCode": "DZ",
+    "pop": 144000,
+    "lat": 36.80000111,
+    "lng": 4.033332556,
+    "tz": "Africa/Algiers",
+    "province": "Tizi Ouzou"
+  },
+  {
+    "city": "Tarsus",
+    "city_ascii": "Tarsus",
+    "countryCode": "TR",
+    "pop": 566297,
+    "lat": 36.9203937,
+    "lng": 34.87997921,
+    "tz": "Europe/Istanbul",
+    "province": "Mersin"
+  },
+  {
+    "city": "Malatya",
+    "city_ascii": "Malatya",
+    "countryCode": "TR",
+    "pop": 451690,
+    "lat": 38.37043439,
+    "lng": 38.30002885,
+    "tz": "Europe/Istanbul",
+    "province": "Malatya"
+  },
+  {
+    "city": "Sanliurfa",
+    "city_ascii": "Sanliurfa",
+    "countryCode": "TR",
+    "pop": 431408,
+    "lat": 37.16999086,
+    "lng": 38.79498572,
+    "tz": "Europe/Istanbul",
+    "province": "Sanliurfa"
+  },
+  {
+    "city": "Erzurum",
+    "city_ascii": "Erzurum",
+    "countryCode": "TR",
+    "pop": 391804,
+    "lat": 39.92039146,
+    "lng": 41.29002722,
+    "tz": "Europe/Istanbul",
+    "province": "Erzurum"
+  },
+  {
+    "city": "Izmit",
+    "city_ascii": "Kocaeli",
+    "countryCode": "TR",
+    "pop": 383558,
+    "lat": 40.77602399,
+    "lng": 29.93061723,
+    "tz": "Europe/Istanbul",
+    "province": "Kocaeli"
+  },
+  {
+    "city": "Kahramanmaras",
+    "city_ascii": "Kahramanmaras",
+    "countryCode": "TR",
+    "pop": 374746,
+    "lat": 37.60998985,
+    "lng": 36.94502112,
+    "tz": "Europe/Istanbul",
+    "province": "K. Maras"
+  },
+  {
+    "city": "Denizli",
+    "city_ascii": "Denizli",
+    "countryCode": "TR",
+    "pop": 342791,
+    "lat": 37.77039349,
+    "lng": 29.08002315,
+    "tz": "Europe/Istanbul",
+    "province": "Denizli"
+  },
+  {
+    "city": "Van",
+    "city_ascii": "Van",
+    "countryCode": "TR",
+    "pop": 326262,
+    "lat": 38.49543968,
+    "lng": 43.39997595,
+    "tz": "Europe/Istanbul",
+    "province": "Van"
+  },
+  {
+    "city": "Hatay",
+    "city_ascii": "Hatay",
+    "countryCode": "TR",
+    "pop": 305564,
+    "lat": 36.2303583,
+    "lng": 36.12000688,
+    "tz": "Europe/Istanbul",
+    "province": "Hatay"
+  },
+  {
+    "city": "Sakarya",
+    "city_ascii": "Sakarya",
+    "countryCode": "TR",
+    "pop": 286787,
+    "lat": 40.76666114,
+    "lng": 30.40000251,
+    "tz": "Europe/Istanbul",
+    "province": "Sakarya"
+  },
+  {
+    "city": "Batman",
+    "city_ascii": "Batman",
+    "countryCode": "TR",
+    "pop": 276338,
+    "lat": 37.89041201,
+    "lng": 41.14001054,
+    "tz": "Europe/Istanbul",
+    "province": "Batman"
+  },
+  {
+    "city": "Elazig",
+    "city_ascii": "Elazig",
+    "countryCode": "TR",
+    "pop": 271492,
+    "lat": 38.67997622,
+    "lng": 39.22999792,
+    "tz": "Europe/Istanbul",
+    "province": "Elazig"
+  },
+  {
+    "city": "Balikesir",
+    "city_ascii": "Balikesir",
+    "countryCode": "TR",
+    "pop": 249834,
+    "lat": 39.6503821,
+    "lng": 27.89001827,
+    "tz": "Europe/Istanbul",
+    "province": "Balikesir"
+  },
+  {
+    "city": "Sivas",
+    "city_ascii": "Sivas",
+    "countryCode": "TR",
+    "pop": 245802,
+    "lat": 39.74541506,
+    "lng": 37.03498979,
+    "tz": "Europe/Istanbul",
+    "province": "Sivas"
+  },
+  {
+    "city": "El Fasher",
+    "city_ascii": "El Fasher",
+    "countryCode": "SD",
+    "pop": 220906,
+    "lat": 13.62998069,
+    "lng": 25.35001827,
+    "tz": "Africa/Khartoum",
+    "province": "Northern Darfur"
+  },
+  {
+    "city": "Geneina",
+    "city_ascii": "Geneina",
+    "countryCode": "SD",
+    "pop": 161146,
+    "lat": 13.45001752,
+    "lng": 22.44001501,
+    "tz": "Africa/Khartoum",
+    "province": "West Darfur"
+  },
+  {
+    "city": "El Manaqil",
+    "city_ascii": "El Manaqil",
+    "countryCode": "SD",
+    "pop": 140062,
+    "lat": 14.2503821,
+    "lng": 32.97999182,
+    "tz": "Africa/Khartoum",
+    "province": "Gezira"
+  },
+  {
+    "city": "Kadugli",
+    "city_ascii": "Kadugli",
+    "countryCode": "SD",
+    "pop": 132299,
+    "lat": 11.00995974,
+    "lng": 29.70003699,
+    "tz": "Africa/Khartoum",
+    "province": "South Kordufan"
+  },
+  {
+    "city": "Shendi",
+    "city_ascii": "Shendi",
+    "countryCode": "SD",
+    "pop": 120090,
+    "lat": 16.68049217,
+    "lng": 33.42001664,
+    "tz": "Africa/Khartoum",
+    "province": "River Nile"
+  },
+  {
+    "city": "Ad Damazin",
+    "city_ascii": "Ed Damazin",
+    "countryCode": "SD",
+    "pop": 114030,
+    "lat": 11.77040428,
+    "lng": 34.34998572,
+    "tz": "Africa/Khartoum",
+    "province": "Blue Nile"
+  },
+  {
+    "city": "Sennar",
+    "city_ascii": "Sennar",
+    "countryCode": "SD",
+    "pop": 103308,
+    "lat": 13.54995974,
+    "lng": 33.60000565,
+    "tz": "Africa/Khartoum",
+    "province": "Sennar"
+  },
+  {
+    "city": "En Nuhud",
+    "city_ascii": "En Nuhud",
+    "countryCode": "SD",
+    "pop": 84624,
+    "lat": 12.69042564,
+    "lng": 28.42001176,
+    "tz": "Africa/Khartoum",
+    "province": "South Kordofan"
+  },
+  {
+    "city": "Zarzis",
+    "city_ascii": "Zarzis",
+    "countryCode": "TN",
+    "pop": 119239,
+    "lat": 33.51039512,
+    "lng": 11.09998368,
+    "tz": "Africa/Tunis",
+    "province": "Médenine"
+  },
+  {
+    "city": "Qasserine",
+    "city_ascii": "Qasserine",
+    "countryCode": "TN",
+    "pop": 80073,
+    "lat": 35.18039654,
+    "lng": 8.829993041,
+    "tz": "Africa/Tunis",
+    "province": "Kassérine"
+  },
+  {
+    "city": "Tataouine",
+    "city_ascii": "Tataouine",
+    "countryCode": "TN",
+    "pop": 62577,
+    "lat": 33.00000315,
+    "lng": 10.46670359,
+    "tz": "Africa/Tunis",
+    "province": "Tataouine"
+  },
+  {
+    "city": "Medenine",
+    "city_ascii": "Medemine",
+    "countryCode": "TN",
+    "pop": 61705,
+    "lat": 33.399999,
+    "lng": 10.41669956,
+    "tz": "Africa/Tunis",
+    "province": "Médenine"
+  },
+  {
+    "city": "Beja",
+    "city_ascii": "Beja",
+    "countryCode": "TN",
+    "pop": 58400,
+    "lat": 36.73040529,
+    "lng": 9.190022744,
+    "tz": "Africa/Tunis",
+    "province": "Béja"
+  },
+  {
+    "city": "Jendouba",
+    "city_ascii": "Jendouba",
+    "countryCode": "TN",
+    "pop": 51408,
+    "lat": 36.50000406,
+    "lng": 8.749998615,
+    "tz": "Africa/Tunis",
+    "province": "Jendouba"
+  },
+  {
+    "city": "Al Marj",
+    "city_ascii": "Al Marj",
+    "countryCode": "LY",
+    "pop": 127428,
+    "lat": 32.50045677,
+    "lng": 20.82998409,
+    "tz": "Africa/Tripoli",
+    "province": "Al Hizam Al Akhdar"
+  },
+  {
+    "city": "Zuwarah",
+    "city_ascii": "Zuwarah",
+    "countryCode": "LY",
+    "pop": 123848,
+    "lat": 32.93440961,
+    "lng": 12.07914872,
+    "tz": "Africa/Tripoli",
+    "province": "An Nuqat al Khams"
+  },
+  {
+    "city": "Gharyan",
+    "city_ascii": "Gharyan",
+    "countryCode": "LY",
+    "pop": 116015,
+    "lat": 32.17037355,
+    "lng": 13.01996985,
+    "tz": "Africa/Tripoli",
+    "province": "Mizdah"
+  },
+  {
+    "city": "Surt",
+    "city_ascii": "Surt",
+    "countryCode": "LY",
+    "pop": 110757,
+    "lat": 31.2099929,
+    "lng": 16.59003617,
+    "tz": "Africa/Tripoli",
+    "province": "Surt"
+  },
+  {
+    "city": "Nalut",
+    "city_ascii": "Nalut",
+    "countryCode": "LY",
+    "pop": 66419,
+    "lat": 31.88044293,
+    "lng": 10.97001745,
+    "tz": "Africa/Tripoli",
+    "province": "Ghadamis"
+  },
+  {
+    "city": "Bani Walid",
+    "city_ascii": "Bani Walid",
+    "countryCode": "LY",
+    "pop": 55871,
+    "lat": 31.77039797,
+    "lng": 13.98998816,
+    "tz": "Africa/Tripoli",
+    "province": "Bani Walid"
+  },
+  {
+    "city": "Hajjah",
+    "city_ascii": "Hajjah",
+    "countryCode": "YE",
+    "pop": 125918,
+    "lat": 15.69174115,
+    "lng": 43.60213415,
+    "tz": "Asia/Aden",
+    "province": "Hajjah"
+  },
+  {
+    "city": "Sadah",
+    "city_ascii": "Sadah",
+    "countryCode": "YE",
+    "pop": 105542,
+    "lat": 16.93977867,
+    "lng": 43.84976762,
+    "tz": "Asia/Aden",
+    "province": "Sa`dah"
+  },
+  {
+    "city": "Zabid",
+    "city_ascii": "Zabid",
+    "countryCode": "YE",
+    "pop": 102547,
+    "lat": 14.19508832,
+    "lng": 43.31553666,
+    "tz": "Asia/Aden",
+    "province": "Al Hudaydah"
+  },
+  {
+    "city": "Saywun",
+    "city_ascii": "Saywun",
+    "countryCode": "YE",
+    "pop": 68747,
+    "lat": 15.94299196,
+    "lng": 48.78734737,
+    "tz": "Asia/Aden",
+    "province": "Hadramawt"
+  },
+  {
+    "city": "Ash Shihr",
+    "city_ascii": "Ash Shihr",
+    "countryCode": "YE",
+    "pop": 54274,
+    "lat": 14.75931744,
+    "lng": 49.60915767,
+    "tz": "Asia/Aden",
+    "province": "Hadramawt"
+  },
+  {
+    "city": "Rida",
+    "city_ascii": "Rida",
+    "countryCode": "YE",
+    "pop": 45233,
+    "lat": 14.42949261,
+    "lng": 44.8341003,
+    "tz": "Asia/Aden",
+    "province": "Al Bayda'"
+  },
+  {
+    "city": "Ksar El Kebir",
+    "city_ascii": "Ksar El Kebir",
+    "countryCode": "MA",
+    "pop": 207677,
+    "lat": 35.02038047,
+    "lng": -5.909985801,
+    "tz": "Africa/Casablanca",
+    "province": "Tanger - Tétouan"
+  },
+  {
+    "city": "Goulimine",
+    "city_ascii": "Goulimine",
+    "countryCode": "MA",
+    "pop": 106748,
+    "lat": 28.97997398,
+    "lng": -10.07001611,
+    "tz": "Africa/Casablanca",
+    "province": "Guelmim - Es-Semara"
+  },
+  {
+    "city": "Ad Dakhla",
+    "city_ascii": "Ad Dakhla",
+    "countryCode": "MA",
+    "pop": 82146,
+    "lat": 23.71405588,
+    "lng": -15.93681087,
+    "tz": "Africa/El_Aaiun",
+    "province": "Oued el Dahab"
+  },
+  {
+    "city": "Ouezzane",
+    "city_ascii": "Ouezzane",
+    "countryCode": "MA",
+    "pop": 64171,
+    "lat": 34.81034161,
+    "lng": -5.570006553,
+    "tz": "Africa/Casablanca",
+    "province": "Gharb - Chrarda - Béni Hssen"
+  },
+  {
+    "city": "Tan Tan",
+    "city_ascii": "Tan Tan",
+    "countryCode": "MA",
+    "pop": 63396,
+    "lat": 28.43039512,
+    "lng": -11.10003076,
+    "tz": "Africa/Casablanca",
+    "province": "Guelmim - Es-Semara"
+  },
+  {
+    "city": "Al Qamishli",
+    "city_ascii": "Al Qamishli",
+    "countryCode": "SY",
+    "pop": 104107,
+    "lat": 37.03002525,
+    "lng": 41.22997921,
+    "tz": "Asia/Damascus",
+    "province": "Hasaka (Al Haksa)"
+  },
+  {
+    "city": "Manbij",
+    "city_ascii": "Manbij",
+    "countryCode": "SY",
+    "pop": 94529,
+    "lat": 36.52664512,
+    "lng": 37.9563289,
+    "tz": "Asia/Damascus",
+    "province": "Aleppo (Halab)"
+  },
+  {
+    "city": "Madinat ath Thawrah",
+    "city_ascii": "Madinat ath Thawrah",
+    "countryCode": "SY",
+    "pop": 85590,
+    "lat": 35.8366614,
+    "lng": 38.54807572,
+    "tz": "Asia/Damascus",
+    "province": "Ar Raqqah"
+  },
+  {
+    "city": "Abu Kamal",
+    "city_ascii": "Abu Kamal",
+    "countryCode": "SY",
+    "pop": 69190,
+    "lat": 34.45041526,
+    "lng": 40.9186287,
+    "tz": "Asia/Damascus",
+    "province": "Dayr Az Zawr"
+  },
+  {
+    "city": "As Suwayda",
+    "city_ascii": "As Suwayda",
+    "countryCode": "SY",
+    "pop": 65650,
+    "lat": 32.70041872,
+    "lng": 36.5665946,
+    "tz": "Asia/Damascus",
+    "province": "As Suwayda'"
+  },
+  {
+    "city": "Bandung",
+    "city_ascii": "Bandung",
+    "countryCode": "ID",
+    "pop": 2046860,
+    "lat": -6.950029278,
+    "lng": 107.5700126,
+    "tz": "Asia/Jakarta",
+    "province": "Jawa Barat"
+  },
+  {
+    "city": "Medan",
+    "city_ascii": "Medan",
+    "countryCode": "ID",
+    "pop": 1932986,
+    "lat": 3.579973978,
+    "lng": 98.65004024,
+    "tz": "Asia/Jakarta",
+    "province": "Sumatera Utara"
+  },
+  {
+    "city": "Palembang",
+    "city_ascii": "Palembang",
+    "countryCode": "ID",
+    "pop": 1595250,
+    "lat": -2.980039043,
+    "lng": 104.7500297,
+    "tz": "Asia/Jakarta",
+    "province": "Sumatera Selatan"
+  },
+  {
+    "city": "Semarang",
+    "city_ascii": "Semarang",
+    "countryCode": "ID",
+    "pop": 1342042,
+    "lat": -6.966617412,
+    "lng": 110.4200195,
+    "tz": "Asia/Jakarta",
+    "province": "Jawa Tengah"
+  },
+  {
+    "city": "Ujungpandang",
+    "city_ascii": "Ujungpandang",
+    "countryCode": "ID",
+    "pop": 1262000,
+    "lat": -5.139958884,
+    "lng": 119.4320275,
+    "tz": "Asia/Makassar",
+    "province": "Sulawesi Selatan"
+  },
+  {
+    "city": "Cilacap",
+    "city_ascii": "Cilacap",
+    "countryCode": "ID",
+    "pop": 1174964,
+    "lat": -7.718819561,
+    "lng": 109.0154024,
+    "tz": "Asia/Jakarta",
+    "province": "Jawa Tengah"
+  },
+  {
+    "city": "Bandar Lampung",
+    "city_ascii": "Tanjungkarang-Telubketung",
+    "countryCode": "ID",
+    "pop": 881801,
+    "lat": -5.449604066,
+    "lng": 105.3000219,
+    "tz": "Asia/Jakarta",
+    "province": "Lampung"
+  },
+  {
+    "city": "Bogor",
+    "city_ascii": "Bogor",
+    "countryCode": "ID",
+    "pop": 859000,
+    "lat": -6.570000795,
+    "lng": 106.7500109,
+    "tz": "Asia/Jakarta",
+    "province": "Jawa Barat"
+  },
+  {
+    "city": "Padang",
+    "city_ascii": "Padang",
+    "countryCode": "ID",
+    "pop": 847676,
+    "lat": -0.960007305,
+    "lng": 100.3600134,
+    "tz": "Asia/Jakarta",
+    "province": "Sumatera Barat"
+  },
+  {
+    "city": "Malang",
+    "city_ascii": "Malang",
+    "countryCode": "ID",
+    "pop": 775858,
+    "lat": -7.97999225,
+    "lng": 112.610015,
+    "tz": "Asia/Jakarta",
+    "province": "Jawa Timur"
+  },
+  {
+    "city": "Pekanbaru",
+    "city_ascii": "Pekanbaru",
+    "countryCode": "ID",
+    "pop": 705218,
+    "lat": 0.564964212,
+    "lng": 101.425013,
+    "tz": "Asia/Jakarta",
+    "province": "Riau"
+  },
+  {
+    "city": "Yogyakarta",
+    "city_ascii": "Yogyakarta",
+    "countryCode": "ID",
+    "pop": 636660,
+    "lat": -7.77995278,
+    "lng": 110.3750093,
+    "tz": "Asia/Jakarta",
+    "province": "Yogyakarta"
+  },
+  {
+    "city": "Johor Bahru",
+    "city_ascii": "Johor Bahru",
+    "countryCode": "MY",
+    "pop": 838745,
+    "lat": 1.480024637,
+    "lng": 103.7300402,
+    "tz": "Asia/Kuala_Lumpur",
+    "province": "Johor"
+  },
+  {
+    "city": "Ipoh",
+    "city_ascii": "Ipoh",
+    "countryCode": "MY",
+    "pop": 656227,
+    "lat": 4.599989236,
+    "lng": 101.0649833,
+    "tz": "Asia/Kuala_Lumpur",
+    "province": "Perak"
+  },
+  {
+    "city": "Malacca",
+    "city_ascii": "Malacca",
+    "countryCode": "MY",
+    "pop": 645917,
+    "lat": 2.206414407,
+    "lng": 102.2464615,
+    "tz": "Asia/Kuala_Lumpur",
+    "province": "Melaka"
+  },
+  {
+    "city": "Kuching",
+    "city_ascii": "Kuching",
+    "countryCode": "MY",
+    "pop": 537685,
+    "lat": 1.529969909,
+    "lng": 110.3299991,
+    "tz": "Asia/Kuching",
+    "province": "Sarawak"
+  },
+  {
+    "city": "Kota Kinabalu",
+    "city_ascii": "Kota Kinabalu",
+    "countryCode": "MY",
+    "pop": 492499,
+    "lat": 5.979982523,
+    "lng": 116.1100081,
+    "tz": "Asia/Kuching",
+    "province": "Sabah"
+  },
+  {
+    "city": "Kota Baharu",
+    "city_ascii": "Kota Baharu",
+    "countryCode": "MY",
+    "pop": 392450,
+    "lat": 6.119973978,
+    "lng": 102.2299768,
+    "tz": "Asia/Kuala_Lumpur",
+    "province": "Kelantan"
+  },
+  {
+    "city": "Sandakan",
+    "city_ascii": "Sandakan",
+    "countryCode": "MY",
+    "pop": 341789,
+    "lat": 5.842962462,
+    "lng": 118.107974,
+    "tz": "Asia/Kuching",
+    "province": "Sabah"
+  },
+  {
+    "city": "Seremban",
+    "city_ascii": "Seremban",
+    "countryCode": "MY",
+    "pop": 336824,
+    "lat": 2.710492166,
+    "lng": 101.9400203,
+    "tz": "Asia/Kuala_Lumpur",
+    "province": "Negeri Sembilan"
+  },
+  {
+    "city": "Samarqand",
+    "city_ascii": "Samarqand",
+    "countryCode": "UZ",
+    "pop": 652150,
+    "lat": 39.67001914,
+    "lng": 66.94499874,
+    "tz": "Asia/Samarkand",
+    "province": "Samarkand"
+  },
+  {
+    "city": "Namangan",
+    "city_ascii": "Namangan",
+    "countryCode": "UZ",
+    "pop": 599600,
+    "lat": 41.00001548,
+    "lng": 71.66998165,
+    "tz": "Asia/Tashkent",
+    "province": "Namangan"
+  },
+  {
+    "city": "Andijon",
+    "city_ascii": "Andijon",
+    "countryCode": "UZ",
+    "pop": 486950,
+    "lat": 40.79000246,
+    "lng": 72.33996659,
+    "tz": "Asia/Tashkent",
+    "province": "Andijon"
+  },
+  {
+    "city": "Fargona",
+    "city_ascii": "Fargona",
+    "countryCode": "UZ",
+    "pop": 482000,
+    "lat": 40.3899752,
+    "lng": 71.78000077,
+    "tz": "Asia/Tashkent",
+    "province": "Ferghana"
+  },
+  {
+    "city": "Milan",
+    "city_ascii": "Milan",
+    "countryCode": "IT",
+    "pop": 2125831,
+    "lat": 45.4699752,
+    "lng": 9.20500891,
+    "tz": "Europe/Rome",
+    "province": "Lombardia"
+  },
+  {
+    "city": "Naples",
+    "city_ascii": "Naples",
+    "countryCode": "IT",
+    "pop": 1619486,
+    "lat": 40.84002525,
+    "lng": 14.24501135,
+    "tz": "Europe/Rome",
+    "province": "Campania"
+  },
+  {
+    "city": "Turin",
+    "city_ascii": "Turin",
+    "countryCode": "IT",
+    "pop": 1258632,
+    "lat": 45.07038719,
+    "lng": 7.669960489,
+    "tz": "Europe/Rome",
+    "province": "Piemonte"
+  },
+  {
+    "city": "Florence",
+    "city_ascii": "Florence",
+    "countryCode": "IT",
+    "pop": 935759,
+    "lat": 43.78000083,
+    "lng": 11.25000036,
+    "tz": "Europe/Rome",
+    "province": "Toscana"
+  },
+  {
+    "city": "Madrid",
+    "city_ascii": "Madrid",
+    "countryCode": "ES",
+    "pop": 2808719,
+    "lat": 40.40002626,
+    "lng": -3.683351686,
+    "tz": "Europe/Madrid",
+    "province": "Comunidad de Madrid"
+  },
+  {
+    "city": "Seville",
+    "city_ascii": "Seville",
+    "countryCode": "ES",
+    "pop": 957533,
+    "lat": 37.40501528,
+    "lng": -5.980007366,
+    "tz": "Europe/Madrid",
+    "province": "Andalucía"
+  },
+  {
+    "city": "Bilbao",
+    "city_ascii": "Bilbao",
+    "countryCode": "ES",
+    "pop": 614370,
+    "lat": 43.24998151,
+    "lng": -2.929986818,
+    "tz": "Europe/Madrid",
+    "province": "País Vasco"
+  },
+  {
+    "city": "Zaragoza",
+    "city_ascii": "Zaragoza",
+    "countryCode": "ES",
+    "pop": 548956,
+    "lat": 41.65000165,
+    "lng": -0.889982138,
+    "tz": "Europe/Madrid",
+    "province": "Aragón"
+  },
+  {
+    "city": "Marseille",
+    "city_ascii": "Marseille",
+    "countryCode": "FR",
+    "pop": 1097406,
+    "lat": 43.28997906,
+    "lng": 5.37501013,
+    "tz": "Europe/Paris",
+    "province": "Provence-Alpes-Côte-d'Azur"
+  },
+  {
+    "city": "Lille",
+    "city_ascii": "Lille",
+    "countryCode": "FR",
+    "pop": 636164,
+    "lat": 50.64996909,
+    "lng": 3.080008096,
+    "tz": "Europe/Paris",
+    "province": "Nord-Pas-de-Calais"
+  },
+  {
+    "city": "Nice",
+    "city_ascii": "Nice",
+    "countryCode": "FR",
+    "pop": 632810,
+    "lat": 43.71501772,
+    "lng": 7.265023965,
+    "tz": "Europe/Paris",
+    "province": "Provence-Alpes-Côte-d'Azur"
+  },
+  {
+    "city": "Bordeaux",
+    "city_ascii": "Bordeaux",
+    "countryCode": "FR",
+    "pop": 517422,
+    "lat": 44.85001304,
+    "lng": -0.595013063,
+    "tz": "Europe/Paris",
+    "province": "Aquitaine"
+  },
+  {
+    "city": "Mannheim",
+    "city_ascii": "Mannheim",
+    "countryCode": "DE",
+    "pop": 1337587,
+    "lat": 49.50037518,
+    "lng": 8.470015013,
+    "tz": "Europe/Berlin",
+    "province": "Baden-Württemberg"
+  },
+  {
+    "city": "Bonn",
+    "city_ascii": "Bonn",
+    "countryCode": "DE",
+    "pop": 496834,
+    "lat": 50.72045575,
+    "lng": 7.080022337,
+    "tz": "Europe/Berlin",
+    "province": "Nordrhein-Westfalen"
+  },
+  {
+    "city": "Saarbrucken",
+    "city_ascii": "Saarbrucken",
+    "countryCode": "DE",
+    "pop": 472871,
+    "lat": 49.25039044,
+    "lng": 6.970003213,
+    "tz": "Europe/Berlin",
+    "province": "Saarland"
+  },
+  {
+    "city": "Karlsruhe",
+    "city_ascii": "Karlsruhe",
+    "countryCode": "DE",
+    "pop": 330643,
+    "lat": 48.99999229,
+    "lng": 8.399993448,
+    "tz": "Europe/Berlin",
+    "province": "Baden-Württemberg"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-15T19:58:49.725Z",
+  "sourceMetadata": {
+    "name": "city-timezones (derived from GeoNames & SimpleMaps World Cities)",
+    "version": "1.3.4",
+    "license": "MIT",
+    "repositoryUrl": "https://github.com/kevinroberts/city-timezones",
+    "primaryProvider": "GeoNames.org",
+    "retrievalDate": "2026-10-15"
+  },
+  "baseline": {
+    "citiesCount": 378,
+    "countriesCount": 38
+  },
+  "phase3Results": {
+    "candidatesInspected": 112,
+    "acceptedCount": 100,
+    "rejectedCount": 12,
+    "newCitiesCount": 478
+  },
+  "distributionByCountry": {
+    "DZ": 10,
+    "TR": 14,
+    "SD": 8,
+    "TN": 6,
+    "LY": 6,
+    "YE": 6,
+    "MA": 5,
+    "SY": 5,
+    "ID": 12,
+    "MY": 8,
+    "UZ": 4,
+    "IT": 4,
+    "ES": 4,
+    "FR": 4,
+    "DE": 4
+  }
+}

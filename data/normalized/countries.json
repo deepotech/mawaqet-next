@@ -33,7 +33,7 @@
         "defaultMethodId": 15,
         "contentAr": "",
         "legacyPostId": 289,
-        "totalCities": 30
+        "totalCities": 35
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 293,
-        "totalCities": 7
+        "totalCities": 13
     },
     {
         "id": 5,
@@ -117,7 +117,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 299,
-        "totalCities": 11
+        "totalCities": 16
     },
     {
         "id": 11,
@@ -129,7 +129,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 300,
-        "totalCities": 9
+        "totalCities": 15
     },
     {
         "id": 12,
@@ -153,7 +153,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 302,
-        "totalCities": 11
+        "totalCities": 19
     },
     {
         "id": 14,
@@ -201,7 +201,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 306,
-        "totalCities": 10
+        "totalCities": 16
     },
     {
         "id": 18,
@@ -213,7 +213,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 307,
-        "totalCities": 14
+        "totalCities": 24
     },
     {
         "id": 19,
@@ -249,7 +249,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 310,
-        "totalCities": 2
+        "totalCities": 6
     },
     {
         "id": 22,
@@ -261,7 +261,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 311,
-        "totalCities": 3
+        "totalCities": 7
     },
     {
         "id": 23,
@@ -273,7 +273,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 312,
-        "totalCities": 4
+        "totalCities": 8
     },
     {
         "id": 24,
@@ -297,7 +297,7 @@
         "defaultMethodId": 13,
         "contentAr": "",
         "legacyPostId": 314,
-        "totalCities": 15
+        "totalCities": 29
     },
     {
         "id": 26,
@@ -333,7 +333,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 317,
-        "totalCities": 23
+        "totalCities": 27
     },
     {
         "id": 29,
@@ -345,7 +345,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 318,
-        "totalCities": 4
+        "totalCities": 12
     },
     {
         "id": 30,
@@ -441,7 +441,7 @@
         "defaultMethodId": 8,
         "contentAr": "",
         "legacyPostId": 650,
-        "totalCities": 1
+        "totalCities": 5
     },
     {
         "id": 38,
@@ -453,6 +453,6 @@
         "defaultMethodId": 8,
         "contentAr": "إِندُونِيْسِيَا، ورسميًّا جُمْهُورِيَّةُ إِندُونِيسِيَا (بالإندونيسية: Republik Indonesia) هي دولة أرخبيلية تقع في جنوب شرق آسيا البحري، وتعني باليونانية «الجزر الهندية». تضم إندونيسيا 17508 جزيرة. ويقدر عدد سكانها حوالي 282 مليون شخص، وهو ما يجعلها رابع أكبر دولة من حيث عدد السكان، كما أنها أكبر بلد ذو غالبية سكانية مسلمة، وثالث أكبر ديمقراطية في العالم، وأكبر بلد أسترونيزي في العالم. وتعد جاوة التي يعيش عليها أكثر من نصف سكان البلاد أكبر جزيرة مأهولة بالسكان في العالم",
         "legacyPostId": 654,
-        "totalCities": 2
+        "totalCities": 14
     }
 ]
