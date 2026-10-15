@@ -58,11 +58,20 @@ function resolveCalculationParameters(method) {
   }
 }
 
-async function runValidationGate() {
+async function runValidationGate(options = {}) {
+  const citiesPath = options.citiesPath || CITIES_PATH;
+  const countriesPath = options.countriesPath || COUNTRIES_PATH;
+  const legacyUrlsPath = options.legacyUrlsPath || LEGACY_URLS_PATH;
+  const reportOutputPath = options.reportOutputPath || REPORT_OUTPUT_PATH;
+  const exitOnFinish = options.exitOnFinish !== undefined ? options.exitOnFinish : (require.main === module);
+  const silent = options.silent !== undefined ? options.silent : false;
+
   const timestamp = new Date().toISOString();
-  console.log('===========================================================');
-  console.log(`MAWAQETSALAT — EXPANSION VALIDATION GATE (${timestamp})`);
-  console.log('===========================================================\n');
+  if (!silent) {
+    console.log('===========================================================');
+    console.log(`MAWAQETSALAT — EXPANSION VALIDATION GATE (${timestamp})`);
+    console.log('===========================================================\n');
+  }
 
   const report = {
     timestamp,
@@ -85,14 +94,14 @@ async function runValidationGate() {
     report.summary.totalChecks++;
     if (passed) {
       report.summary.passedChecks++;
-      console.log(`  [PASS] ${name}`);
+      if (!silent) console.log(`  [PASS] ${name}`);
     } else if (isWarning) {
       report.summary.warningsCount++;
-      console.log(`  [WARN] ${name}`);
+      if (!silent) console.log(`  [WARN] ${name}`);
     } else {
       report.summary.failedChecks++;
       report.status = 'FAILED';
-      console.error(`  [FAIL] ${name}`);
+      if (!silent) console.error(`  [FAIL] ${name}`);
     }
     report.checks.push({
       name,
@@ -102,15 +111,15 @@ async function runValidationGate() {
   }
 
   // 1. Data File Presence & Parsing
-  console.log('1. Loading Datasets...');
+  if (!silent) console.log('1. Loading Datasets...');
   let cities = [];
   let countries = [];
   let legacyUrls = [];
 
   try {
-    cities = JSON.parse(fs.readFileSync(CITIES_PATH, 'utf8'));
-    countries = JSON.parse(fs.readFileSync(COUNTRIES_PATH, 'utf8'));
-    legacyUrls = JSON.parse(fs.readFileSync(LEGACY_URLS_PATH, 'utf8'));
+    cities = JSON.parse(fs.readFileSync(citiesPath, 'utf8'));
+    countries = JSON.parse(fs.readFileSync(countriesPath, 'utf8'));
+    legacyUrls = JSON.parse(fs.readFileSync(legacyUrlsPath, 'utf8'));
     report.details.cityCount = cities.length;
     report.details.countryCount = countries.length;
     report.details.legacyUrlCount = legacyUrls.length;
@@ -121,8 +130,7 @@ async function runValidationGate() {
     });
   } catch (err) {
     recordCheck('Data files parsed cleanly as valid JSON', false, { error: err.message });
-    saveReportAndExit(report);
-    return;
+    return saveReportAndExit(report, reportOutputPath, exitOnFinish, silent);
   }
 
   // 2. Uniqueness & URL Path Conventions
@@ -134,6 +142,7 @@ async function runValidationGate() {
   const duplicateCitySlugs = [];
   const duplicateCityPaths = [];
   const malformedSlugs = [];
+  const malformedPaths = [];
 
   for (const c of cities) {
     if (cityIds.has(c.id)) duplicateCityIds.push(c.id);
@@ -151,7 +160,7 @@ async function runValidationGate() {
 
     const expectedPath = `/city/${c.slug}/`;
     if (c.urlPath !== expectedPath) {
-      malformedSlugs.push(`${c.slug} (path: ${c.urlPath} !== ${expectedPath})`);
+      malformedPaths.push(`${c.slug} (path: ${c.urlPath} !== ${expectedPath})`);
     }
   }
 
@@ -160,7 +169,10 @@ async function runValidationGate() {
     duplicateSlugs: duplicateCitySlugs,
     malformedSlugs,
   });
-  recordCheck('City urlPath is unique and adheres to /city/[slug]/ with trailing slash', duplicateCityPaths.length === 0, { duplicates: duplicateCityPaths });
+  recordCheck('City urlPath is unique and adheres to /city/[slug]/ with trailing slash', duplicateCityPaths.length === 0 && malformedPaths.length === 0, {
+    duplicateCityPaths,
+    malformedPaths,
+  });
 
   // Country uniqueness
   const countryIds = new Set();
@@ -329,28 +341,34 @@ async function runValidationGate() {
   });
 
   // Save report
-  saveReportAndExit(report);
+  return saveReportAndExit(report, reportOutputPath, exitOnFinish, silent);
 }
 
-function saveReportAndExit(report) {
-  const dir = path.dirname(REPORT_OUTPUT_PATH);
+function saveReportAndExit(report, outputPath = REPORT_OUTPUT_PATH, exitOnFinish = true, silent = false) {
+  const dir = path.dirname(outputPath);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
-  fs.writeFileSync(REPORT_OUTPUT_PATH, JSON.stringify(report, null, 2), 'utf8');
+  fs.writeFileSync(outputPath, JSON.stringify(report, null, 2), 'utf8');
 
-  console.log('\n===========================================================');
-  console.log(`GATE RUN RESULT: ${report.status}`);
-  console.log(`Passed Checks:   ${report.summary.passedChecks} / ${report.summary.totalChecks}`);
-  console.log(`Failed Checks:   ${report.summary.failedChecks}`);
-  console.log(`Warnings:        ${report.summary.warningsCount}`);
-  console.log(`Report written:  ${REPORT_OUTPUT_PATH}`);
-  console.log('===========================================================\n');
-
-  if (report.status === 'FAILED') {
-    process.exit(1);
-  } else {
-    process.exit(0);
+  if (!silent) {
+    console.log('\n===========================================================');
+    console.log(`GATE RUN RESULT: ${report.status}`);
+    console.log(`Passed Checks:   ${report.summary.passedChecks} / ${report.summary.totalChecks}`);
+    console.log(`Failed Checks:   ${report.summary.failedChecks}`);
+    console.log(`Warnings:        ${report.summary.warningsCount}`);
+    console.log(`Report written:  ${outputPath}`);
+    console.log('===========================================================\n');
   }
+
+  if (exitOnFinish) {
+    if (report.status === 'FAILED') {
+      process.exit(1);
+    } else {
+      process.exit(0);
+    }
+  }
+
+  return report;
 }
 
 if (require.main === module) {

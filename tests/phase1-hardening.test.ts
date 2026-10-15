@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { getAllCities, getAllCountries, getCityBySlug, getCountryBySlug, getCountryById, getCitiesByCountryId, toCalculationMethodId } from '@/lib/data';
 import { prayerTimeService } from '@/services/prayer-service';
+import { buildPrayerConfig } from '@/lib/prayer-config';
 
 describe('Phase 1 — Pre-Expansion Hardening Regressions', () => {
   const cities = getAllCities();
@@ -139,6 +140,49 @@ describe('Phase 1 — Pre-Expansion Hardening Regressions', () => {
       for (const country of countries) {
         expect(getCountryById(country.id)).toBe(country);
       }
+    });
+  });
+
+  describe('5. Legacy URL Preservation & Method Edge Cases', () => {
+    it('preserves legacy typo slug for India ("rayer-times-in-india")', () => {
+      const india = getCountryBySlug('rayer-times-in-india');
+      expect(india).toBeDefined();
+      expect(india?.code).toBe('IN');
+      expect(india?.id).toBe(24);
+    });
+
+    it('preserves legacy underscore slug for UAE ("prayer-times-in-united_arab_emirates")', () => {
+      const uae = getCountryBySlug('prayer-times-in-united_arab_emirates');
+      expect(uae).toBeDefined();
+      expect(uae?.code).toBe('AE');
+      expect(uae?.id).toBe(6);
+    });
+
+    it('preserves legacy spelling for Egypt ("prayer-times-in-eqypt")', () => {
+      const egypt = getCountryBySlug('prayer-times-in-eqypt');
+      expect(egypt).toBeDefined();
+      expect(egypt?.code).toBe('EG');
+      expect(egypt?.id).toBe(2);
+    });
+
+    it('explicitly falls back to GULF for unsupported or unmapped calculation method IDs', () => {
+      expect(toCalculationMethodId(9999)).toBe('GULF');
+      expect(toCalculationMethodId(-1)).toBe('GULF');
+      expect(toCalculationMethodId(0)).toBe('GULF');
+    });
+
+    it('applies seventh_of_the_night high-latitude rule for cities at or above 48° latitude', () => {
+      // Paris is at 48.86°
+      const parisConfig = buildPrayerConfig(8, 48.86);
+      expect(parisConfig.highLatitudeRule).toBe('seventh_of_the_night');
+
+      // Stockholm is at 59.33°
+      const stockholmConfig = buildPrayerConfig(8, 59.33);
+      expect(stockholmConfig.highLatitudeRule).toBe('seventh_of_the_night');
+
+      // Mecca is at 21.42° (below 48°)
+      const meccaConfig = buildPrayerConfig(4, 21.42);
+      expect(meccaConfig.highLatitudeRule).toBeUndefined();
     });
   });
 });

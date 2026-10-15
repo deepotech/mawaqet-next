@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-10-15T19:24:37.283Z",
+  "status": "ALL_NEGATIVE_TESTS_CONFIRMED",
+  "summary": {
+    "totalScenariosTested": 11,
+    "scenariosPassed": 11,
+    "scenariosFailed": 0
+  },
+  "scenarios": [
+    {
+      "scenarioIndex": 1,
+      "name": "Duplicate City ID",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/City IDs are strictly unique positive integers/",
+      "matchedFailedCheck": "City IDs are strictly unique positive integers",
+      "failedCheckDetails": {
+        "duplicates": [
+          1
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 2,
+      "name": "Duplicate City Slug",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/City slugs are unique and follow prayer-times-in-\\* format/",
+      "matchedFailedCheck": "City slugs are unique and follow prayer-times-in-* format",
+      "failedCheckDetails": {
+        "duplicateSlugs": [
+          "prayer-times-in-riyadh"
+        ],
+        "malformedSlugs": []
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 3,
+      "name": "Malformed City URL Path (Missing Trailing Slash)",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/City urlPath is unique and adheres to \\/city\\/\\[slug\\]\\/ with trailing slash/",
+      "matchedFailedCheck": "City urlPath is unique and adheres to /city/[slug]/ with trailing slash",
+      "failedCheckDetails": {
+        "duplicateCityPaths": [],
+        "malformedPaths": [
+          "prayer-times-in-riyadh (path: /city/prayer-times-in-riyadh !== /city/prayer-times-in-riyadh/)"
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 4,
+      "name": "Out-of-Bounds Latitude (+95.5°)",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/All cities possess valid WGS-84 coordinates within terrestrial bounds/",
+      "matchedFailedCheck": "All cities possess valid WGS-84 coordinates within terrestrial bounds",
+      "failedCheckDetails": {
+        "invalidCoords": [
+          {
+            "id": 1,
+            "slug": "prayer-times-in-riyadh",
+            "reason": "latitude 95.5 out of bounds [-90, 90]"
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 5,
+      "name": "Out-of-Bounds Longitude (-195.0°)",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/All cities possess valid WGS-84 coordinates within terrestrial bounds/",
+      "matchedFailedCheck": "All cities possess valid WGS-84 coordinates within terrestrial bounds",
+      "failedCheckDetails": {
+        "invalidCoords": [
+          {
+            "id": 1,
+            "slug": "prayer-times-in-riyadh",
+            "reason": "longitude -195 out of bounds [-180, 180]"
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 6,
+      "name": "Invalid IANA Timezone (\"Mars/Curiosity\")",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/All city timezones are valid IANA identifiers recognised by the JavaScript runtime/",
+      "matchedFailedCheck": "All city timezones are valid IANA identifiers recognised by the JavaScript runtime",
+      "failedCheckDetails": {
+        "invalidTimezones": [
+          {
+            "id": 1,
+            "slug": "prayer-times-in-riyadh",
+            "timezone": "Mars/Curiosity",
+            "error": "Invalid time zone specified: Mars/Curiosity"
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 7,
+      "name": "Unsupported Calculation Method ID (9999)",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/All cities map to recognized CalculationMethod IDs without unmapped fallbacks/",
+      "matchedFailedCheck": "All cities map to recognized CalculationMethod IDs without unmapped fallbacks",
+      "failedCheckDetails": {
+        "invalidMethods": [
+          {
+            "id": 1,
+            "slug": "prayer-times-in-riyadh",
+            "numericMethodId": 9999
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 8,
+      "name": "Foreign Key Violation (Non-Existent Country ID 9999)",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/Foreign key integrity: Every city references an existing country ID/",
+      "matchedFailedCheck": "Foreign key integrity: Every city references an existing country ID",
+      "failedCheckDetails": {
+        "unreferencedCountryIds": [
+          {
+            "cityId": 1,
+            "countryId": 9999
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 9,
+      "name": "Country Code Inconsistency (City has \"US\" but Country is \"SA\")",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/Country code consistency: city\\.countryCode strictly matches parent country code/",
+      "matchedFailedCheck": "Country code consistency: city.countryCode strictly matches parent country code",
+      "failedCheckDetails": {
+        "countryCodeMismatches": [
+          {
+            "cityId": 1,
+            "cityCountryCode": "US",
+            "parentCountryCode": "SA"
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 10,
+      "name": "Country City-Count Synchronization Mismatch",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/Country declared totalCities synchronizes with actual city counts/",
+      "matchedFailedCheck": "Country declared totalCities synchronizes with actual city counts",
+      "failedCheckDetails": {
+        "countryTotalMismatches": [
+          {
+            "id": 1,
+            "nameEn": "saudi arabia",
+            "code": "SA",
+            "declaredTotal": 52,
+            "actualCount": 42
+          }
+        ]
+      },
+      "testPassed": true
+    },
+    {
+      "scenarioIndex": 11,
+      "name": "Legacy URL Manifest Regression (Missing High-Value City)",
+      "overallStatus": "FAILED",
+      "expectedFailedCheck": "/100% of legacy city and country URLs from GSC migration manifest exist in dataset/",
+      "matchedFailedCheck": "100% of legacy city and country URLs from GSC migration manifest exist in dataset",
+      "failedCheckDetails": {
+        "missingCount": 1,
+        "missingUrls": [
+          "https://mawaqetsalat.com/city/prayer-times-in-baghdad/"
+        ]
+      },
+      "testPassed": true
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-10-15T19:21:58.056Z",
+  "status": "PASSED_100_PERCENT",
+  "summary": {
+    "baselineTotalUrls": 372,
+    "matchedPreservedUrls": 372,
+    "missingUrlsCount": 0,
+    "sitemapTotalUrls": 370,
+    "trailingSlashPolicy": "STRICT_TRAILING_SLASH (next.config.ts trailingSlash: true)"
+  },
+  "specialSlugsAudit": {
+    "indiaSlug": {
+      "slug": "rayer-times-in-india",
+      "existsInCountries": true,
+      "canonicalUrl": "https://mawaqetsalat.com/country/rayer-times-in-india/",
+      "preserved": true,
+      "note": "Preserved intentional legacy typo (missing leading p) without modification"
+    },
+    "uaeSlug": {
+      "slug": "prayer-times-in-united_arab_emirates",
+      "existsInCountries": true,
+      "canonicalUrl": "https://mawaqetsalat.com/country/prayer-times-in-united_arab_emirates/",
+      "preserved": true,
+      "note": "Preserved underscore slug format to prevent 301 redirect hop or indexing drop"
+    },
+    "egyptSlugAndRedirect": {
+      "canonicalSlug": "prayer-times-in-eqypt",
+      "existsInCountries": true,
+      "canonicalUrl": "https://mawaqetsalat.com/country/prayer-times-in-eqypt/",
+      "redirectSource": "/country/prayer-times-in-egypt/",
+      "redirectTarget": "/country/prayer-times-in-eqypt/",
+      "redirectType": 301,
+      "implementedIn": "src/middleware.ts",
+      "preserved": true,
+      "note": "Legacy eqypt typo is preserved canonical; correct spelling 301 redirects to canonical"
+    },
+    "privacyPolicyRewrite": {
+      "arabicSlugEncoded": "/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9/",
+      "destination": "/privacy-policy/",
+      "configuredIn": "next.config.ts rewrites()",
+      "preserved": true
+    },
+    "samplePageRetirement": {
+      "source": "/sample-page/",
+      "destination": "/",
+      "statusCode": 301,
+      "configuredIn": "src/middleware.ts",
+      "preserved": true
+    }
+  },
+  "sitemapAudit": {
+    "totalSitemapEntries": 370,
+    "expectedEntries": 370,
+    "duplicateEntries": [],
+    "allUrlsAbsolute": true,
+    "allUrlsTrailingSlash": true,
+    "excludedRoutes": [
+      {
+        "path": "/sample-page/",
+        "reason": "Retired WP page redirected via 301"
+      },
+      {
+        "path": "/embd/",
+        "reason": "Iframe embed tool excluded from public search index"
+      },
+      {
+        "path": "/api/search",
+        "reason": "Dynamic API route"
+      }
+    ]
+  },
+  "missingUrls": []
+}

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T19:09:15.619Z",
+  "timestamp": "2026-10-15T19:29:17.967Z",
   "status": "PASSED",
   "summary": {
     "totalChecks": 15,
@@ -36,7 +36,8 @@
       "name": "City urlPath is unique and adheres to /city/[slug]/ with trailing slash",
       "status": "PASSED",
       "details": {
-        "duplicates": []
+        "duplicateCityPaths": [],
+        "malformedPaths": []
       }
     },
     {
