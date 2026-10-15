@@ -1,0 +1,2976 @@
+{
+  "publishedCities": [
+    {
+      "id": 15,
+      "date": "2022-11-12 20:30:18",
+      "title": "prayer times in riyadh",
+      "status": "publish",
+      "slug": "prayer-times-in-riyadh",
+      "type": "city"
+    },
+    {
+      "id": 16,
+      "date": "2022-11-12 20:30:59",
+      "title": "prayer times in mecca",
+      "status": "publish",
+      "slug": "prayer-times-in-mecca",
+      "type": "city"
+    },
+    {
+      "id": 18,
+      "date": "2022-11-12 20:31:40",
+      "title": "prayer times in madina",
+      "status": "publish",
+      "slug": "prayer-times-in-madina",
+      "type": "city"
+    },
+    {
+      "id": 28,
+      "date": "2022-11-12 20:49:23",
+      "title": "prayer times in asyut",
+      "status": "publish",
+      "slug": "prayer-times-in-asyut",
+      "type": "city"
+    },
+    {
+      "id": 29,
+      "date": "2022-11-12 20:49:59",
+      "title": "prayer times in giza",
+      "status": "publish",
+      "slug": "prayer-times-in-giza",
+      "type": "city"
+    },
+    {
+      "id": 30,
+      "date": "2022-11-12 20:50:34",
+      "title": "prayer times in luxor",
+      "status": "publish",
+      "slug": "prayer-times-in-luxor",
+      "type": "city"
+    },
+    {
+      "id": 31,
+      "date": "2022-11-12 20:51:24",
+      "title": "prayer times in casablanca",
+      "status": "publish",
+      "slug": "prayer-times-in-casablanca",
+      "type": "city"
+    },
+    {
+      "id": 32,
+      "date": "2022-11-12 20:51:53",
+      "title": "prayer times in rabat",
+      "status": "publish",
+      "slug": "prayer-times-in-rabat",
+      "type": "city"
+    },
+    {
+      "id": 33,
+      "date": "2022-11-12 20:52:19",
+      "title": "prayer times in marrakesh",
+      "status": "publish",
+      "slug": "prayer-times-in-marrakesh",
+      "type": "city"
+    },
+    {
+      "id": 326,
+      "date": "2022-12-25 18:59:11",
+      "title": "prayer-times-in-kharkov",
+      "status": "publish",
+      "slug": "prayer-times-in-kharkov",
+      "type": "city"
+    },
+    {
+      "id": 327,
+      "date": "2022-12-25 19:04:58",
+      "title": "prayer-times-in-odessa",
+      "status": "publish",
+      "slug": "prayer-times-in-odessa",
+      "type": "city"
+    },
+    {
+      "id": 328,
+      "date": "2022-12-25 19:05:32",
+      "title": "prayer-times-in-lugansk",
+      "status": "publish",
+      "slug": "prayer-times-in-lugansk",
+      "type": "city"
+    },
+    {
+      "id": 329,
+      "date": "2022-12-25 19:06:30",
+      "title": "prayer-times-in-donetsk",
+      "status": "publish",
+      "slug": "prayer-times-in-donetsk",
+      "type": "city"
+    },
+    {
+      "id": 331,
+      "date": "2022-12-25 19:09:14",
+      "title": "prayer-times-in-amsterdam",
+      "status": "publish",
+      "slug": "prayer-times-in-amsterdam",
+      "type": "city"
+    },
+    {
+      "id": 332,
+      "date": "2022-12-25 19:09:44",
+      "title": "prayer-times-in-rotterdam",
+      "status": "publish",
+      "slug": "prayer-times-in-rotterdam",
+      "type": "city"
+    },
+    {
+      "id": 333,
+      "date": "2022-12-25 19:11:09",
+      "title": "prayer-times-in-the-hague",
+      "status": "publish",
+      "slug": "prayer-times-in-the-hague",
+      "type": "city"
+    },
+    {
+      "id": 334,
+      "date": "2022-12-25 19:11:41",
+      "title": "prayer-times-in-alkmaar",
+      "status": "publish",
+      "slug": "prayer-times-in-alkmaar",
+      "type": "city"
+    },
+    {
+      "id": 337,
+      "date": "2022-12-25 19:20:26",
+      "title": "prayer-times-in-tbilisi",
+      "status": "publish",
+      "slug": "prayer-times-in-tbilisi",
+      "type": "city"
+    },
+    {
+      "id": 338,
+      "date": "2022-12-25 19:21:00",
+      "title": "prayer-times-in-batumi",
+      "status": "publish",
+      "slug": "prayer-times-in-batumi",
+      "type": "city"
+    },
+    {
+      "id": 339,
+      "date": "2022-12-25 19:23:31",
+      "title": "prayer-times-in-guangzhou",
+      "status": "publish",
+      "slug": "prayer-times-in-guangzhou",
+      "type": "city"
+    },
+    {
+      "id": 340,
+      "date": "2022-12-25 19:23:57",
+      "title": "prayer-times-in-shanghai",
+      "status": "publish",
+      "slug": "prayer-times-in-shanghai",
+      "type": "city"
+    },
+    {
+      "id": 341,
+      "date": "2022-12-25 19:24:31",
+      "title": "prayer-times-in-beijing",
+      "status": "publish",
+      "slug": "prayer-times-in-beijing",
+      "type": "city"
+    },
+    {
+      "id": 342,
+      "date": "2022-12-25 19:25:07",
+      "title": "prayer-times-in-yiwu",
+      "status": "publish",
+      "slug": "prayer-times-in-yiwu",
+      "type": "city"
+    },
+    {
+      "id": 343,
+      "date": "2022-12-25 19:25:55",
+      "title": "prayer-times-in-shenzhen",
+      "status": "publish",
+      "slug": "prayer-times-in-shenzhen",
+      "type": "city"
+    },
+    {
+      "id": 344,
+      "date": "2022-12-25 19:26:27",
+      "title": "prayer-times-in-nanjing",
+      "status": "publish",
+      "slug": "prayer-times-in-nanjing",
+      "type": "city"
+    },
+    {
+      "id": 345,
+      "date": "2022-12-25 19:28:45",
+      "title": "prayer-times-in-manila",
+      "status": "publish",
+      "slug": "prayer-times-in-manila",
+      "type": "city"
+    },
+    {
+      "id": 347,
+      "date": "2022-12-25 19:32:00",
+      "title": "prayer-times-in-malmo",
+      "status": "publish",
+      "slug": "prayer-times-in-malmo",
+      "type": "city"
+    },
+    {
+      "id": 349,
+      "date": "2022-12-25 19:33:16",
+      "title": "prayer-times-in-orebro",
+      "status": "publish",
+      "slug": "prayer-times-in-orebro",
+      "type": "city"
+    },
+    {
+      "id": 350,
+      "date": "2022-12-25 19:36:22",
+      "title": "prayer-times-in-oslo",
+      "status": "publish",
+      "slug": "prayer-times-in-oslo",
+      "type": "city"
+    },
+    {
+      "id": 351,
+      "date": "2022-12-25 19:37:25",
+      "title": "prayer-times-in-bergen",
+      "status": "publish",
+      "slug": "prayer-times-in-bergen",
+      "type": "city"
+    },
+    {
+      "id": 352,
+      "date": "2022-12-25 19:38:45",
+      "title": "prayer-times-in-penang",
+      "status": "publish",
+      "slug": "prayer-times-in-penang",
+      "type": "city"
+    },
+    {
+      "id": 353,
+      "date": "2022-12-25 19:39:12",
+      "title": "prayer-times-in-selangor",
+      "status": "publish",
+      "slug": "prayer-times-in-selangor",
+      "type": "city"
+    },
+    {
+      "id": 354,
+      "date": "2022-12-25 19:40:08",
+      "title": "prayer-times-in-kuala-lumpur",
+      "status": "publish",
+      "slug": "prayer-times-in-kuala-lumpur",
+      "type": "city"
+    },
+    {
+      "id": 355,
+      "date": "2022-12-25 19:40:42",
+      "title": "prayer-times-in-langkawi",
+      "status": "publish",
+      "slug": "prayer-times-in-langkawi",
+      "type": "city"
+    },
+    {
+      "id": 356,
+      "date": "2022-12-25 19:43:19",
+      "title": "prayer-times-in-munich",
+      "status": "publish",
+      "slug": "prayer-times-in-munich",
+      "type": "city"
+    },
+    {
+      "id": 357,
+      "date": "2022-12-25 19:43:48",
+      "title": "prayer-times-in-stuttgart",
+      "status": "publish",
+      "slug": "prayer-times-in-stuttgart",
+      "type": "city"
+    },
+    {
+      "id": 358,
+      "date": "2022-12-25 19:44:19",
+      "title": "prayer-times-in-dortmund",
+      "status": "publish",
+      "slug": "prayer-times-in-dortmund",
+      "type": "city"
+    },
+    {
+      "id": 359,
+      "date": "2022-12-25 19:44:54",
+      "title": "prayer-times-in-wiesbaden",
+      "status": "publish",
+      "slug": "prayer-times-in-wiesbaden",
+      "type": "city"
+    },
+    {
+      "id": 360,
+      "date": "2022-12-25 19:45:20",
+      "title": "prayer-times-in-essen",
+      "status": "publish",
+      "slug": "prayer-times-in-essen",
+      "type": "city"
+    },
+    {
+      "id": 361,
+      "date": "2022-12-25 19:45:48",
+      "title": "prayer-times-in-kiel",
+      "status": "publish",
+      "slug": "prayer-times-in-kiel",
+      "type": "city"
+    },
+    {
+      "id": 362,
+      "date": "2022-12-25 19:46:21",
+      "title": "prayer-times-in-aachen",
+      "status": "publish",
+      "slug": "prayer-times-in-aachen",
+      "type": "city"
+    },
+    {
+      "id": 363,
+      "date": "2022-12-25 19:46:48",
+      "title": "prayer-times-in-bremen",
+      "status": "publish",
+      "slug": "prayer-times-in-bremen",
+      "type": "city"
+    },
+    {
+      "id": 364,
+      "date": "2022-12-25 19:47:16",
+      "title": "prayer-times-in-frankfurt",
+      "status": "publish",
+      "slug": "prayer-times-in-frankfurt",
+      "type": "city"
+    },
+    {
+      "id": 365,
+      "date": "2022-12-25 19:48:35",
+      "title": "prayer-times-in-cologne",
+      "status": "publish",
+      "slug": "prayer-times-in-cologne",
+      "type": "city"
+    },
+    {
+      "id": 366,
+      "date": "2022-12-25 20:10:42",
+      "title": "prayer-times-in-toronto",
+      "status": "publish",
+      "slug": "prayer-times-in-toronto",
+      "type": "city"
+    },
+    {
+      "id": 367,
+      "date": "2022-12-25 20:11:08",
+      "title": "prayer-times-in-victoria",
+      "status": "publish",
+      "slug": "prayer-times-in-victoria",
+      "type": "city"
+    },
+    {
+      "id": 368,
+      "date": "2022-12-25 20:11:34",
+      "title": "prayer-times-in-montreal",
+      "status": "publish",
+      "slug": "prayer-times-in-montreal",
+      "type": "city"
+    },
+    {
+      "id": 369,
+      "date": "2022-12-25 20:12:02",
+      "title": "prayer-times-in-calgary",
+      "status": "publish",
+      "slug": "prayer-times-in-calgary",
+      "type": "city"
+    },
+    {
+      "id": 370,
+      "date": "2022-12-25 20:12:33",
+      "title": "prayer-times-in-vancouver",
+      "status": "publish",
+      "slug": "prayer-times-in-vancouver",
+      "type": "city"
+    },
+    {
+      "id": 371,
+      "date": "2022-12-25 20:13:00",
+      "title": "prayer-times-in-ottawa",
+      "status": "publish",
+      "slug": "prayer-times-in-ottawa",
+      "type": "city"
+    },
+    {
+      "id": 372,
+      "date": "2022-12-25 20:13:30",
+      "title": "prayer-times-in-hamilton",
+      "status": "publish",
+      "slug": "prayer-times-in-hamilton",
+      "type": "city"
+    },
+    {
+      "id": 373,
+      "date": "2022-12-25 20:16:24",
+      "title": "prayer-times-in-moscow",
+      "status": "publish",
+      "slug": "prayer-times-in-moscow",
+      "type": "city"
+    },
+    {
+      "id": 374,
+      "date": "2022-12-25 20:16:53",
+      "title": "prayer-times-in-krasnodar",
+      "status": "publish",
+      "slug": "prayer-times-in-krasnodar",
+      "type": "city"
+    },
+    {
+      "id": 375,
+      "date": "2022-12-25 20:18:29",
+      "title": "prayer-times-in-trabzon",
+      "status": "publish",
+      "slug": "prayer-times-in-trabzon",
+      "type": "city"
+    },
+    {
+      "id": 376,
+      "date": "2022-12-25 20:18:53",
+      "title": "prayer-times-in-bolu",
+      "status": "publish",
+      "slug": "prayer-times-in-bolu",
+      "type": "city"
+    },
+    {
+      "id": 377,
+      "date": "2022-12-25 20:19:21",
+      "title": "prayer-times-in-gaziantep",
+      "status": "publish",
+      "slug": "prayer-times-in-gaziantep",
+      "type": "city"
+    },
+    {
+      "id": 378,
+      "date": "2022-12-25 20:19:44",
+      "title": "prayer-times-in-ankara",
+      "status": "publish",
+      "slug": "prayer-times-in-ankara",
+      "type": "city"
+    },
+    {
+      "id": 379,
+      "date": "2022-12-25 20:20:09",
+      "title": "prayer-times-in-izmir",
+      "status": "publish",
+      "slug": "prayer-times-in-izmir",
+      "type": "city"
+    },
+    {
+      "id": 380,
+      "date": "2022-12-25 20:20:37",
+      "title": "prayer-times-in-bursa",
+      "status": "publish",
+      "slug": "prayer-times-in-bursa",
+      "type": "city"
+    },
+    {
+      "id": 381,
+      "date": "2022-12-25 20:21:11",
+      "title": "prayer-times-in-mersin",
+      "status": "publish",
+      "slug": "prayer-times-in-mersin",
+      "type": "city"
+    },
+    {
+      "id": 382,
+      "date": "2022-12-25 20:21:35",
+      "title": "prayer-times-in-antalya",
+      "status": "publish",
+      "slug": "prayer-times-in-antalya",
+      "type": "city"
+    },
+    {
+      "id": 383,
+      "date": "2022-12-25 20:21:58",
+      "title": "prayer-times-in-istanbul",
+      "status": "publish",
+      "slug": "prayer-times-in-istanbul",
+      "type": "city"
+    },
+    {
+      "id": 384,
+      "date": "2022-12-25 20:22:21",
+      "title": "prayer-times-in-adana",
+      "status": "publish",
+      "slug": "prayer-times-in-adana",
+      "type": "city"
+    },
+    {
+      "id": 385,
+      "date": "2022-12-25 20:26:24",
+      "title": "prayer-times-in-kerala",
+      "status": "publish",
+      "slug": "prayer-times-in-kerala",
+      "type": "city"
+    },
+    {
+      "id": 386,
+      "date": "2022-12-25 20:26:49",
+      "title": "prayer-times-in-mumbai",
+      "status": "publish",
+      "slug": "prayer-times-in-mumbai",
+      "type": "city"
+    },
+    {
+      "id": 387,
+      "date": "2022-12-25 20:27:14",
+      "title": "prayer-times-in-bona",
+      "status": "publish",
+      "slug": "prayer-times-in-bona",
+      "type": "city"
+    },
+    {
+      "id": 388,
+      "date": "2022-12-25 20:28:12",
+      "title": "prayer-times-in-new-delhi",
+      "status": "publish",
+      "slug": "prayer-times-in-new-delhi",
+      "type": "city"
+    },
+    {
+      "id": 389,
+      "date": "2022-12-25 20:28:41",
+      "title": "prayer-times-in-kochi",
+      "status": "publish",
+      "slug": "prayer-times-in-kochi",
+      "type": "city"
+    },
+    {
+      "id": 390,
+      "date": "2022-12-25 20:29:13",
+      "title": "prayer-times-in-bangalore",
+      "status": "publish",
+      "slug": "prayer-times-in-bangalore",
+      "type": "city"
+    },
+    {
+      "id": 391,
+      "date": "2022-12-25 20:32:02",
+      "title": "prayer-times-in-barcelona",
+      "status": "publish",
+      "slug": "prayer-times-in-barcelona",
+      "type": "city"
+    },
+    {
+      "id": 392,
+      "date": "2022-12-25 20:32:29",
+      "title": "prayer-times-in-granada",
+      "status": "publish",
+      "slug": "prayer-times-in-granada",
+      "type": "city"
+    },
+    {
+      "id": 393,
+      "date": "2022-12-25 20:32:58",
+      "title": "prayer-times-in-marbella",
+      "status": "publish",
+      "slug": "prayer-times-in-marbella",
+      "type": "city"
+    },
+    {
+      "id": 394,
+      "date": "2022-12-25 20:33:27",
+      "title": "prayer-times-in-valencia",
+      "status": "publish",
+      "slug": "prayer-times-in-valencia",
+      "type": "city"
+    },
+    {
+      "id": 395,
+      "date": "2022-12-25 20:35:26",
+      "title": "prayer-times-in-lyon",
+      "status": "publish",
+      "slug": "prayer-times-in-lyon",
+      "type": "city"
+    },
+    {
+      "id": 396,
+      "date": "2022-12-25 20:35:51",
+      "title": "prayer-times-in-paris",
+      "status": "publish",
+      "slug": "prayer-times-in-paris",
+      "type": "city"
+    },
+    {
+      "id": 397,
+      "date": "2022-12-25 20:36:13",
+      "title": "prayer-times-in-toulouse",
+      "status": "publish",
+      "slug": "prayer-times-in-toulouse",
+      "type": "city"
+    },
+    {
+      "id": 398,
+      "date": "2022-12-25 20:37:21",
+      "title": "prayer-times-in-rome",
+      "status": "publish",
+      "slug": "prayer-times-in-rome",
+      "type": "city"
+    },
+    {
+      "id": 399,
+      "date": "2022-12-25 20:37:45",
+      "title": "prayer-times-in-venice",
+      "status": "publish",
+      "slug": "prayer-times-in-venice",
+      "type": "city"
+    },
+    {
+      "id": 400,
+      "date": "2022-12-25 20:39:33",
+      "title": "prayer-times-in-belfast",
+      "status": "publish",
+      "slug": "prayer-times-in-belfast",
+      "type": "city"
+    },
+    {
+      "id": 401,
+      "date": "2022-12-25 20:40:04",
+      "title": "prayer-times-in-london",
+      "status": "publish",
+      "slug": "prayer-times-in-london",
+      "type": "city"
+    },
+    {
+      "id": 402,
+      "date": "2022-12-25 20:40:33",
+      "title": "prayer-times-in-manchester",
+      "status": "publish",
+      "slug": "prayer-times-in-manchester",
+      "type": "city"
+    },
+    {
+      "id": 403,
+      "date": "2022-12-25 20:40:57",
+      "title": "prayer-times-in-bristol",
+      "status": "publish",
+      "slug": "prayer-times-in-bristol",
+      "type": "city"
+    },
+    {
+      "id": 404,
+      "date": "2022-12-25 20:41:27",
+      "title": "prayer-times-in-sheffield",
+      "status": "publish",
+      "slug": "prayer-times-in-sheffield",
+      "type": "city"
+    },
+    {
+      "id": 405,
+      "date": "2022-12-25 20:41:59",
+      "title": "prayer-times-in-glasgow",
+      "status": "publish",
+      "slug": "prayer-times-in-glasgow",
+      "type": "city"
+    },
+    {
+      "id": 406,
+      "date": "2022-12-25 20:42:45",
+      "title": "prayer-times-in-liverpool",
+      "status": "publish",
+      "slug": "prayer-times-in-liverpool",
+      "type": "city"
+    },
+    {
+      "id": 407,
+      "date": "2022-12-25 20:45:16",
+      "title": "prayer-times-in-boston",
+      "status": "publish",
+      "slug": "prayer-times-in-boston",
+      "type": "city"
+    },
+    {
+      "id": 408,
+      "date": "2022-12-25 20:45:45",
+      "title": "prayer-times-in-minneapolis",
+      "status": "publish",
+      "slug": "prayer-times-in-minneapolis",
+      "type": "city"
+    },
+    {
+      "id": 409,
+      "date": "2022-12-25 20:46:10",
+      "title": "prayer-times-in-washington",
+      "status": "publish",
+      "slug": "prayer-times-in-washington",
+      "type": "city"
+    },
+    {
+      "id": 410,
+      "date": "2022-12-25 20:46:35",
+      "title": "prayer-times-in-chicago",
+      "status": "publish",
+      "slug": "prayer-times-in-chicago",
+      "type": "city"
+    },
+    {
+      "id": 411,
+      "date": "2022-12-25 20:47:15",
+      "title": "prayer-times-in-new-york",
+      "status": "publish",
+      "slug": "prayer-times-in-new-york",
+      "type": "city"
+    },
+    {
+      "id": 412,
+      "date": "2022-12-25 20:47:40",
+      "title": "prayer-times-in-dallas",
+      "status": "publish",
+      "slug": "prayer-times-in-dallas",
+      "type": "city"
+    },
+    {
+      "id": 413,
+      "date": "2022-12-25 20:48:22",
+      "title": "prayer-times-in-san-francisco",
+      "status": "publish",
+      "slug": "prayer-times-in-san-francisco",
+      "type": "city"
+    },
+    {
+      "id": 414,
+      "date": "2022-12-25 20:48:45",
+      "title": "prayer-times-in-seattle",
+      "status": "publish",
+      "slug": "prayer-times-in-seattle",
+      "type": "city"
+    },
+    {
+      "id": 415,
+      "date": "2022-12-25 20:49:21",
+      "title": "prayer-times-in-los-angeles",
+      "status": "publish",
+      "slug": "prayer-times-in-los-angeles",
+      "type": "city"
+    },
+    {
+      "id": 416,
+      "date": "2022-12-25 20:52:55",
+      "title": "prayer-times-in-mascara",
+      "status": "publish",
+      "slug": "prayer-times-in-mascara",
+      "type": "city"
+    },
+    {
+      "id": 417,
+      "date": "2022-12-25 20:53:29",
+      "title": "prayer-times-in-constantine",
+      "status": "publish",
+      "slug": "prayer-times-in-constantine",
+      "type": "city"
+    },
+    {
+      "id": 418,
+      "date": "2022-12-25 20:53:55",
+      "title": "prayer-times-in-algiers",
+      "status": "publish",
+      "slug": "prayer-times-in-algiers",
+      "type": "city"
+    },
+    {
+      "id": 419,
+      "date": "2022-12-25 20:54:23",
+      "title": "prayer-times-in-annaba",
+      "status": "publish",
+      "slug": "prayer-times-in-annaba",
+      "type": "city"
+    },
+    {
+      "id": 420,
+      "date": "2022-12-25 20:54:47",
+      "title": "prayer-times-in-bechar",
+      "status": "publish",
+      "slug": "prayer-times-in-bechar",
+      "type": "city"
+    },
+    {
+      "id": 421,
+      "date": "2022-12-25 20:55:11",
+      "title": "prayer-times-in-tlemcen",
+      "status": "publish",
+      "slug": "prayer-times-in-tlemcen",
+      "type": "city"
+    },
+    {
+      "id": 422,
+      "date": "2022-12-25 20:55:34",
+      "title": "prayer-times-in-blida",
+      "status": "publish",
+      "slug": "prayer-times-in-blida",
+      "type": "city"
+    },
+    {
+      "id": 423,
+      "date": "2022-12-25 20:58:21",
+      "title": "prayer-times-in-aryanah",
+      "status": "publish",
+      "slug": "prayer-times-in-aryanah",
+      "type": "city"
+    },
+    {
+      "id": 424,
+      "date": "2022-12-25 20:58:48",
+      "title": "prayer-times-in-bizerte",
+      "status": "publish",
+      "slug": "prayer-times-in-bizerte",
+      "type": "city"
+    },
+    {
+      "id": 425,
+      "date": "2022-12-25 20:59:10",
+      "title": "prayer-times-in-gabes",
+      "status": "publish",
+      "slug": "prayer-times-in-gabes",
+      "type": "city"
+    },
+    {
+      "id": 426,
+      "date": "2022-12-25 20:59:54",
+      "title": "prayer-times-in-tunis-city",
+      "status": "publish",
+      "slug": "prayer-times-in-tunis-city",
+      "type": "city"
+    },
+    {
+      "id": 427,
+      "date": "2022-12-25 21:04:14",
+      "title": "prayer-times-in-amman_city",
+      "status": "publish",
+      "slug": "prayer-times-in-amman_city",
+      "type": "city"
+    },
+    {
+      "id": 428,
+      "date": "2022-12-25 21:05:10",
+      "title": "prayer-times-in-irbid",
+      "status": "publish",
+      "slug": "prayer-times-in-irbid",
+      "type": "city"
+    },
+    {
+      "id": 429,
+      "date": "2022-12-25 21:05:35",
+      "title": "prayer-times-in-madaba",
+      "status": "publish",
+      "slug": "prayer-times-in-madaba",
+      "type": "city"
+    },
+    {
+      "id": 430,
+      "date": "2022-12-25 21:07:26",
+      "title": "prayer-times-in-erbil",
+      "status": "publish",
+      "slug": "prayer-times-in-erbil",
+      "type": "city"
+    },
+    {
+      "id": 431,
+      "date": "2022-12-25 21:08:10",
+      "title": "prayer-times-in-karbala",
+      "status": "publish",
+      "slug": "prayer-times-in-karbala",
+      "type": "city"
+    },
+    {
+      "id": 432,
+      "date": "2022-12-25 21:08:44",
+      "title": "prayer-times-in-baghdad",
+      "status": "publish",
+      "slug": "prayer-times-in-baghdad",
+      "type": "city"
+    },
+    {
+      "id": 433,
+      "date": "2022-12-25 21:09:07",
+      "title": "prayer-times-in-musul",
+      "status": "publish",
+      "slug": "prayer-times-in-musul",
+      "type": "city"
+    },
+    {
+      "id": 434,
+      "date": "2022-12-25 21:09:33",
+      "title": "prayer-times-in-basra",
+      "status": "publish",
+      "slug": "prayer-times-in-basra",
+      "type": "city"
+    },
+    {
+      "id": 435,
+      "date": "2022-12-25 21:09:56",
+      "title": "prayer-times-in-najaf",
+      "status": "publish",
+      "slug": "prayer-times-in-najaf",
+      "type": "city"
+    },
+    {
+      "id": 436,
+      "date": "2022-12-25 21:10:28",
+      "title": "prayer-times-in-fallujah",
+      "status": "publish",
+      "slug": "prayer-times-in-fallujah",
+      "type": "city"
+    },
+    {
+      "id": 437,
+      "date": "2022-12-25 21:13:39",
+      "title": "prayer-times-in-beirut",
+      "status": "publish",
+      "slug": "prayer-times-in-beirut",
+      "type": "city"
+    },
+    {
+      "id": 438,
+      "date": "2022-12-25 21:14:02",
+      "title": "prayer-times-in-baalbeck",
+      "status": "publish",
+      "slug": "prayer-times-in-baalbeck",
+      "type": "city"
+    },
+    {
+      "id": 439,
+      "date": "2022-12-25 21:15:34",
+      "title": "prayer-times-in-khartoum",
+      "status": "publish",
+      "slug": "prayer-times-in-khartoum",
+      "type": "city"
+    },
+    {
+      "id": 440,
+      "date": "2022-12-25 21:16:00",
+      "title": "prayer-times-in-halfa",
+      "status": "publish",
+      "slug": "prayer-times-in-halfa",
+      "type": "city"
+    },
+    {
+      "id": 441,
+      "date": "2022-12-25 21:16:32",
+      "title": "prayer-times-in-atbara",
+      "status": "publish",
+      "slug": "prayer-times-in-atbara",
+      "type": "city"
+    },
+    {
+      "id": 442,
+      "date": "2022-12-25 21:17:07",
+      "title": "prayer-times-in-port-sudan",
+      "status": "publish",
+      "slug": "prayer-times-in-port-sudan",
+      "type": "city"
+    },
+    {
+      "id": 443,
+      "date": "2022-12-25 21:17:55",
+      "title": "prayer-times-in-el-obeid",
+      "status": "publish",
+      "slug": "prayer-times-in-el-obeid",
+      "type": "city"
+    },
+    {
+      "id": 444,
+      "date": "2022-12-25 21:20:06",
+      "title": "prayer-times-in-acre",
+      "status": "publish",
+      "slug": "prayer-times-in-acre",
+      "type": "city"
+    },
+    {
+      "id": 445,
+      "date": "2022-12-25 21:20:37",
+      "title": "prayer-times-in-haifa",
+      "status": "publish",
+      "slug": "prayer-times-in-haifa",
+      "type": "city"
+    },
+    {
+      "id": 446,
+      "date": "2022-12-25 21:21:15",
+      "title": "prayer-times-in-jerusalem",
+      "status": "publish",
+      "slug": "prayer-times-in-jerusalem",
+      "type": "city"
+    },
+    {
+      "id": 448,
+      "date": "2022-12-25 21:21:54",
+      "title": "prayer-times-in-beersheba",
+      "status": "publish",
+      "slug": "prayer-times-in-beersheba",
+      "type": "city"
+    },
+    {
+      "id": 449,
+      "date": "2022-12-25 21:22:19",
+      "title": "prayer-times-in-eilat",
+      "status": "publish",
+      "slug": "prayer-times-in-eilat",
+      "type": "city"
+    },
+    {
+      "id": 450,
+      "date": "2022-12-25 21:22:44",
+      "title": "prayer-times-in-gaza",
+      "status": "publish",
+      "slug": "prayer-times-in-gaza",
+      "type": "city"
+    },
+    {
+      "id": 451,
+      "date": "2022-12-25 21:25:29",
+      "title": "prayer-times-in-ajdabiya",
+      "status": "publish",
+      "slug": "prayer-times-in-ajdabiya",
+      "type": "city"
+    },
+    {
+      "id": 452,
+      "date": "2022-12-25 21:25:56",
+      "title": "prayer-times-in-benghazi",
+      "status": "publish",
+      "slug": "prayer-times-in-benghazi",
+      "type": "city"
+    },
+    {
+      "id": 453,
+      "date": "2022-12-25 21:26:20",
+      "title": "prayer-times-in-tripoli",
+      "status": "publish",
+      "slug": "prayer-times-in-tripoli",
+      "type": "city"
+    },
+    {
+      "id": 454,
+      "date": "2022-12-25 21:26:53",
+      "title": "prayer-times-in-tobruk",
+      "status": "publish",
+      "slug": "prayer-times-in-tobruk",
+      "type": "city"
+    },
+    {
+      "id": 455,
+      "date": "2022-12-25 21:27:25",
+      "title": "prayer-times-in-misrata",
+      "status": "publish",
+      "slug": "prayer-times-in-misrata",
+      "type": "city"
+    },
+    {
+      "id": 456,
+      "date": "2022-12-25 21:27:48",
+      "title": "prayer-times-in-sabha",
+      "status": "publish",
+      "slug": "prayer-times-in-sabha",
+      "type": "city"
+    },
+    {
+      "id": 457,
+      "date": "2022-12-25 21:30:30",
+      "title": "prayer-times-in-aleppo",
+      "status": "publish",
+      "slug": "prayer-times-in-aleppo",
+      "type": "city"
+    },
+    {
+      "id": 458,
+      "date": "2022-12-25 21:30:53",
+      "title": "prayer-times-in-homs",
+      "status": "publish",
+      "slug": "prayer-times-in-homs",
+      "type": "city"
+    },
+    {
+      "id": 459,
+      "date": "2022-12-25 21:31:17",
+      "title": "prayer-times-in-tartus",
+      "status": "publish",
+      "slug": "prayer-times-in-tartus",
+      "type": "city"
+    },
+    {
+      "id": 460,
+      "date": "2022-12-25 21:31:42",
+      "title": "prayer-times-in-damascus",
+      "status": "publish",
+      "slug": "prayer-times-in-damascus",
+      "type": "city"
+    },
+    {
+      "id": 461,
+      "date": "2022-12-25 21:32:05",
+      "title": "prayer-times-in-hama",
+      "status": "publish",
+      "slug": "prayer-times-in-hama",
+      "type": "city"
+    },
+    {
+      "id": 462,
+      "date": "2022-12-25 21:32:41",
+      "title": "prayer-times-in-al-hasakah",
+      "status": "publish",
+      "slug": "prayer-times-in-al-hasakah",
+      "type": "city"
+    },
+    {
+      "id": 463,
+      "date": "2022-12-25 21:35:42",
+      "title": "prayer-times-in-al-rayyan",
+      "status": "publish",
+      "slug": "prayer-times-in-al-rayyan",
+      "type": "city"
+    },
+    {
+      "id": 464,
+      "date": "2022-12-25 21:36:18",
+      "title": "prayer-times-in-umm-salal.",
+      "status": "publish",
+      "slug": "prayer-times-in-umm-salal",
+      "type": "city"
+    },
+    {
+      "id": 465,
+      "date": "2022-12-25 21:36:49",
+      "title": "prayer-times-in-al-khor",
+      "status": "publish",
+      "slug": "prayer-times-in-al-khor",
+      "type": "city"
+    },
+    {
+      "id": 466,
+      "date": "2022-12-25 21:37:31",
+      "title": "prayer-times-in-al-wakrah",
+      "status": "publish",
+      "slug": "prayer-times-in-al-wakrah",
+      "type": "city"
+    },
+    {
+      "id": 467,
+      "date": "2022-12-25 21:37:59",
+      "title": "prayer-times-in-doha",
+      "status": "publish",
+      "slug": "prayer-times-in-doha",
+      "type": "city"
+    },
+    {
+      "id": 468,
+      "date": "2022-12-25 21:38:35",
+      "title": "prayer-times-in-dukhan",
+      "status": "publish",
+      "slug": "prayer-times-in-dukhan",
+      "type": "city"
+    },
+    {
+      "id": 469,
+      "date": "2022-12-25 21:40:58",
+      "title": "prayer-times-in-manama",
+      "status": "publish",
+      "slug": "prayer-times-in-manama",
+      "type": "city"
+    },
+    {
+      "id": 470,
+      "date": "2022-12-25 21:57:23",
+      "title": "prayer-times-in-dubai",
+      "status": "publish",
+      "slug": "prayer-times-in-dubai",
+      "type": "city"
+    },
+    {
+      "id": 471,
+      "date": "2022-12-25 21:57:57",
+      "title": "prayer-times-in-al-ain",
+      "status": "publish",
+      "slug": "prayer-times-in-al-ain",
+      "type": "city"
+    },
+    {
+      "id": 473,
+      "date": "2022-12-25 21:58:25",
+      "title": "prayer-times-in-sharjah",
+      "status": "publish",
+      "slug": "prayer-times-in-sharjah",
+      "type": "city"
+    },
+    {
+      "id": 474,
+      "date": "2022-12-25 21:59:16",
+      "title": "prayer-times-in-ras-al-khaimah",
+      "status": "publish",
+      "slug": "prayer-times-in-ras-al-khaimah",
+      "type": "city"
+    },
+    {
+      "id": 475,
+      "date": "2022-12-25 21:59:44",
+      "title": "prayer-times-in-ajman",
+      "status": "publish",
+      "slug": "prayer-times-in-ajman",
+      "type": "city"
+    },
+    {
+      "id": 476,
+      "date": "2022-12-25 22:00:30",
+      "title": "prayer-times-in-abu-dhabi",
+      "status": "publish",
+      "slug": "prayer-times-in-abu-dhabi",
+      "type": "city"
+    },
+    {
+      "id": 477,
+      "date": "2022-12-25 22:01:00",
+      "title": "prayer-times-in-fujairah",
+      "status": "publish",
+      "slug": "prayer-times-in-fujairah",
+      "type": "city"
+    },
+    {
+      "id": 478,
+      "date": "2022-12-25 22:05:54",
+      "title": "prayer-times-in-al-ahmadi",
+      "status": "publish",
+      "slug": "prayer-times-in-al-ahmadi",
+      "type": "city"
+    },
+    {
+      "id": 479,
+      "date": "2022-12-25 22:06:24",
+      "title": "prayer-times-in-salmiya",
+      "status": "publish",
+      "slug": "prayer-times-in-salmiya",
+      "type": "city"
+    },
+    {
+      "id": 481,
+      "date": "2022-12-25 22:07:36",
+      "title": "prayer-times-in-al-farwaniyah",
+      "status": "publish",
+      "slug": "prayer-times-in-al-farwaniyah",
+      "type": "city"
+    },
+    {
+      "id": 482,
+      "date": "2022-12-25 22:08:02",
+      "title": "prayer-times-in-fahaheel",
+      "status": "publish",
+      "slug": "prayer-times-in-fahaheel",
+      "type": "city"
+    },
+    {
+      "id": 484,
+      "date": "2022-12-25 22:10:14",
+      "title": "prayer-times-in-mubarak-al-kabeer",
+      "status": "publish",
+      "slug": "prayer-times-in-mubarak-al-kabeer",
+      "type": "city"
+    },
+    {
+      "id": 485,
+      "date": "2022-12-25 22:10:44",
+      "title": "prayer-times-in-hawally",
+      "status": "publish",
+      "slug": "prayer-times-in-hawally",
+      "type": "city"
+    },
+    {
+      "id": 486,
+      "date": "2022-12-25 22:11:20",
+      "title": "prayer-times-in-al-jahra",
+      "status": "publish",
+      "slug": "prayer-times-in-al-jahra",
+      "type": "city"
+    },
+    {
+      "id": 487,
+      "date": "2022-12-25 22:11:53",
+      "title": "prayer-times-in-kuwait-city",
+      "status": "publish",
+      "slug": "prayer-times-in-kuwait-city",
+      "type": "city"
+    },
+    {
+      "id": 488,
+      "date": "2022-12-25 22:17:31",
+      "title": "prayer-times-in-muscat",
+      "status": "publish",
+      "slug": "prayer-times-in-muscat",
+      "type": "city"
+    },
+    {
+      "id": 489,
+      "date": "2022-12-25 22:17:55",
+      "title": "prayer-times-in-sur",
+      "status": "publish",
+      "slug": "prayer-times-in-sur",
+      "type": "city"
+    },
+    {
+      "id": 490,
+      "date": "2022-12-25 22:18:20",
+      "title": "prayer-times-in-nizwa",
+      "status": "publish",
+      "slug": "prayer-times-in-nizwa",
+      "type": "city"
+    },
+    {
+      "id": 491,
+      "date": "2022-12-25 22:18:48",
+      "title": "prayer-times-in-saham",
+      "status": "publish",
+      "slug": "prayer-times-in-saham",
+      "type": "city"
+    },
+    {
+      "id": 492,
+      "date": "2022-12-25 22:19:14",
+      "title": "prayer-times-in-rustaq",
+      "status": "publish",
+      "slug": "prayer-times-in-rustaq",
+      "type": "city"
+    },
+    {
+      "id": 493,
+      "date": "2022-12-25 22:19:39",
+      "title": "prayer-times-in-ibra",
+      "status": "publish",
+      "slug": "prayer-times-in-ibra",
+      "type": "city"
+    },
+    {
+      "id": 494,
+      "date": "2022-12-25 22:20:36",
+      "title": "prayer-times-in-izki",
+      "status": "publish",
+      "slug": "prayer-times-in-izki",
+      "type": "city"
+    },
+    {
+      "id": 495,
+      "date": "2022-12-25 22:21:04",
+      "title": "prayer-times-in-al-buraimi",
+      "status": "publish",
+      "slug": "prayer-times-in-al-buraimi",
+      "type": "city"
+    },
+    {
+      "id": 496,
+      "date": "2022-12-25 22:21:49",
+      "title": "prayer-times-in-al-ghubra",
+      "status": "publish",
+      "slug": "prayer-times-in-al-ghubra",
+      "type": "city"
+    },
+    {
+      "id": 497,
+      "date": "2022-12-25 22:22:18",
+      "title": "prayer-times-in-ruwi",
+      "status": "publish",
+      "slug": "prayer-times-in-ruwi",
+      "type": "city"
+    },
+    {
+      "id": 498,
+      "date": "2022-12-25 22:22:45",
+      "title": "prayer-times-in-sohar",
+      "status": "publish",
+      "slug": "prayer-times-in-sohar",
+      "type": "city"
+    },
+    {
+      "id": 499,
+      "date": "2022-12-25 22:23:11",
+      "title": "prayer-times-in-salalah",
+      "status": "publish",
+      "slug": "prayer-times-in-salalah",
+      "type": "city"
+    },
+    {
+      "id": 500,
+      "date": "2022-12-25 22:23:39",
+      "title": "prayer-times-in-adam",
+      "status": "publish",
+      "slug": "prayer-times-in-adam",
+      "type": "city"
+    },
+    {
+      "id": 501,
+      "date": "2022-12-25 22:29:12",
+      "title": "prayer-times-in-sanaa",
+      "status": "publish",
+      "slug": "prayer-times-in-sanaa",
+      "type": "city"
+    },
+    {
+      "id": 502,
+      "date": "2022-12-25 22:29:36",
+      "title": "prayer-times-in-taiz",
+      "status": "publish",
+      "slug": "prayer-times-in-taiz",
+      "type": "city"
+    },
+    {
+      "id": 503,
+      "date": "2022-12-25 22:30:00",
+      "title": "prayer-times-in-mukalla",
+      "status": "publish",
+      "slug": "prayer-times-in-mukalla",
+      "type": "city"
+    },
+    {
+      "id": 504,
+      "date": "2022-12-25 22:30:24",
+      "title": "prayer-times-in-dhamar",
+      "status": "publish",
+      "slug": "prayer-times-in-dhamar",
+      "type": "city"
+    },
+    {
+      "id": 505,
+      "date": "2022-12-25 22:30:47",
+      "title": "prayer-times-in-ibb",
+      "status": "publish",
+      "slug": "prayer-times-in-ibb",
+      "type": "city"
+    },
+    {
+      "id": 506,
+      "date": "2022-12-25 22:31:11",
+      "title": "prayer-times-in-aden",
+      "status": "publish",
+      "slug": "prayer-times-in-aden",
+      "type": "city"
+    },
+    {
+      "id": 507,
+      "date": "2022-12-25 22:31:45",
+      "title": "prayer-times-in-al-hudaydah",
+      "status": "publish",
+      "slug": "prayer-times-in-al-hudaydah",
+      "type": "city"
+    },
+    {
+      "id": 508,
+      "date": "2022-12-25 22:37:27",
+      "title": "prayer-times-in-alexandria",
+      "status": "publish",
+      "slug": "prayer-times-in-alexandria",
+      "type": "city"
+    },
+    {
+      "id": 509,
+      "date": "2022-12-25 22:37:54",
+      "title": "prayer-times-in-aswan",
+      "status": "publish",
+      "slug": "prayer-times-in-aswan",
+      "type": "city"
+    },
+    {
+      "id": 510,
+      "date": "2022-12-25 22:38:18",
+      "title": "prayer-times-in-damanhour",
+      "status": "publish",
+      "slug": "prayer-times-in-damanhour",
+      "type": "city"
+    },
+    {
+      "id": 511,
+      "date": "2022-12-25 22:38:44",
+      "title": "prayer-times-in-feyyum",
+      "status": "publish",
+      "slug": "prayer-times-in-feyyum",
+      "type": "city"
+    },
+    {
+      "id": 512,
+      "date": "2022-12-25 22:39:23",
+      "title": "prayer-times-in-kafr-el-sheikh",
+      "status": "publish",
+      "slug": "prayer-times-in-kafr-el-sheikh",
+      "type": "city"
+    },
+    {
+      "id": 513,
+      "date": "2022-12-25 22:39:48",
+      "title": "prayer-times-in-minia",
+      "status": "publish",
+      "slug": "prayer-times-in-minia",
+      "type": "city"
+    },
+    {
+      "id": 514,
+      "date": "2022-12-25 22:40:12",
+      "title": "prayer-times-in-sohag",
+      "status": "publish",
+      "slug": "prayer-times-in-sohag",
+      "type": "city"
+    },
+    {
+      "id": 515,
+      "date": "2022-12-25 22:40:35",
+      "title": "prayer-times-in-damietta",
+      "status": "publish",
+      "slug": "prayer-times-in-damietta",
+      "type": "city"
+    },
+    {
+      "id": 516,
+      "date": "2022-12-25 22:40:57",
+      "title": "prayer-times-in-banha",
+      "status": "publish",
+      "slug": "prayer-times-in-banha",
+      "type": "city"
+    },
+    {
+      "id": 517,
+      "date": "2022-12-25 22:41:33",
+      "title": "prayer-times-in-port-said",
+      "status": "publish",
+      "slug": "prayer-times-in-port-said",
+      "type": "city"
+    },
+    {
+      "id": 518,
+      "date": "2022-12-25 22:42:09",
+      "title": "prayer-times-in-cairo",
+      "status": "publish",
+      "slug": "prayer-times-in-cairo",
+      "type": "city"
+    },
+    {
+      "id": 519,
+      "date": "2022-12-25 22:42:41",
+      "title": "prayer-times-in-beni-suef",
+      "status": "publish",
+      "slug": "prayer-times-in-beni-suef",
+      "type": "city"
+    },
+    {
+      "id": 520,
+      "date": "2022-12-25 22:43:20",
+      "title": "prayer-times-in-ain-sukhna",
+      "status": "publish",
+      "slug": "prayer-times-in-ain-sukhna",
+      "type": "city"
+    },
+    {
+      "id": 522,
+      "date": "2022-12-25 22:43:49",
+      "title": "prayer-times-in-hurghada",
+      "status": "publish",
+      "slug": "prayer-times-in-hurghada",
+      "type": "city"
+    },
+    {
+      "id": 523,
+      "date": "2022-12-25 22:44:28",
+      "title": "prayer-times-in-marsa-matrouh",
+      "status": "publish",
+      "slug": "prayer-times-in-marsa-matrouh",
+      "type": "city"
+    },
+    {
+      "id": 524,
+      "date": "2022-12-25 22:44:55",
+      "title": "prayer-times-in-qena",
+      "status": "publish",
+      "slug": "prayer-times-in-qena",
+      "type": "city"
+    },
+    {
+      "id": 525,
+      "date": "2022-12-25 22:45:19",
+      "title": "prayer-times-in-tanta",
+      "status": "publish",
+      "slug": "prayer-times-in-tanta",
+      "type": "city"
+    },
+    {
+      "id": 526,
+      "date": "2022-12-25 22:45:43",
+      "title": "prayer-times-in-zagazig",
+      "status": "publish",
+      "slug": "prayer-times-in-zagazig",
+      "type": "city"
+    },
+    {
+      "id": 527,
+      "date": "2022-12-25 22:46:26",
+      "title": "prayer-times-in-sharm-el-sheikh",
+      "status": "publish",
+      "slug": "prayer-times-in-sharm-el-sheikh",
+      "type": "city"
+    },
+    {
+      "id": 528,
+      "date": "2022-12-25 22:46:54",
+      "title": "prayer-times-in-menoufia",
+      "status": "publish",
+      "slug": "prayer-times-in-menoufia",
+      "type": "city"
+    },
+    {
+      "id": 529,
+      "date": "2022-12-25 22:47:18",
+      "title": "prayer-times-in-ismailia",
+      "status": "publish",
+      "slug": "prayer-times-in-ismailia",
+      "type": "city"
+    },
+    {
+      "id": 530,
+      "date": "2022-12-25 22:47:45",
+      "title": "prayer-times-in-arish",
+      "status": "publish",
+      "slug": "prayer-times-in-arish",
+      "type": "city"
+    },
+    {
+      "id": 531,
+      "date": "2022-12-25 22:48:12",
+      "title": "prayer-times-in-suez",
+      "status": "publish",
+      "slug": "prayer-times-in-suez",
+      "type": "city"
+    },
+    {
+      "id": 532,
+      "date": "2022-12-25 22:59:53",
+      "title": "prayer-times-in-agadir",
+      "status": "publish",
+      "slug": "prayer-times-in-agadir",
+      "type": "city"
+    },
+    {
+      "id": 533,
+      "date": "2022-12-25 23:00:23",
+      "title": "prayer-times-in-laayoune",
+      "status": "publish",
+      "slug": "prayer-times-in-laayoune",
+      "type": "city"
+    },
+    {
+      "id": 534,
+      "date": "2022-12-25 23:00:50",
+      "title": "prayer-times-in-mohammedia",
+      "status": "publish",
+      "slug": "prayer-times-in-mohammedia",
+      "type": "city"
+    },
+    {
+      "id": 535,
+      "date": "2022-12-25 23:01:14",
+      "title": "prayer-times-in-nador",
+      "status": "publish",
+      "slug": "prayer-times-in-nador",
+      "type": "city"
+    },
+    {
+      "id": 536,
+      "date": "2022-12-25 23:01:43",
+      "title": "prayer-times-in-berkane",
+      "status": "publish",
+      "slug": "prayer-times-in-berkane",
+      "type": "city"
+    },
+    {
+      "id": 537,
+      "date": "2022-12-25 23:02:32",
+      "title": "prayer-times-in-beni-mellal",
+      "status": "publish",
+      "slug": "prayer-times-in-beni-mellal",
+      "type": "city"
+    },
+    {
+      "id": 538,
+      "date": "2022-12-25 23:02:57",
+      "title": "prayer-times-in-taroudant",
+      "status": "publish",
+      "slug": "prayer-times-in-taroudant",
+      "type": "city"
+    },
+    {
+      "id": 539,
+      "date": "2022-12-25 23:03:22",
+      "title": "prayer-times-in-taza",
+      "status": "publish",
+      "slug": "prayer-times-in-taza",
+      "type": "city"
+    },
+    {
+      "id": 540,
+      "date": "2022-12-25 23:03:47",
+      "title": "prayer-times-in-temara",
+      "status": "publish",
+      "slug": "prayer-times-in-temara",
+      "type": "city"
+    },
+    {
+      "id": 541,
+      "date": "2022-12-25 23:04:14",
+      "title": "prayer-times-in-khouribga",
+      "status": "publish",
+      "slug": "prayer-times-in-khouribga",
+      "type": "city"
+    },
+    {
+      "id": 542,
+      "date": "2022-12-25 23:04:41",
+      "title": "prayer-times-in-settat",
+      "status": "publish",
+      "slug": "prayer-times-in-settat",
+      "type": "city"
+    },
+    {
+      "id": 543,
+      "date": "2022-12-25 23:05:05",
+      "title": "prayer-times-in-sale",
+      "status": "publish",
+      "slug": "prayer-times-in-sale",
+      "type": "city"
+    },
+    {
+      "id": 544,
+      "date": "2022-12-25 23:05:29",
+      "title": "prayer-times-in-chefchaouen",
+      "status": "publish",
+      "slug": "prayer-times-in-chefchaouen",
+      "type": "city"
+    },
+    {
+      "id": 545,
+      "date": "2022-12-25 23:05:57",
+      "title": "prayer-times-in-midelt",
+      "status": "publish",
+      "slug": "prayer-times-in-midelt",
+      "type": "city"
+    },
+    {
+      "id": 546,
+      "date": "2022-12-25 23:06:27",
+      "title": "prayer-times-in-larache",
+      "status": "publish",
+      "slug": "prayer-times-in-larache",
+      "type": "city"
+    },
+    {
+      "id": 547,
+      "date": "2022-12-25 23:07:00",
+      "title": "prayer-times-in-errachidia",
+      "status": "publish",
+      "slug": "prayer-times-in-errachidia",
+      "type": "city"
+    },
+    {
+      "id": 548,
+      "date": "2022-12-25 23:07:31",
+      "title": "prayer-times-in-tetouan",
+      "status": "publish",
+      "slug": "prayer-times-in-tetouan",
+      "type": "city"
+    },
+    {
+      "id": 549,
+      "date": "2022-12-25 23:08:01",
+      "title": "prayer-times-in-meknes",
+      "status": "publish",
+      "slug": "prayer-times-in-meknes",
+      "type": "city"
+    },
+    {
+      "id": 550,
+      "date": "2022-12-25 23:08:26",
+      "title": "prayer-times-in-fez",
+      "status": "publish",
+      "slug": "prayer-times-in-fez",
+      "type": "city"
+    },
+    {
+      "id": 551,
+      "date": "2022-12-25 23:08:55",
+      "title": "prayer-times-in-kenitra",
+      "status": "publish",
+      "slug": "prayer-times-in-kenitra",
+      "type": "city"
+    },
+    {
+      "id": 552,
+      "date": "2022-12-25 23:09:23",
+      "title": "prayer-times-in-tangier",
+      "status": "publish",
+      "slug": "prayer-times-in-tangier",
+      "type": "city"
+    },
+    {
+      "id": 553,
+      "date": "2022-12-25 23:09:50",
+      "title": "prayer-times-in-safi",
+      "status": "publish",
+      "slug": "prayer-times-in-safi",
+      "type": "city"
+    },
+    {
+      "id": 554,
+      "date": "2022-12-25 23:10:27",
+      "title": "prayer-times-in-ahfir",
+      "status": "publish",
+      "slug": "prayer-times-in-ahfir",
+      "type": "city"
+    },
+    {
+      "id": 555,
+      "date": "2022-12-25 23:10:53",
+      "title": "prayer-times-in-ifrane",
+      "status": "publish",
+      "slug": "prayer-times-in-ifrane",
+      "type": "city"
+    },
+    {
+      "id": 556,
+      "date": "2022-12-25 23:11:30",
+      "title": "prayer-times-in-el-jadida",
+      "status": "publish",
+      "slug": "prayer-times-in-el-jadida",
+      "type": "city"
+    },
+    {
+      "id": 557,
+      "date": "2022-12-25 23:12:05",
+      "title": "prayer-times-in-al-hoceima",
+      "status": "publish",
+      "slug": "prayer-times-in-al-hoceima",
+      "type": "city"
+    },
+    {
+      "id": 558,
+      "date": "2022-12-25 23:12:32",
+      "title": "prayer-times-in-oujda",
+      "status": "publish",
+      "slug": "prayer-times-in-oujda",
+      "type": "city"
+    },
+    {
+      "id": 559,
+      "date": "2022-12-25 23:43:28",
+      "title": "prayer-times-in-al-aflaj",
+      "status": "publish",
+      "slug": "prayer-times-in-al-aflaj",
+      "type": "city"
+    },
+    {
+      "id": 560,
+      "date": "2022-12-25 23:43:54",
+      "title": "prayer-times-in-tabuk",
+      "status": "publish",
+      "slug": "prayer-times-in-tabuk",
+      "type": "city"
+    },
+    {
+      "id": 561,
+      "date": "2022-12-25 23:44:20",
+      "title": "prayer-times-in-qurayyat",
+      "status": "publish",
+      "slug": "prayer-times-in-qurayyat",
+      "type": "city"
+    },
+    {
+      "id": 562,
+      "date": "2022-12-25 23:44:57",
+      "title": "prayer-times-in-al-kharj",
+      "status": "publish",
+      "slug": "prayer-times-in-al-kharj",
+      "type": "city"
+    },
+    {
+      "id": 563,
+      "date": "2022-12-25 23:45:18",
+      "title": "prayer-times-in-jizan",
+      "status": "publish",
+      "slug": "prayer-times-in-jizan",
+      "type": "city"
+    },
+    {
+      "id": 564,
+      "date": "2022-12-25 23:45:43",
+      "title": "prayer-times-in-hail",
+      "status": "publish",
+      "slug": "prayer-times-in-hail",
+      "type": "city"
+    },
+    {
+      "id": 565,
+      "date": "2022-12-25 23:46:15",
+      "title": "prayer-times-in-dhahran",
+      "status": "publish",
+      "slug": "prayer-times-in-dhahran",
+      "type": "city"
+    },
+    {
+      "id": 566,
+      "date": "2022-12-25 23:46:51",
+      "title": "prayer-times-in-bisha",
+      "status": "publish",
+      "slug": "prayer-times-in-bisha",
+      "type": "city"
+    },
+    {
+      "id": 567,
+      "date": "2022-12-25 23:47:16",
+      "title": "prayer-times-in-unaizah",
+      "status": "publish",
+      "slug": "prayer-times-in-unaizah",
+      "type": "city"
+    },
+    {
+      "id": 568,
+      "date": "2022-12-25 23:47:41",
+      "title": "prayer-times-in-yanbu",
+      "status": "publish",
+      "slug": "prayer-times-in-yanbu",
+      "type": "city"
+    },
+    {
+      "id": 569,
+      "date": "2022-12-25 23:48:09",
+      "title": "prayer-times-in-taif",
+      "status": "publish",
+      "slug": "prayer-times-in-taif",
+      "type": "city"
+    },
+    {
+      "id": 570,
+      "date": "2022-12-25 23:48:46",
+      "title": "prayer-times-in-al-bahah.",
+      "status": "publish",
+      "slug": "prayer-times-in-al-bahah",
+      "type": "city"
+    },
+    {
+      "id": 571,
+      "date": "2022-12-25 23:49:19",
+      "title": "prayer-times-in-buraydah",
+      "status": "publish",
+      "slug": "prayer-times-in-buraydah",
+      "type": "city"
+    },
+    {
+      "id": 573,
+      "date": "2022-12-25 23:49:53",
+      "title": "prayer-times-in-diriyah",
+      "status": "publish",
+      "slug": "prayer-times-in-diriyah",
+      "type": "city"
+    },
+    {
+      "id": 574,
+      "date": "2022-12-25 23:50:22",
+      "title": "prayer-times-in-hofuf",
+      "status": "publish",
+      "slug": "prayer-times-in-hofuf",
+      "type": "city"
+    },
+    {
+      "id": 575,
+      "date": "2022-12-25 23:50:51",
+      "title": "prayer-times-in-jubail",
+      "status": "publish",
+      "slug": "prayer-times-in-jubail",
+      "type": "city"
+    },
+    {
+      "id": 576,
+      "date": "2022-12-25 23:51:13",
+      "title": "prayer-times-in-khobar",
+      "status": "publish",
+      "slug": "prayer-times-in-khobar",
+      "type": "city"
+    },
+    {
+      "id": 577,
+      "date": "2022-12-25 23:51:40",
+      "title": "prayer-times-in-najran",
+      "status": "publish",
+      "slug": "prayer-times-in-najran",
+      "type": "city"
+    },
+    {
+      "id": 578,
+      "date": "2022-12-25 23:52:08",
+      "title": "prayer-times-in-afif",
+      "status": "publish",
+      "slug": "prayer-times-in-afif",
+      "type": "city"
+    },
+    {
+      "id": 579,
+      "date": "2022-12-25 23:52:40",
+      "title": "prayer-times-in-al ula",
+      "status": "publish",
+      "slug": "prayer-times-in-al-ula",
+      "type": "city"
+    },
+    {
+      "id": 580,
+      "date": "2022-12-25 23:53:05",
+      "title": "prayer-times-in-dammam",
+      "status": "publish",
+      "slug": "prayer-times-in-dammam",
+      "type": "city"
+    },
+    {
+      "id": 581,
+      "date": "2022-12-25 23:53:32",
+      "title": "prayer-times-in-duba",
+      "status": "publish",
+      "slug": "prayer-times-in-duba",
+      "type": "city"
+    },
+    {
+      "id": 582,
+      "date": "2022-12-25 23:54:08",
+      "title": "prayer-times-in-al-jawf",
+      "status": "publish",
+      "slug": "prayer-times-in-al-jawf",
+      "type": "city"
+    },
+    {
+      "id": 583,
+      "date": "2022-12-25 23:54:38",
+      "title": "prayer-times-in-khafji",
+      "status": "publish",
+      "slug": "prayer-times-in-khafji",
+      "type": "city"
+    },
+    {
+      "id": 584,
+      "date": "2022-12-25 23:55:24",
+      "title": "prayer-times-in-al-qassim",
+      "status": "publish",
+      "slug": "prayer-times-in-al-qassim",
+      "type": "city"
+    },
+    {
+      "id": 585,
+      "date": "2022-12-25 23:55:46",
+      "title": "prayer-times-in-shaqra",
+      "status": "publish",
+      "slug": "prayer-times-in-shaqra",
+      "type": "city"
+    },
+    {
+      "id": 586,
+      "date": "2022-12-25 23:56:33",
+      "title": "prayer-times-in-ras-tanura",
+      "status": "publish",
+      "slug": "prayer-times-in-ras-tanura",
+      "type": "city"
+    },
+    {
+      "id": 587,
+      "date": "2022-12-25 23:56:55",
+      "title": "prayer-times-in-hasa",
+      "status": "publish",
+      "slug": "prayer-times-in-hasa",
+      "type": "city"
+    },
+    {
+      "id": 588,
+      "date": "2022-12-25 23:57:30",
+      "title": "prayer-times-in-abha",
+      "status": "publish",
+      "slug": "prayer-times-in-abha",
+      "type": "city"
+    },
+    {
+      "id": 589,
+      "date": "2022-12-25 23:58:01",
+      "title": "prayer-times-in-abqaiq",
+      "status": "publish",
+      "slug": "prayer-times-in-abqaiq",
+      "type": "city"
+    },
+    {
+      "id": 590,
+      "date": "2022-12-25 23:58:31",
+      "title": "prayer-times-in-sulayyil",
+      "status": "publish",
+      "slug": "prayer-times-in-sulayyil",
+      "type": "city"
+    },
+    {
+      "id": 591,
+      "date": "2022-12-25 23:58:58",
+      "title": "prayer-times-in-qatif",
+      "status": "publish",
+      "slug": "prayer-times-in-qatif",
+      "type": "city"
+    },
+    {
+      "id": 592,
+      "date": "2022-12-25 23:59:32",
+      "title": "prayer-times-in-al-majmaah",
+      "status": "publish",
+      "slug": "prayer-times-in-al-majmaah",
+      "type": "city"
+    },
+    {
+      "id": 593,
+      "date": "2022-12-26 00:00:08",
+      "title": "prayer-times-in-khamis-mushait",
+      "status": "publish",
+      "slug": "prayer-times-in-khamis-mushait",
+      "type": "city"
+    },
+    {
+      "id": 594,
+      "date": "2022-12-26 00:00:38",
+      "title": "prayer-times-in-jeddah",
+      "status": "publish",
+      "slug": "prayer-times-in-jeddah",
+      "type": "city"
+    },
+    {
+      "id": 595,
+      "date": "2022-12-26 00:01:17",
+      "title": "prayer-times-in-hafr-al-batin",
+      "status": "publish",
+      "slug": "prayer-times-in-hafr-al-batin",
+      "type": "city"
+    },
+    {
+      "id": 596,
+      "date": "2022-12-26 00:02:03",
+      "title": "prayer-times-in-dawadmi",
+      "status": "publish",
+      "slug": "prayer-times-in-dawadmi",
+      "type": "city"
+    },
+    {
+      "id": 597,
+      "date": "2022-12-26 00:02:29",
+      "title": "prayer-times-in-arar",
+      "status": "publish",
+      "slug": "prayer-times-in-arar",
+      "type": "city"
+    },
+    {
+      "id": 598,
+      "date": "2022-12-26 00:03:05",
+      "title": "prayer-times-in-al-zulfi",
+      "status": "publish",
+      "slug": "prayer-times-in-al-zulfi",
+      "type": "city"
+    },
+    {
+      "id": 652,
+      "date": "2024-11-08 21:15:34",
+      "title": "prayer times in Tashkent",
+      "status": "publish",
+      "slug": "prayer-times-in-tashkent",
+      "type": "city"
+    },
+    {
+      "id": 653,
+      "date": "2024-11-08 21:40:36",
+      "title": "prayer times in Jakarta",
+      "status": "publish",
+      "slug": "prayer-times-in-jakarta",
+      "type": "city"
+    },
+    {
+      "id": 655,
+      "date": "2024-11-08 21:50:14",
+      "title": "prayer times in Surabaya",
+      "status": "publish",
+      "slug": "prayer-times-in-surabaya",
+      "type": "city"
+    },
+    {
+      "id": 657,
+      "date": "2024-11-10 16:05:39",
+      "title": "prayer times in Stockholm",
+      "status": "publish",
+      "slug": "prayer-times-in-stockholm",
+      "type": "city"
+    },
+    {
+      "id": 658,
+      "date": "2024-11-10 16:13:57",
+      "title": "prayer times in Goeteborg",
+      "status": "publish",
+      "slug": "prayer-times-in-goeteborg",
+      "type": "city"
+    },
+    {
+      "id": 659,
+      "date": "2024-11-10 16:19:29",
+      "title": "prayer times in Uppsala",
+      "status": "publish",
+      "slug": "prayer-times-in-uppsala",
+      "type": "city"
+    },
+    {
+      "id": 660,
+      "date": "2024-11-10 16:25:27",
+      "title": "prayer times in Sollentuna",
+      "status": "publish",
+      "slug": "prayer-times-in-sollentuna",
+      "type": "city"
+    },
+    {
+      "id": 661,
+      "date": "2024-11-10 16:27:44",
+      "title": "prayer times in Linkoeping",
+      "status": "publish",
+      "slug": "prayer-times-in-linkoeping",
+      "type": "city"
+    },
+    {
+      "id": 662,
+      "date": "2024-11-10 16:29:45",
+      "title": "prayer times in Helsingborg",
+      "status": "publish",
+      "slug": "prayer-times-in-helsingborg",
+      "type": "city"
+    },
+    {
+      "id": 663,
+      "date": "2024-11-10 16:31:58",
+      "title": "prayer times in Joenkoeping",
+      "status": "publish",
+      "slug": "prayer-times-in-joenkoeping",
+      "type": "city"
+    },
+    {
+      "id": 664,
+      "date": "2024-11-10 16:36:20",
+      "title": "prayer times in Norrkoeping",
+      "status": "publish",
+      "slug": "prayer-times-in-norrkoeping",
+      "type": "city"
+    },
+    {
+      "id": 665,
+      "date": "2024-11-10 16:38:58",
+      "title": "prayer times in Lund",
+      "status": "publish",
+      "slug": "prayer-times-in-lund",
+      "type": "city"
+    },
+    {
+      "id": 667,
+      "date": "2024-11-10 16:46:23",
+      "title": "prayer times in Umea",
+      "status": "publish",
+      "slug": "prayer-times-in-umea",
+      "type": "city"
+    },
+    {
+      "id": 668,
+      "date": "2024-11-11 15:29:12",
+      "title": "prayer times in Haninge",
+      "status": "publish",
+      "slug": "prayer-times-in-haninge",
+      "type": "city"
+    },
+    {
+      "id": 669,
+      "date": "2024-11-11 15:32:50",
+      "title": "prayer times in Boras",
+      "status": "publish",
+      "slug": "prayer-times-in-boras",
+      "type": "city"
+    },
+    {
+      "id": 670,
+      "date": "2024-11-11 15:34:43",
+      "title": "prayer times in Kungsholmen",
+      "status": "publish",
+      "slug": "prayer-times-in-kungsholmen",
+      "type": "city"
+    },
+    {
+      "id": 671,
+      "date": "2024-11-11 15:37:25",
+      "title": "prayer times in Eskilstuna",
+      "status": "publish",
+      "slug": "prayer-times-in-eskilstuna",
+      "type": "city"
+    },
+    {
+      "id": 673,
+      "date": "2024-11-11 15:40:14",
+      "title": "prayer times in Solna",
+      "status": "publish",
+      "slug": "prayer-times-in-solna",
+      "type": "city"
+    },
+    {
+      "id": 674,
+      "date": "2024-11-11 15:42:15",
+      "title": "prayer times in Halmstad",
+      "status": "publish",
+      "slug": "prayer-times-in-halmstad",
+      "type": "city"
+    },
+    {
+      "id": 675,
+      "date": "2024-11-11 15:44:27",
+      "title": "prayer times in Karlstad",
+      "status": "publish",
+      "slug": "prayer-times-in-karlstad",
+      "type": "city"
+    },
+    {
+      "id": 676,
+      "date": "2024-11-11 15:46:17",
+      "title": "prayer times in Bromma",
+      "status": "publish",
+      "slug": "prayer-times-in-bromma",
+      "type": "city"
+    },
+    {
+      "id": 677,
+      "date": "2024-11-11 19:23:10",
+      "title": "prayer times in Sundsvall",
+      "status": "publish",
+      "slug": "prayer-times-in-sundsvall",
+      "type": "city"
+    },
+    {
+      "id": 678,
+      "date": "2024-11-11 19:45:40",
+      "title": "prayer times in Taby",
+      "status": "publish",
+      "slug": "prayer-times-in-taby",
+      "type": "city"
+    },
+    {
+      "id": 679,
+      "date": "2024-11-11 19:47:41",
+      "title": "prayer times in Lulea",
+      "status": "publish",
+      "slug": "prayer-times-in-lulea",
+      "type": "city"
+    },
+    {
+      "id": 680,
+      "date": "2024-11-11 19:49:28",
+      "title": "prayer times in Tumba",
+      "status": "publish",
+      "slug": "prayer-times-in-tumba",
+      "type": "city"
+    },
+    {
+      "id": 681,
+      "date": "2024-11-11 19:51:40",
+      "title": "prayer times in Kristianstad",
+      "status": "publish",
+      "slug": "prayer-times-in-kristianstad",
+      "type": "city"
+    },
+    {
+      "id": 682,
+      "date": "2024-11-11 19:54:01",
+      "title": "prayer times in Kalmar",
+      "status": "publish",
+      "slug": "prayer-times-in-kalmar",
+      "type": "city"
+    },
+    {
+      "id": 683,
+      "date": "2024-11-11 19:55:40",
+      "title": "prayer times in Falun",
+      "status": "publish",
+      "slug": "prayer-times-in-falun",
+      "type": "city"
+    },
+    {
+      "id": 684,
+      "date": "2024-11-11 19:58:48",
+      "title": "prayer times in Karlskrona",
+      "status": "publish",
+      "slug": "prayer-times-in-karlskrona",
+      "type": "city"
+    },
+    {
+      "id": 685,
+      "date": "2024-11-11 20:00:59",
+      "title": "prayer times in Skelleftea",
+      "status": "publish",
+      "slug": "prayer-times-in-skelleftea",
+      "type": "city"
+    },
+    {
+      "id": 686,
+      "date": "2024-11-11 20:03:03",
+      "title": "prayer times in Uddevalla",
+      "status": "publish",
+      "slug": "prayer-times-in-uddevalla",
+      "type": "city"
+    },
+    {
+      "id": 687,
+      "date": "2024-11-11 20:07:11",
+      "title": "prayer times in Varberg",
+      "status": "publish",
+      "slug": "prayer-times-in-varberg",
+      "type": "city"
+    },
+    {
+      "id": 688,
+      "date": "2024-11-12 15:19:46",
+      "title": "prayer times in Landskrona",
+      "status": "publish",
+      "slug": "prayer-times-in-landskrona",
+      "type": "city"
+    },
+    {
+      "id": 689,
+      "date": "2024-11-12 15:22:01",
+      "title": "prayer times in Trelleborg",
+      "status": "publish",
+      "slug": "prayer-times-in-trelleborg",
+      "type": "city"
+    },
+    {
+      "id": 690,
+      "date": "2024-11-12 15:24:43",
+      "title": "prayer times in Motala",
+      "status": "publish",
+      "slug": "prayer-times-in-motala",
+      "type": "city"
+    },
+    {
+      "id": 691,
+      "date": "2024-11-12 15:27:29",
+      "title": "prayer times in Karlskoga",
+      "status": "publish",
+      "slug": "prayer-times-in-karlskoga",
+      "type": "city"
+    },
+    {
+      "id": 692,
+      "date": "2024-11-12 15:30:04",
+      "title": "prayer times in Lerum",
+      "status": "publish",
+      "slug": "prayer-times-in-lerum",
+      "type": "city"
+    },
+    {
+      "id": 693,
+      "date": "2024-11-12 15:33:53",
+      "title": "prayer times in Sandviken",
+      "status": "publish",
+      "slug": "prayer-times-in-sandviken",
+      "type": "city"
+    },
+    {
+      "id": 694,
+      "date": "2024-11-12 15:35:38",
+      "title": "prayer times in Nacka",
+      "status": "publish",
+      "slug": "prayer-times-in-nacka",
+      "type": "city"
+    },
+    {
+      "id": 695,
+      "date": "2024-11-12 15:48:48",
+      "title": "prayer times in Falkenberg",
+      "status": "publish",
+      "slug": "prayer-times-in-falkenberg",
+      "type": "city"
+    },
+    {
+      "id": 696,
+      "date": "2024-11-12 15:50:44",
+      "title": "prayer times in Boo",
+      "status": "publish",
+      "slug": "prayer-times-in-boo",
+      "type": "city"
+    },
+    {
+      "id": 697,
+      "date": "2024-11-12 15:52:29",
+      "title": "prayer times in Visby",
+      "status": "publish",
+      "slug": "prayer-times-in-visby",
+      "type": "city"
+    },
+    {
+      "id": 698,
+      "date": "2024-11-12 15:55:06",
+      "title": "prayer times in AEngelholm",
+      "status": "publish",
+      "slug": "prayer-times-in-aengelholm",
+      "type": "city"
+    },
+    {
+      "id": 699,
+      "date": "2024-11-12 15:57:13",
+      "title": "prayer times in Karlshamn",
+      "status": "publish",
+      "slug": "prayer-times-in-karlshamn",
+      "type": "city"
+    },
+    {
+      "id": 701,
+      "date": "2024-11-12 16:17:02",
+      "title": "prayer times in Berlin",
+      "status": "publish",
+      "slug": "prayer-times-in-berlin",
+      "type": "city"
+    },
+    {
+      "id": 702,
+      "date": "2024-11-12 16:21:29",
+      "title": "prayer times in Hamburg",
+      "status": "publish",
+      "slug": "prayer-times-in-hamburg",
+      "type": "city"
+    },
+    {
+      "id": 703,
+      "date": "2024-11-12 16:25:32",
+      "title": "prayer times in Koeln",
+      "status": "publish",
+      "slug": "prayer-times-in-koeln",
+      "type": "city"
+    },
+    {
+      "id": 704,
+      "date": "2024-11-12 16:30:16",
+      "title": "prayer times in Duesseldorf",
+      "status": "publish",
+      "slug": "prayer-times-in-duesseldorf",
+      "type": "city"
+    },
+    {
+      "id": 705,
+      "date": "2024-11-12 16:34:17",
+      "title": "prayer times in Hannover",
+      "status": "publish",
+      "slug": "prayer-times-in-hannover",
+      "type": "city"
+    },
+    {
+      "id": 706,
+      "date": "2024-11-13 16:29:05",
+      "title": "prayer times in Leipzig",
+      "status": "publish",
+      "slug": "prayer-times-in-leipzig",
+      "type": "city"
+    },
+    {
+      "id": 707,
+      "date": "2024-11-13 16:32:51",
+      "title": "prayer times in Duisburg",
+      "status": "publish",
+      "slug": "prayer-times-in-duisburg",
+      "type": "city"
+    },
+    {
+      "id": 708,
+      "date": "2024-11-13 16:35:40",
+      "title": "prayer times in Nuernberg",
+      "status": "publish",
+      "slug": "prayer-times-in-nuernberg",
+      "type": "city"
+    },
+    {
+      "id": 709,
+      "date": "2024-11-13 16:38:28",
+      "title": "prayer times in Dresden",
+      "status": "publish",
+      "slug": "prayer-times-in-dresden",
+      "type": "city"
+    },
+    {
+      "id": 710,
+      "date": "2024-11-13 16:40:51",
+      "title": "prayer times in Wandsbek",
+      "status": "publish",
+      "slug": "prayer-times-in-wandsbek",
+      "type": "city"
+    },
+    {
+      "id": 711,
+      "date": "2024-11-13 16:45:18",
+      "title": "prayer times in Bochum",
+      "status": "publish",
+      "slug": "prayer-times-in-bochum",
+      "type": "city"
+    },
+    {
+      "id": 712,
+      "date": "2024-11-13 16:53:47",
+      "title": "prayer times in Bochum-Hordel",
+      "status": "publish",
+      "slug": "prayer-times-in-bochum-hordel",
+      "type": "city"
+    },
+    {
+      "id": 713,
+      "date": "2024-11-13 16:59:22",
+      "title": "prayer times in Wuppertal",
+      "status": "publish",
+      "slug": "prayer-times-in-wuppertal",
+      "type": "city"
+    }
+  ],
+  "publishedCountries": [
+    {
+      "id": 19,
+      "date": "2022-12-25 01:33:19",
+      "title": "prayer times in saudi arabia",
+      "status": "publish",
+      "slug": "prayer-times-in-saudi-arabia",
+      "type": "country"
+    },
+    {
+      "id": 34,
+      "date": "2022-11-12 21:00:29",
+      "title": "prayer times in eqypt",
+      "status": "publish",
+      "slug": "prayer-times-in-eqypt",
+      "type": "country"
+    },
+    {
+      "id": 289,
+      "date": "2022-11-12 21:01:19",
+      "title": "prayer times in morocco",
+      "status": "publish",
+      "slug": "prayer-times-in-morocco",
+      "type": "country"
+    },
+    {
+      "id": 293,
+      "date": "2022-12-25 18:09:09",
+      "title": "prayer times in yemen",
+      "status": "publish",
+      "slug": "prayer-times-in-yemen",
+      "type": "country"
+    },
+    {
+      "id": 294,
+      "date": "2022-12-25 18:10:12",
+      "title": "prayer times in bahrain",
+      "status": "publish",
+      "slug": "prayer-times-in-bahrain",
+      "type": "country"
+    },
+    {
+      "id": 295,
+      "date": "2022-12-25 18:13:14",
+      "title": "prayer times in united_arab_emirates",
+      "status": "publish",
+      "slug": "prayer-times-in-united_arab_emirates",
+      "type": "country"
+    },
+    {
+      "id": 296,
+      "date": "2022-12-25 18:14:14",
+      "title": "prayer times in qatar",
+      "status": "publish",
+      "slug": "prayer-times-in-qatar",
+      "type": "country"
+    },
+    {
+      "id": 297,
+      "date": "2022-12-25 18:16:02",
+      "title": "prayer times in kuwait",
+      "status": "publish",
+      "slug": "prayer-times-in-kuwait",
+      "type": "country"
+    },
+    {
+      "id": 298,
+      "date": "2022-12-25 18:16:59",
+      "title": "prayer times in oman",
+      "status": "publish",
+      "slug": "prayer-times-in-oman",
+      "type": "country"
+    },
+    {
+      "id": 299,
+      "date": "2022-12-25 18:17:47",
+      "title": "prayer times in syria",
+      "status": "publish",
+      "slug": "prayer-times-in-syria",
+      "type": "country"
+    },
+    {
+      "id": 300,
+      "date": "2022-12-25 18:18:46",
+      "title": "prayer times in libya",
+      "status": "publish",
+      "slug": "prayer-times-in-libya",
+      "type": "country"
+    },
+    {
+      "id": 301,
+      "date": "2022-12-25 18:20:11",
+      "title": "prayer times in palestine",
+      "status": "publish",
+      "slug": "prayer-times-in-palestine",
+      "type": "country"
+    },
+    {
+      "id": 302,
+      "date": "2022-12-25 18:21:07",
+      "title": "prayer times in sudan",
+      "status": "publish",
+      "slug": "prayer-times-in-sudan",
+      "type": "country"
+    },
+    {
+      "id": 303,
+      "date": "2022-12-25 18:22:07",
+      "title": "prayer times in lebanon",
+      "status": "publish",
+      "slug": "prayer-times-in-lebanon",
+      "type": "country"
+    },
+    {
+      "id": 304,
+      "date": "2022-12-25 18:22:49",
+      "title": "prayer times in iraq",
+      "status": "publish",
+      "slug": "prayer-times-in-iraq",
+      "type": "country"
+    },
+    {
+      "id": 305,
+      "date": "2022-12-25 18:24:21",
+      "title": "prayer times in jordan",
+      "status": "publish",
+      "slug": "prayer-times-in-jordan",
+      "type": "country"
+    },
+    {
+      "id": 306,
+      "date": "2022-12-25 18:25:14",
+      "title": "prayer times in tunisia",
+      "status": "publish",
+      "slug": "prayer-times-in-tunisia",
+      "type": "country"
+    },
+    {
+      "id": 307,
+      "date": "2022-12-25 18:26:55",
+      "title": "prayer times in algeria",
+      "status": "publish",
+      "slug": "prayer-times-in-algeria",
+      "type": "country"
+    },
+    {
+      "id": 308,
+      "date": "2022-12-25 18:27:43",
+      "title": "prayer times in usa",
+      "status": "publish",
+      "slug": "prayer-times-in-usa",
+      "type": "country"
+    },
+    {
+      "id": 309,
+      "date": "2022-12-25 18:29:32",
+      "title": "prayer times in uk",
+      "status": "publish",
+      "slug": "prayer-times-in-britain",
+      "type": "country"
+    },
+    {
+      "id": 310,
+      "date": "2022-12-25 18:30:35",
+      "title": "prayer times in italy",
+      "status": "publish",
+      "slug": "prayer-times-in-italy",
+      "type": "country"
+    },
+    {
+      "id": 311,
+      "date": "2022-12-25 18:31:15",
+      "title": "prayer times in france",
+      "status": "publish",
+      "slug": "prayer-times-in-france",
+      "type": "country"
+    },
+    {
+      "id": 312,
+      "date": "2022-12-25 18:34:12",
+      "title": "prayer times in spain",
+      "status": "publish",
+      "slug": "prayer-times-in-spain",
+      "type": "country"
+    },
+    {
+      "id": 313,
+      "date": "2022-12-25 18:35:17",
+      "title": "rayer times in india",
+      "status": "publish",
+      "slug": "rayer-times-in-india",
+      "type": "country"
+    },
+    {
+      "id": 314,
+      "date": "2022-12-25 18:36:15",
+      "title": "prayer times in turkey",
+      "status": "publish",
+      "slug": "prayer-times-in-turkey",
+      "type": "country"
+    },
+    {
+      "id": 315,
+      "date": "2022-12-25 18:37:44",
+      "title": "prayer times in russia",
+      "status": "publish",
+      "slug": "prayer-times-in-russia",
+      "type": "country"
+    },
+    {
+      "id": 316,
+      "date": "2022-12-25 18:38:21",
+      "title": "prayer times in canada",
+      "status": "publish",
+      "slug": "prayer-times-in-canada",
+      "type": "country"
+    },
+    {
+      "id": 317,
+      "date": "2022-12-25 18:39:31",
+      "title": "prayer times in germany",
+      "status": "publish",
+      "slug": "prayer-times-in-germany",
+      "type": "country"
+    },
+    {
+      "id": 318,
+      "date": "2022-12-25 18:40:44",
+      "title": "prayer times in malaysia",
+      "status": "publish",
+      "slug": "prayer-times-in-malaysia",
+      "type": "country"
+    },
+    {
+      "id": 319,
+      "date": "2022-12-25 18:41:45",
+      "title": "prayer times in norway",
+      "status": "publish",
+      "slug": "prayer-times-in-norway",
+      "type": "country"
+    },
+    {
+      "id": 320,
+      "date": "2022-12-25 18:42:52",
+      "title": "prayer times in sweden",
+      "status": "publish",
+      "slug": "prayer-times-in-sweden",
+      "type": "country"
+    },
+    {
+      "id": 321,
+      "date": "2022-12-25 18:43:47",
+      "title": "prayer times in philippines",
+      "status": "publish",
+      "slug": "prayer-times-in-philippines",
+      "type": "country"
+    },
+    {
+      "id": 322,
+      "date": "2022-12-25 18:44:37",
+      "title": "prayer times in china",
+      "status": "publish",
+      "slug": "prayer-times-in-china",
+      "type": "country"
+    },
+    {
+      "id": 323,
+      "date": "2022-12-25 18:49:48",
+      "title": "prayer times in georgia",
+      "status": "publish",
+      "slug": "prayer-times-in-georgia",
+      "type": "country"
+    },
+    {
+      "id": 324,
+      "date": "2022-12-25 18:52:13",
+      "title": "prayer times in netherlands",
+      "status": "publish",
+      "slug": "prayer-times-in-holland",
+      "type": "country"
+    },
+    {
+      "id": 325,
+      "date": "2022-12-25 18:53:54",
+      "title": "prayer times in ukraine",
+      "status": "publish",
+      "slug": "prayer-times-in-ukraine",
+      "type": "country"
+    },
+    {
+      "id": 650,
+      "date": "2024-11-08 21:16:03",
+      "title": "prayer times in Uzbekistan",
+      "status": "publish",
+      "slug": "prayer-times-in-uzbekistan",
+      "type": "country"
+    },
+    {
+      "id": 654,
+      "date": "2024-11-08 21:44:41",
+      "title": "prayer times in indonesia",
+      "status": "publish",
+      "slug": "prayer-times-in-indonesia",
+      "type": "country"
+    }
+  ],
+  "publishedPages": [
+    {
+      "id": 2,
+      "date": "2022-11-11 19:35:19",
+      "title": "Sample Page",
+      "status": "publish",
+      "slug": "sample-page",
+      "type": "page"
+    },
+    {
+      "id": 21,
+      "date": "2022-11-12 20:34:29",
+      "title": "embd",
+      "status": "publish",
+      "slug": "embd",
+      "type": "page"
+    },
+    {
+      "id": 24,
+      "date": "2022-11-12 20:35:42",
+      "title": "المطورون",
+      "status": "publish",
+      "slug": "developers",
+      "type": "page"
+    },
+    {
+      "id": 26,
+      "date": "2022-11-12 20:36:23",
+      "title": "امساكية رمضان",
+      "status": "publish",
+      "slug": "imsakia-ramadan",
+      "type": "page"
+    },
+    {
+      "id": 606,
+      "date": "2023-01-09 22:05:47",
+      "title": "سياسة الخصوصية",
+      "status": "publish",
+      "slug": "%d8%b3%d9%8a%d8%a7%d8%b3%d8%a9-%d8%a7%d9%84%d8%ae%d8%b5%d9%88%d8%b5%d9%8a%d8%a9",
+      "type": "page"
+    }
+  ]
+}

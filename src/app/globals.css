@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* ─── Arabic Font ─────────────────────────────────────────────── */
+:root {
+  --font-arabic: var(--font-tajawal, 'Tajawal', 'IBM Plex Sans Arabic', 'Cairo', Arial, sans-serif);
+}
+
+/* ─── Base Reset / RTL Defaults ───────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-arabic);
+  line-height: 1.8; /* Arabic text benefits from taller line-height */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Typography ─────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-arabic);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Tabular numerals for prayer-time digits */
+.font-mono,
+time,
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* ─── Focus Visible ──────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid #0d9488; /* teal-600 */
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #0d9488;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f766e;
+}
+
+/* ─── Ad Containers ──────────────────────────────────────────── */
+.ad-container {
+  min-height: 50px; /* reserve space to prevent layout shift */
+  overflow: hidden;
+}
+
+/* ─── Utility: Direction-aware spacing ───────────────────────── */
+/* Use logical properties for RTL/LTR compatibility */
+.ps-4 { padding-inline-start: 1rem; }
+.pe-4 { padding-inline-end: 1rem; }
+.ms-4 { margin-inline-start: 1rem; }
+.me-4 { margin-inline-end: 1rem; }
+
+/* ─── Prayer time row animations ─────────────────────────────── */
+@keyframes pulse-ring {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.animate-pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite;
+}

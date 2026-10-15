@@ -1,0 +1,28 @@
+{
+  "totalCountries": 38,
+  "totalCities": 328,
+  "verifiedExact": 178,
+  "verifiedRegional": 150,
+  "unresolvedCount": 0,
+  "missingCoordinatesCount": 0,
+  "missingTimezonesCount": 0,
+  "provenanceStats": {
+    "GeoNames (city-timezones)": 178,
+    "OpenStreetMap Nominatim": 150,
+    "Unresolved": 0
+  },
+  "resolvedLegacyOrphans": [
+    {
+      "id": 682,
+      "slug": "prayer-times-in-kalmar",
+      "country": "SE",
+      "note": "Resolved to Sweden"
+    },
+    {
+      "id": 686,
+      "slug": "prayer-times-in-uddevalla",
+      "country": "SE",
+      "note": "Resolved to Sweden"
+    }
+  ]
+}

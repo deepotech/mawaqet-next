@@ -1,0 +1,275 @@
+﻿{
+    "generatedAt":  "2026-10-15T18:52:14.9220504+00:00",
+    "auditedWorkspace":  "c:\\Users\\HP\\Desktop\\mawaqetsalat",
+    "totalCities":  328,
+    "totalCountries":  38,
+    "verifiedExact":  178,
+    "verifiedRegional":  150,
+    "unresolvedCount":  0,
+    "duplicateCitySlugs":  0,
+    "duplicateCityUrlPaths":  0,
+    "duplicateLegacyPostIds":  0,
+    "invalidCoordinates":  0,
+    "missingTimezones":  0,
+    "missingCoordinates":  0,
+    "independentlyVerifiedCities":  42,
+    "countryDefaultingToGulfMethod8":  33,
+    "enrichmentSourceDistribution":  [
+                                         {
+                                             "source":  "GeoNames (city-timezones)",
+                                             "count":  177
+                                         },
+                                         {
+                                             "source":  "OpenStreetMap Nominatim",
+                                             "count":  150
+                                         },
+                                         {
+                                             "source":  "GeoNames (city-timezones - Norrkأ¶ping)",
+                                             "count":  1
+                                         }
+                                     ],
+    "calculationMethodDistribution":  [
+                                          {
+                                              "methodId":  8,
+                                              "count":  216
+                                          },
+                                          {
+                                              "methodId":  4,
+                                              "count":  42
+                                          },
+                                          {
+                                              "methodId":  15,
+                                              "count":  30
+                                          },
+                                          {
+                                              "methodId":  3,
+                                              "count":  26
+                                          },
+                                          {
+                                              "methodId":  9,
+                                              "count":  8
+                                          },
+                                          {
+                                              "methodId":  10,
+                                              "count":  6
+                                          }
+                                      ],
+    "cityCountByCountry":  [
+                               {
+                                   "countryCode":  "SE",
+                                   "count":  43
+                               },
+                               {
+                                   "countryCode":  "SA",
+                                   "count":  42
+                               },
+                               {
+                                   "countryCode":  "MA",
+                                   "count":  30
+                               },
+                               {
+                                   "countryCode":  "EG",
+                                   "count":  26
+                               },
+                               {
+                                   "countryCode":  "DE",
+                                   "count":  23
+                               },
+                               {
+                                   "countryCode":  "OM",
+                                   "count":  13
+                               },
+                               {
+                                   "countryCode":  "TR",
+                                   "count":  10
+                               },
+                               {
+                                   "countryCode":  "US",
+                                   "count":  9
+                               },
+                               {
+                                   "countryCode":  "KW",
+                                   "count":  8
+                               },
+                               {
+                                   "countryCode":  "AE",
+                                   "count":  7
+                               },
+                               {
+                                   "countryCode":  "IQ",
+                                   "count":  7
+                               },
+                               {
+                                   "countryCode":  "DZ",
+                                   "count":  7
+                               },
+                               {
+                                   "countryCode":  "GB",
+                                   "count":  7
+                               },
+                               {
+                                   "countryCode":  "YE",
+                                   "count":  7
+                               },
+                               {
+                                   "countryCode":  "CA",
+                                   "count":  7
+                               },
+                               {
+                                   "countryCode":  "QA",
+                                   "count":  6
+                               },
+                               {
+                                   "countryCode":  "CN",
+                                   "count":  6
+                               },
+                               {
+                                   "countryCode":  "SY",
+                                   "count":  6
+                               },
+                               {
+                                   "countryCode":  "LY",
+                                   "count":  6
+                               },
+                               {
+                                   "countryCode":  "PS",
+                                   "count":  6
+                               },
+                               {
+                                   "countryCode":  "IN",
+                                   "count":  6
+                               },
+                               {
+                                   "countryCode":  "SD",
+                                   "count":  5
+                               },
+                               {
+                                   "countryCode":  "UA",
+                                   "count":  4
+                               },
+                               {
+                                   "countryCode":  "ES",
+                                   "count":  4
+                               },
+                               {
+                                   "countryCode":  "MY",
+                                   "count":  4
+                               },
+                               {
+                                   "countryCode":  "NL",
+                                   "count":  4
+                               },
+                               {
+                                   "countryCode":  "TN",
+                                   "count":  4
+                               },
+                               {
+                                   "countryCode":  "FR",
+                                   "count":  3
+                               },
+                               {
+                                   "countryCode":  "JO",
+                                   "count":  3
+                               },
+                               {
+                                   "countryCode":  "ID",
+                                   "count":  2
+                               },
+                               {
+                                   "countryCode":  "RU",
+                                   "count":  2
+                               },
+                               {
+                                   "countryCode":  "NO",
+                                   "count":  2
+                               },
+                               {
+                                   "countryCode":  "GE",
+                                   "count":  2
+                               },
+                               {
+                                   "countryCode":  "LB",
+                                   "count":  2
+                               },
+                               {
+                                   "countryCode":  "IT",
+                                   "count":  2
+                               },
+                               {
+                                   "countryCode":  "PH",
+                                   "count":  1
+                               },
+                               {
+                                   "countryCode":  "UZ",
+                                   "count":  1
+                               },
+                               {
+                                   "countryCode":  "BH",
+                                   "count":  1
+                               }
+                           ],
+    "countryTotalCitiesMismatches":  [
+                                         {
+                                             "countryId":  5,
+                                             "nameEn":  "bahrain",
+                                             "code":  "BH",
+                                             "declared":  1,
+                                             "actual":  null
+                                         },
+                                         {
+                                             "countryId":  31,
+                                             "nameEn":  "sweden",
+                                             "code":  "SE",
+                                             "declared":  41,
+                                             "actual":  43
+                                         },
+                                         {
+                                             "countryId":  32,
+                                             "nameEn":  "philippines",
+                                             "code":  "PH",
+                                             "declared":  1,
+                                             "actual":  null
+                                         },
+                                         {
+                                             "countryId":  37,
+                                             "nameEn":  "Uzbekistan",
+                                             "code":  "UZ",
+                                             "declared":  1,
+                                             "actual":  null
+                                         }
+                                     ],
+    "countrySlugAnomalies":  [
+                                 {
+                                     "id":  24,
+                                     "slug":  "rayer-times-in-india",
+                                     "issue":  "Missing leading p — should be prayer-times-in-india; do not rename (GSC indexed)"
+                                 },
+                                 {
+                                     "id":  6,
+                                     "slug":  "prayer-times-in-united_arab_emirates",
+                                     "issue":  "Underscore instead of hyphen — legacy canonical"
+                                 },
+                                 {
+                                     "id":  2,
+                                     "slug":  "prayer-times-in-eqypt",
+                                     "issue":  "Egypt typo is deliberate legacy canonical; middleware redirects correct spelling here"
+                                 }
+                             ],
+    "encodingAnomalies":  [
+                              {
+                                  "slug":  "prayer-times-in-norrkoping",
+                                  "field":  "enrichmentSource",
+                                  "issue":  "Non-ASCII UTF-8 bytes in enrichmentSource string; coordinates correct"
+                              }
+                          ],
+    "methodGaps":  [
+                       {
+                           "method":  "FRANCE",
+                           "issue":  "Declared in CalculationMethodIdSchema but missing from METHOD_ID_MAP and resolveCalculationParameters — silently falls to MWL"
+                       },
+                       {
+                           "method":  "TURKEY",
+                           "issue":  "countries.json id=25 has defaultMethodId=8 (Gulf) but Turkey uses Diyanet (13); individual city records may override"
+                       }
+                   ]
+}

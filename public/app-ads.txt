@@ -1,0 +1,3 @@
+// app-ads.txt — In-app AdSense publisher verification
+// Source: verified from legacy WordPress database (SERVMASK_PREFIX_posts, post_type='app-adstxt')
+google.com, pub-6331163447795368, DIRECT, f08c47fec0942fa0

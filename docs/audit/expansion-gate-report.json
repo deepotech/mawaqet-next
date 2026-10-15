@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-10-15T19:09:15.619Z",
+  "status": "PASSED",
+  "summary": {
+    "totalChecks": 15,
+    "passedChecks": 15,
+    "failedChecks": 0,
+    "warningsCount": 0
+  },
+  "checks": [
+    {
+      "name": "Data files parsed cleanly as valid JSON",
+      "status": "PASSED",
+      "details": {
+        "cities": 328,
+        "countries": 38,
+        "legacyUrls": 372
+      }
+    },
+    {
+      "name": "City IDs are strictly unique positive integers",
+      "status": "PASSED",
+      "details": {
+        "duplicates": []
+      }
+    },
+    {
+      "name": "City slugs are unique and follow prayer-times-in-* format",
+      "status": "PASSED",
+      "details": {
+        "duplicateSlugs": [],
+        "malformedSlugs": []
+      }
+    },
+    {
+      "name": "City urlPath is unique and adheres to /city/[slug]/ with trailing slash",
+      "status": "PASSED",
+      "details": {
+        "duplicates": []
+      }
+    },
+    {
+      "name": "Country IDs and slugs are unique",
+      "status": "PASSED",
+      "details": {
+        "duplicateIds": [],
+        "duplicateSlugs": []
+      }
+    },
+    {
+      "name": "All cities possess valid WGS-84 coordinates within terrestrial bounds",
+      "status": "PASSED",
+      "details": {
+        "invalidCoords": []
+      }
+    },
+    {
+      "name": "All city timezones are valid IANA identifiers recognised by the JavaScript runtime",
+      "status": "PASSED",
+      "details": {
+        "invalidTimezones": []
+      }
+    },
+    {
+      "name": "All cities map to recognized CalculationMethod IDs without unmapped fallbacks",
+      "status": "PASSED",
+      "details": {
+        "invalidMethods": []
+      }
+    },
+    {
+      "name": "Astronomical calculation produces valid non-NaN timestamps for 100% of cities",
+      "status": "PASSED",
+      "details": {
+        "calculationFailures": []
+      }
+    },
+    {
+      "name": "Foreign key integrity: Every city references an existing country ID",
+      "status": "PASSED",
+      "details": {
+        "unreferencedCountryIds": []
+      }
+    },
+    {
+      "name": "Country code consistency: city.countryCode strictly matches parent country code",
+      "status": "PASSED",
+      "details": {
+        "countryCodeMismatches": []
+      }
+    },
+    {
+      "name": "Country declared totalCities synchronizes with actual city counts",
+      "status": "PASSED",
+      "details": {
+        "countryTotalMismatches": []
+      }
+    },
+    {
+      "name": "100% of legacy city and country URLs from GSC migration manifest exist in dataset",
+      "status": "PASSED",
+      "details": {
+        "missingCount": 0,
+        "missingUrls": []
+      }
+    },
+    {
+      "name": "Sitemap contains zero duplicate URLs",
+      "status": "PASSED",
+      "details": {
+        "duplicateSitemapUrls": []
+      }
+    },
+    {
+      "name": "Sitemap URL count exactly matches expected sum (370 URLs)",
+      "status": "PASSED",
+      "details": {
+        "sitemapUrlCount": 370,
+        "expectedTotal": 370
+      }
+    }
+  ],
+  "details": {
+    "cityCount": 328,
+    "countryCount": 38,
+    "legacyUrlCount": 372
+  }
+}
