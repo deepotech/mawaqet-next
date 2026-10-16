@@ -93,10 +93,14 @@ export default function NextPrayerCountdown({ nextPrayer, nextPrayerTime }: Next
     );
   }
 
-  // --- Countdown complete ---
+  // --- Countdown complete (target time has passed) ---
+  // The service always supplies a *future* target (tomorrow's Fajr after Isha),
+  // so this branch only fires briefly while the parent re-renders with a fresh
+  // target. Show a short "time arrived" banner rather than freezing permanently.
   if (timeLeft.totalSeconds === 0) {
     return (
       <div className="bg-gradient-to-br from-teal-500 to-teal-700 text-white rounded-2xl p-6 text-center shadow-lg">
+        <p className="text-teal-200 text-sm font-medium mb-1">الصلاة القادمة</p>
         <p className="text-lg font-bold">حان وقت {arabicLabel} 🕌</p>
       </div>
     );

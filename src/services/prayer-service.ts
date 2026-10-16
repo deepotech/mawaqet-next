@@ -62,6 +62,12 @@ export interface CalculateDailyParams {
   timezone: string;
   date: Date;
   config: PrayerCalculationConfig;
+  /**
+   * Optional: the "current time" used to compute which prayer is active and
+   * what the countdown targets. Defaults to `new Date()` when omitted.
+   * Inject an explicit value in tests to make the behaviour deterministic.
+   */
+  now?: Date;
 }
 
 export interface CalculateMonthlyParams {
@@ -246,7 +252,7 @@ export class PrayerTimeService {
    * Calculate prayer schedule for a single calendar date
    */
   public calculateDailySchedule(params: CalculateDailyParams): DailyPrayerSchedule {
-    const { coordinates, timezone, date, config } = params;
+    const { coordinates, timezone, date, config, now: injectedNow } = params;
 
     // Validate inputs
     if (
@@ -321,24 +327,110 @@ export class PrayerTimeService {
     const hijri = this.getHijriDate(calculationDate, timezone);
 
     // Compute Next Prayer
-    const now = new Date();
-    const currentPrayerName = prayerTimes.currentPrayer() as PrayerName | 'none';
-    const nextPrayerName = prayerTimes.nextPrayer() as PrayerName | 'none';
+    // ─────────────────────────────────────────────────────────────────────────
+    // We pass `now` explicitly to adhan so both currentPrayer() and
+    // nextPrayer() evaluate against the same instant, avoiding race conditions
+    // from two separate Date.now() calls.
+    //
+    // "sunrise" is not a fard (obligatory) prayer. We skip it when determining
+    // the canonical current / next state so that the UI never marks Sunrise as
+    // the active prayer and never shows a countdown to it as the "next prayer".
+    //
+    // After Isha there is no next prayer in the same calendar day (adhan returns
+    // 'none'). In that case we fall back to tomorrow's Fajr so the countdown
+    // always has a meaningful target and the UI correctly shows Isha as current.
+    // ─────────────────────────────────────────────────────────────────────────
+    const now = injectedNow ?? new Date();
+
+    // adhan accepts an explicit date argument for both helpers
+    const rawCurrent = prayerTimes.currentPrayer(now) as PrayerName | 'none';
+    const rawNext    = prayerTimes.nextPrayer(now)    as PrayerName | 'none';
+
+    // Resolve the effective current fard prayer (skip sunrise)
+    // When adhan returns 'sunrise' as the current prayer (meaning Fajr has
+    // passed and sunrise is technically "active" per adhan's window model),
+    // we scan backward through today's fard prayers to find the last one
+    // whose time has already started. This ensures the UI shows the correct
+    // last-entered fard prayer (e.g. Fajr) rather than null.
+    const FARD_PRAYERS: PrayerName[] = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
+    let currentPrayerName: PrayerName | null = null;
+
+    if (rawCurrent && rawCurrent !== 'none' && FARD_PRAYERS.includes(rawCurrent as PrayerName)) {
+      // adhan gave us a fard prayer directly — use it
+      currentPrayerName = rawCurrent as PrayerName;
+    } else {
+      // adhan returned 'sunrise' or 'none' → find the last fard prayer that has started
+      const reversedFard: PrayerName[] = ['isha', 'maghrib', 'asr', 'dhuhr', 'fajr'];
+      for (const p of reversedFard) {
+        const d = prayerTimes.timeForPrayer(p);
+        if (d && d.getTime() <= now.getTime()) {
+          currentPrayerName = p;
+          break;
+        }
+      }
+    }
+
+    // Resolve the next fard prayer, skipping sunrise
+    // ─────────────────────────────────────────────────────────────────────────
+    // Strategy:
+    //  1. If adhan gives a non-sunrise fard next prayer → use it directly.
+    //  2. If adhan returns 'sunrise' or 'none', scan today's remaining fard
+    //     prayers in chronological order and pick the first that is still
+    //     in the future relative to `now`.
+    //  3. If no today's fard prayer remains → fall back to tomorrow's Fajr.
+    // ─────────────────────────────────────────────────────────────────────────
+    let resolvedNextPrayerName: PrayerName | null = null;
+    let resolvedNextPrayerDate: Date | null = null;
+
+    if (rawNext && rawNext !== 'none' && rawNext !== 'sunrise') {
+      // Normal case: adhan already gave us a future fard prayer for today
+      const d = prayerTimes.timeForPrayer(rawNext as PrayerName);
+      if (d && d.getTime() > now.getTime()) {
+        resolvedNextPrayerName = rawNext as PrayerName;
+        resolvedNextPrayerDate = d;
+      }
+    }
+
+    if (!resolvedNextPrayerDate) {
+      // Scan today's fard prayers in order to find the next future one.
+      // This handles the "after Fajr / next is sunrise" case and the
+      // "after Isha / next is none" case uniformly.
+      const todayFardInOrder: PrayerName[] = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
+      for (const p of todayFardInOrder) {
+        const d = prayerTimes.timeForPrayer(p);
+        if (d && d.getTime() > now.getTime()) {
+          resolvedNextPrayerName = p;
+          resolvedNextPrayerDate = d;
+          break;
+        }
+      }
+    }
+
+    if (!resolvedNextPrayerDate) {
+      // All of today's prayers have passed → use tomorrow's Fajr
+      const tomorrowDate = new Date(Date.UTC(gYear, gMonth - 1, gDay + 1, 12, 0, 0));
+      const tomorrowPT = new PrayerTimes(adhanCoords, tomorrowDate, calculationParams);
+      if (tomorrowPT.fajr && !isNaN(tomorrowPT.fajr.getTime())) {
+        resolvedNextPrayerName = 'fajr';
+        resolvedNextPrayerDate = tomorrowPT.fajr;
+      }
+    }
+
 
     let nextPrayerInfo: NextPrayerInfo | undefined;
-    if (nextPrayerName && nextPrayerName !== 'none') {
-      const nextPrayerDate = prayerTimes.timeForPrayer(nextPrayerName);
-      if (nextPrayerDate) {
-        const remainingSec = Math.max(0, Math.floor((nextPrayerDate.getTime() - now.getTime()) / 1000));
-        nextPrayerInfo = {
-          current: currentPrayerName && currentPrayerName !== 'none' ? currentPrayerName : null,
-          next: nextPrayerName,
-          nextPrayerNameAr: PRAYER_NAMES_AR[nextPrayerName] || nextPrayerName,
-          timeFormatted: this.formatTimeInTimezone(nextPrayerDate, displayTimezone),
-          targetTimestampMs: nextPrayerDate.getTime(),
-          secondsRemaining: remainingSec,
-        };
-      }
+    if (resolvedNextPrayerName && resolvedNextPrayerDate) {
+      const remainingSec = Math.max(
+        0,
+        Math.floor((resolvedNextPrayerDate.getTime() - now.getTime()) / 1000),
+      );
+      nextPrayerInfo = {
+        current: currentPrayerName,
+        next: resolvedNextPrayerName,
+        nextPrayerNameAr: PRAYER_NAMES_AR[resolvedNextPrayerName] || resolvedNextPrayerName,
+        timeFormatted: this.formatTimeInTimezone(resolvedNextPrayerDate, displayTimezone),
+        targetTimestampMs: resolvedNextPrayerDate.getTime(),
+        secondsRemaining: remainingSec,
+      };
     }
 
     const meta = {
