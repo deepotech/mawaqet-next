@@ -117,4 +117,45 @@ describe('Prayer Calculation Comparison Fixtures & Regional Parity', () => {
     expect(legacySchedule.timings.fajr).toBeDefined();
     expect(mwlSchedule.timings.fajr).toBeDefined();
   });
+
+  it('documents Moroccan Habous reference parity across Marrakesh, Casablanca, and Rabat', () => {
+    const oct16 = new Date('2026-10-16T12:00:00Z');
+
+    // 1. Marrakesh
+    const marrakesh = prayerTimeService.calculateDailySchedule({
+      coordinates: { latitude: 31.6299931, longitude: -7.999987428 },
+      timezone: 'Africa/Casablanca',
+      date: oct16,
+      config: { method: 'MOROCCO' },
+    });
+    // Official Habous published: Fajr 05:10, Dhuhr 12:23 (with +5m zawal), Isha 19:15
+    // Astronomical adhan UTC: Fajr 05:10 (0 min diff), Dhuhr 12:18, Isha 19:15 (0 min diff)
+    expect(marrakesh.timings.fajr).toBe('05:10');
+    expect(marrakesh.timings.dhuhr).toBe('12:18');
+    expect(marrakesh.timings.isha).toBe('19:15');
+
+    // 2. Casablanca
+    const casablanca = prayerTimeService.calculateDailySchedule({
+      coordinates: { latitude: 33.599976, longitude: -7.616367 },
+      timezone: 'Africa/Casablanca',
+      date: oct16,
+      config: { method: 'MOROCCO' },
+    });
+    // Astronomical adhan UTC: Fajr 05:08, Dhuhr 12:16, Isha 19:14
+    expect(casablanca.timings.fajr).toBe('05:08');
+    expect(casablanca.timings.dhuhr).toBe('12:16');
+    expect(casablanca.timings.isha).toBe('19:14');
+
+    // 3. Rabat
+    const rabat = prayerTimeService.calculateDailySchedule({
+      coordinates: { latitude: 34.020882, longitude: -6.841650 },
+      timezone: 'Africa/Casablanca',
+      date: oct16,
+      config: { method: 'MOROCCO' },
+    });
+    // Astronomical adhan UTC: Fajr 05:05, Dhuhr 12:13, Isha 19:11
+    expect(rabat.timings.fajr).toBe('05:05');
+    expect(rabat.timings.dhuhr).toBe('12:13');
+    expect(rabat.timings.isha).toBe('19:11');
+  });
 });

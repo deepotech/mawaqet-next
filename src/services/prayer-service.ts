@@ -215,6 +215,34 @@ export class PrayerTimeService {
   }
 
   /**
+   * Determine whether a given IANA timezone represents Morocco.
+   */
+  public isMoroccanTimezone(timezone: string): boolean {
+    return timezone === 'Africa/Casablanca' || timezone === 'Africa/El_Aaiun';
+  }
+
+  /**
+   * Resolve presentation timezone for prayer schedule.
+   *
+   * The Moroccan Ministry of Endowments and Islamic Affairs (Habous) calculates
+   * and publishes official prayer times strictly in Greenwich Mean Time (GMT / UTC+0),
+   * whereas civil administration uses GMT+1 (Africa/Casablanca) outside Ramadan.
+   * To prevent a 1-hour discrepancy and maintain 100% fidelity to official Moroccan tables,
+   * Moroccan prayer times are presented in GMT/UTC by default ('gmt' policy).
+   *
+   * For all other countries, presentation timezone remains their native IANA timezone.
+   */
+  public resolveDisplayTimezone(timezone: string, config?: PrayerCalculationConfig): string {
+    if (this.isMoroccanTimezone(timezone) || config?.method === 'MOROCCO') {
+      if (config?.moroccoTimePolicy === 'civil') {
+        return timezone;
+      }
+      return 'UTC';
+    }
+    return timezone;
+  }
+
+  /**
    * Calculate prayer schedule for a single calendar date
    */
   public calculateDailySchedule(params: CalculateDailyParams): DailyPrayerSchedule {
@@ -239,10 +267,24 @@ export class PrayerTimeService {
       throw new Error(`Invalid timezone string: ${timezone}`);
     }
 
+    const displayTimezone = this.resolveDisplayTimezone(timezone, config);
+
+    // Extract calendar date in the city's geographical timezone to prevent server/browser midnight drift
+    const dateParts = new Intl.DateTimeFormat('en-CA', {
+      timeZone: timezone,
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    }).format(date);
+    const [gYear, gMonth, gDay] = dateParts.split('-').map((v) => parseInt(v, 10));
+
+    // Construct local midday Date for adhan engine
+    const calculationDate = new Date(gYear, gMonth - 1, gDay, 12, 0, 0);
+
     const adhanCoords = new Coordinates(coordinates.latitude, coordinates.longitude);
     const calculationParams = this.resolveCalculationParameters(config);
 
-    const prayerTimes = new PrayerTimes(adhanCoords, date, calculationParams);
+    const prayerTimes = new PrayerTimes(adhanCoords, calculationDate, calculationParams);
 
     // Verify calculation output dates
     if (!prayerTimes.fajr || isNaN(prayerTimes.fajr.getTime())) {
@@ -250,32 +292,25 @@ export class PrayerTimeService {
     }
 
     const timings = {
-      fajr: this.formatTimeInTimezone(prayerTimes.fajr, timezone),
-      sunrise: this.formatTimeInTimezone(prayerTimes.sunrise, timezone),
-      dhuhr: this.formatTimeInTimezone(prayerTimes.dhuhr, timezone),
-      asr: this.formatTimeInTimezone(prayerTimes.asr, timezone),
-      maghrib: this.formatTimeInTimezone(prayerTimes.maghrib, timezone),
-      isha: this.formatTimeInTimezone(prayerTimes.isha, timezone),
+      fajr: this.formatTimeInTimezone(prayerTimes.fajr, displayTimezone),
+      sunrise: this.formatTimeInTimezone(prayerTimes.sunrise, displayTimezone),
+      dhuhr: this.formatTimeInTimezone(prayerTimes.dhuhr, displayTimezone),
+      asr: this.formatTimeInTimezone(prayerTimes.asr, displayTimezone),
+      maghrib: this.formatTimeInTimezone(prayerTimes.maghrib, displayTimezone),
+      isha: this.formatTimeInTimezone(prayerTimes.isha, displayTimezone),
     };
 
     // Gregorian details
-    const dayFormatter = new Intl.DateTimeFormat('en-GB', { timeZone: timezone, day: 'numeric' });
-    const monthFormatter = new Intl.DateTimeFormat('en-GB', { timeZone: timezone, month: 'numeric' });
-    const yearFormatter = new Intl.DateTimeFormat('en-GB', { timeZone: timezone, year: 'numeric' });
     const weekdayFormatter = new Intl.DateTimeFormat('ar-MA', { timeZone: timezone, weekday: 'long' });
     const enMonthFormatter = new Intl.DateTimeFormat('en-US', { timeZone: timezone, month: 'long' });
-
-    const gDay = parseInt(dayFormatter.format(date), 10);
-    const gMonth = parseInt(monthFormatter.format(date), 10);
-    const gYear = parseInt(yearFormatter.format(date), 10);
-    const weekdayAr = weekdayFormatter.format(date);
+    const weekdayAr = weekdayFormatter.format(calculationDate);
 
     const gregorian = {
       day: gDay,
       month: {
         number: gMonth,
         ar: ARABIC_GREGORIAN_MONTHS[gMonth] || `شهر ${gMonth}`,
-        en: enMonthFormatter.format(date),
+        en: enMonthFormatter.format(calculationDate),
       },
       year: gYear,
       weekdayAr,
@@ -283,7 +318,7 @@ export class PrayerTimeService {
       formattedAr: `${weekdayAr} ${gDay} ${ARABIC_GREGORIAN_MONTHS[gMonth]} ${gYear}`,
     };
 
-    const hijri = this.getHijriDate(date, timezone);
+    const hijri = this.getHijriDate(calculationDate, timezone);
 
     // Compute Next Prayer
     const now = new Date();
@@ -299,7 +334,7 @@ export class PrayerTimeService {
           current: currentPrayerName && currentPrayerName !== 'none' ? currentPrayerName : null,
           next: nextPrayerName,
           nextPrayerNameAr: PRAYER_NAMES_AR[nextPrayerName] || nextPrayerName,
-          timeFormatted: this.formatTimeInTimezone(nextPrayerDate, timezone),
+          timeFormatted: this.formatTimeInTimezone(nextPrayerDate, displayTimezone),
           targetTimestampMs: nextPrayerDate.getTime(),
           secondsRemaining: remainingSec,
         };
@@ -314,6 +349,7 @@ export class PrayerTimeService {
       ishaAngle: calculationParams.ishaAngle,
       ishaIntervalMinutes: calculationParams.ishaInterval,
       timezone,
+      displayTimezone,
       computedAt: new Date().toISOString(),
       isFallback: false,
     };

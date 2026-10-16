@@ -42,11 +42,15 @@ export const MinuteAdjustmentsSchema = z.object({
 });
 export type MinuteAdjustments = z.infer<typeof MinuteAdjustmentsSchema>;
 
+export const MoroccoTimePolicySchema = z.enum(['gmt', 'civil']);
+export type MoroccoTimePolicy = z.infer<typeof MoroccoTimePolicySchema>;
+
 export const PrayerCalculationConfigSchema = z.object({
   method: CalculationMethodIdSchema,
   madhhab: MadhhabSchema.optional().default('shafi'),
   highLatitudeRule: HighLatitudeRuleSchema.optional(),
   adjustments: MinuteAdjustmentsSchema.optional(),
+  moroccoTimePolicy: MoroccoTimePolicySchema.optional().default('gmt'),
 });
 export type PrayerCalculationConfig = z.input<typeof PrayerCalculationConfigSchema>;
 
@@ -104,6 +108,7 @@ export const PrayerProviderMetadataSchema = z.object({
   ishaAngle: z.number().optional(),
   ishaIntervalMinutes: z.number().optional(),
   timezone: z.string(),
+  displayTimezone: z.string().optional(),
   computedAt: z.string().datetime(),
   isFallback: z.boolean().default(false),
 });
