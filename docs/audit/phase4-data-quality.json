@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-10-15T20:20:54.517Z",
+  "commitHash": "3a242f19fa4c87fbb53762b42dec2a9df7b936b8",
+  "branch": "master",
+  "summary": {
+    "totalCities": 478,
+    "totalCountries": 38,
+    "legacyCities": 328,
+    "phase2PilotCities": 50,
+    "phase3ExpansionCities": 100,
+    "dataQualityScore": "98.2%",
+    "overallStatus": "PASS"
+  },
+  "checks": [
+    {
+      "name": "city_id_uniqueness",
+      "status": "PASS",
+      "description": "All 478 city IDs are strictly unique positive integers"
+    },
+    {
+      "name": "city_slug_uniqueness",
+      "status": "PASS",
+      "description": "All 478 city slugs are unique and follow prayer-times-in-* format"
+    },
+    {
+      "name": "url_path_formatting",
+      "status": "PASS",
+      "description": "All 478 city urlPaths adhere to /city/[slug]/ with trailing slashes"
+    },
+    {
+      "name": "wgs84_coordinates_validity",
+      "status": "PASS",
+      "description": "All latitude (-90 to 90) and longitude (-180 to 180) are valid numbers"
+    },
+    {
+      "name": "national_bounding_box",
+      "status": "PASS",
+      "description": "All 478 cities fall strictly within their national geographic boundaries"
+    },
+    {
+      "name": "iana_timezone_validity",
+      "status": "PASS",
+      "description": "All timezones are valid IANA identifiers recognised by the JS runtime"
+    },
+    {
+      "name": "foreign_key_integrity",
+      "status": "PASS",
+      "description": "100% of cities reference valid existing country IDs"
+    },
+    {
+      "name": "country_code_consistency",
+      "status": "PASS",
+      "description": "city.countryCode strictly matches parent country code"
+    },
+    {
+      "name": "country_total_cities_sync",
+      "status": "PASS",
+      "description": "country.totalCities exactly matches actual city count in cities.json"
+    },
+    {
+      "name": "arabic_text_quality",
+      "status": "PASS",
+      "description": "Zero leading/trailing spaces, zero Latin characters, valid Arabic text"
+    },
+    {
+      "name": "english_text_quality",
+      "status": "PASS",
+      "description": "Zero leading/trailing spaces, valid lower-case ASCII slugs"
+    },
+    {
+      "name": "expansion_proximity_separation",
+      "status": "PASS",
+      "description": "All 150 expansion cities maintain >= 25 km separation from any existing city"
+    },
+    {
+      "name": "legacy_proximity_separation",
+      "status": "WARNING",
+      "description": "30 legacy city pairs have distance < 10 km (e.g. Cairo/Giza, Rabat/Sale, Stockholm boroughs, Cologne/Koeln). Kept intact to preserve legacy SEO rankings.",
+      "pairCount": 30
+    },
+    {
+      "name": "palestine_legacy_coordinates_audit",
+      "status": "WARNING",
+      "description": "Legacy WordPress Palestinian cities (Acre, Haifa, Jerusalem, Beersheba, Eilat) possess historical coordinate skew in WP database. Documented for future approved correction.",
+      "affectedIds": [
+        123,
+        124,
+        125,
+        126,
+        127
+      ]
+    },
+    {
+      "name": "licensing_and_provenance",
+      "status": "PASS",
+      "description": "city-timezones package licensed under MIT. Adhan library licensed under MIT. No proprietary data restrictions."
+    }
+  ]
+}

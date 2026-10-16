@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-10-15T20:08:34.897Z",
+  "legacyUrlsAudit": {
+    "totalLegacyUrls": 372,
+    "preservedCount": 372,
+    "preservationRatio": "100.0%",
+    "criticalAnomaliesStatus": {
+      "indiaTypoSlug": true,
+      "uaeUnderscoreSlug": true,
+      "egyptTypoSlug": true,
+      "samplePageRedirect": true
+    }
+  },
+  "sitemapAndRouteReconciliation": {
+    "sitemapUrlBudget": {
+      "homePage": 1,
+      "countryPages": 38,
+      "cityPages": 478,
+      "staticContentPages": 3,
+      "totalSitemapUrls": 520
+    },
+    "buildRouteReconciliation": {
+      "totalNextJsBuildRoutes": 527,
+      "sitemappedRoutes": 520,
+      "nonSitemappedEndpoints": [
+        {
+          "path": "/_not-found",
+          "reason": "Next.js 404 handler"
+        },
+        {
+          "path": "/api/search",
+          "reason": "Internal search API endpoint"
+        },
+        {
+          "path": "/embd",
+          "reason": "Iframe embed widget with noindex"
+        },
+        {
+          "path": "/robots.txt",
+          "reason": "Robots specification endpoint"
+        },
+        {
+          "path": "/sitemap.xml",
+          "reason": "XML sitemap generator endpoint"
+        }
+      ],
+      "reconciled": true
+    }
+  },
+  "verdict": "SEO_INTEGRITY_VERIFIED"
+}

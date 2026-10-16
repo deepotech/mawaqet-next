@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-15T20:20:54.517Z",
+  "currentMetrics": {
+    "cityCount": 478,
+    "countryCount": 38,
+    "totalRoutes": 527,
+    "compileTimeMs": 4700,
+    "buildTimeSec": 12,
+    "citiesJsonSizeBytes": 276480,
+    "searchLatencyPer1000QueriesMs": 206,
+    "firstLoadJsSharedKb": 103
+  },
+  "projections": {
+    "target1000Cities": {
+      "totalRoutes": 1049,
+      "citiesJsonSizeBytes": 580000,
+      "estimatedBuildTimeSec": 25,
+      "searchLatencyPerQueryMs": 0.4,
+      "sitemapHandling": "Single sitemap.xml sufficient (1,042 URLs < 50,000 limit)",
+      "memoryOverheadMb": 350,
+      "readiness": "READY_NO_ARCHITECTURAL_CHANGE"
+    },
+    "target3000Cities": {
+      "totalRoutes": 3049,
+      "citiesJsonSizeBytes": 1740000,
+      "estimatedBuildTimeSec": 65,
+      "searchLatencyPerQueryMs": 1.2,
+      "sitemapHandling": "Single sitemap.xml sufficient (3,042 URLs < 50,000 limit)",
+      "memoryOverheadMb": 600,
+      "readiness": "READY_NO_ARCHITECTURAL_CHANGE"
+    },
+    "target5000Cities": {
+      "totalRoutes": 5049,
+      "citiesJsonSizeBytes": 2900000,
+      "estimatedBuildTimeSec": 110,
+      "searchLatencyPerQueryMs": 1.98,
+      "sitemapHandling": "Single sitemap.xml sufficient (5,042 URLs < 50,000 limit)",
+      "memoryOverheadMb": 950,
+      "readiness": "READY_WITH_RECOMMENDED_OPTIMIZATIONS"
+    }
+  },
+  "recommendations": [
+    {
+      "category": "Build Performance",
+      "recommendation": "Keep SSG generation for top 1,000 cities, evaluate ISR for low-traffic tier if build times exceed 3 minutes at 5,000 cities"
+    },
+    {
+      "category": "Search Optimization",
+      "recommendation": "Pre-compute normalized tokens for city search index in src/lib/data.ts to drop search latency from 1.98ms to <0.2ms at 5,000 cities"
+    },
+    {
+      "category": "Data Storage",
+      "recommendation": "Keep in-memory Map caches in data.ts. No database needed up to 5,000 cities"
+    },
+    {
+      "category": "Sitemap Architecture",
+      "recommendation": "Single sitemap remains well within Google limit (50,000 URLs / 50MB) up to 5,000 cities"
+    }
+  ]
+}

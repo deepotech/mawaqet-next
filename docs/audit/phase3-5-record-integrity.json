@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-10-15T20:07:30.670Z",
+  "auditScope": {
+    "totalCities": 478,
+    "totalCountries": 38
+  },
+  "uniquenessChecks": {
+    "duplicateIdsCount": 0,
+    "duplicateSlugsCount": 0,
+    "duplicatePathsCount": 0
+  },
+  "coordinateValidation": {
+    "invalidCoordinatesCount": 0,
+    "issues": []
+  },
+  "timezoneValidation": {
+    "invalidTimezonesCount": 0,
+    "issues": []
+  },
+  "referentialIntegrity": {
+    "foreignKeyErrorsCount": 0,
+    "countryCodeErrorsCount": 0,
+    "countryTotalCityMismatchesCount": 0,
+    "mismatches": []
+  },
+  "calculationMethodValidation": {
+    "invalidMethodsCount": 0,
+    "issues": []
+  },
+  "requiredFieldsValidation": {
+    "missingFieldsCount": 0,
+    "issues": []
+  },
+  "proximityAudit": {
+    "closeProximityCount": 30,
+    "warnings": [
+      {
+        "city1": "prayer-times-in-giza",
+        "city2": "prayer-times-in-cairo",
+        "distanceKm": "7.9"
+      },
+      {
+        "city1": "prayer-times-in-rabat",
+        "city2": "prayer-times-in-sale",
+        "distanceKm": "3.0"
+      },
+      {
+        "city1": "prayer-times-in-cologne",
+        "city2": "prayer-times-in-koeln",
+        "distanceKm": "1.2"
+      },
+      {
+        "city1": "prayer-times-in-aryanah",
+        "city2": "prayer-times-in-tunis-city",
+        "distanceKm": "6.3"
+      },
+      {
+        "city1": "prayer-times-in-khartoum",
+        "city2": "prayer-times-in-omdurman",
+        "distanceKm": "6.6"
+      },
+      {
+        "city1": "prayer-times-in-acre",
+        "city2": "prayer-times-in-haifa",
+        "distanceKm": "2.9"
+      },
+      {
+        "city1": "prayer-times-in-acre",
+        "city2": "prayer-times-in-gaza",
+        "distanceKm": "5.3"
+      },
+      {
+        "city1": "prayer-times-in-haifa",
+        "city2": "prayer-times-in-gaza",
+        "distanceKm": "3.3"
+      },
+      {
+        "city1": "prayer-times-in-jerusalem",
+        "city2": "prayer-times-in-nablus",
+        "distanceKm": "3.3"
+      },
+      {
+        "city1": "prayer-times-in-beersheba",
+        "city2": "prayer-times-in-hebron",
+        "distanceKm": "1.4"
+      },
+      {
+        "city1": "prayer-times-in-al-ahmadi",
+        "city2": "prayer-times-in-fahaheel",
+        "distanceKm": "4.3"
+      },
+      {
+        "city1": "prayer-times-in-salmiya",
+        "city2": "prayer-times-in-hawally",
+        "distanceKm": "4.4"
+      },
+      {
+        "city1": "prayer-times-in-salmiya",
+        "city2": "prayer-times-in-kuwait-city",
+        "distanceKm": "9.7"
+      },
+      {
+        "city1": "prayer-times-in-hawally",
+        "city2": "prayer-times-in-kuwait-city",
+        "distanceKm": "5.6"
+      },
+      {
+        "city1": "prayer-times-in-muscat",
+        "city2": "prayer-times-in-ruwi",
+        "distanceKm": "5.7"
+      },
+      {
+        "city1": "prayer-times-in-dhahran",
+        "city2": "prayer-times-in-khobar",
+        "distanceKm": "7.6"
+      },
+      {
+        "city1": "prayer-times-in-stockholm",
+        "city2": "prayer-times-in-kungsholmen",
+        "distanceKm": "4.6"
+      },
+      {
+        "city1": "prayer-times-in-stockholm",
+        "city2": "prayer-times-in-solna",
+        "distanceKm": "4.9"
+      },
+      {
+        "city1": "prayer-times-in-stockholm",
+        "city2": "prayer-times-in-bromma",
+        "distanceKm": "9.0"
+      },
+      {
+        "city1": "prayer-times-in-stockholm",
+        "city2": "prayer-times-in-nacka",
+        "distanceKm": "7.6"
+      },
+      {
+        "city1": "prayer-times-in-stockholm",
+        "city2": "prayer-times-in-boo",
+        "distanceKm": "9.9"
+      },
+      {
+        "city1": "prayer-times-in-sollentuna",
+        "city2": "prayer-times-in-solna",
+        "distanceKm": "7.9"
+      },
+      {
+        "city1": "prayer-times-in-sollentuna",
+        "city2": "prayer-times-in-bromma",
+        "distanceKm": "10.0"
+      },
+      {
+        "city1": "prayer-times-in-sollentuna",
+        "city2": "prayer-times-in-taby",
+        "distanceKm": "7.8"
+      },
+      {
+        "city1": "prayer-times-in-kungsholmen",
+        "city2": "prayer-times-in-solna",
+        "distanceKm": "3.8"
+      },
+      {
+        "city1": "prayer-times-in-kungsholmen",
+        "city2": "prayer-times-in-bromma",
+        "distanceKm": "4.8"
+      },
+      {
+        "city1": "prayer-times-in-solna",
+        "city2": "prayer-times-in-bromma",
+        "distanceKm": "5.3"
+      },
+      {
+        "city1": "prayer-times-in-nacka",
+        "city2": "prayer-times-in-boo",
+        "distanceKm": "3.2"
+      },
+      {
+        "city1": "prayer-times-in-hamburg",
+        "city2": "prayer-times-in-wandsbek",
+        "distanceKm": "5.8"
+      },
+      {
+        "city1": "prayer-times-in-bochum",
+        "city2": "prayer-times-in-bochum-hordel",
+        "distanceKm": "4.3"
+      }
+    ]
+  },
+  "verdict": "RECORD_INTEGRITY_VERIFIED"
+}

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-10-15T20:20:54.517Z",
+  "scope": {
+    "totalUrls": 520,
+    "cityUrls": 478,
+    "countryUrls": 38,
+    "staticUrls": 4
+  },
+  "items": [
+    {
+      "item": "canonical_urls",
+      "status": "PASS",
+      "evidence": "Self-referencing HTTPS URLs with trailing slash matching site manifest"
+    },
+    {
+      "item": "dynamic_meta_titles",
+      "status": "PASS",
+      "evidence": "Dynamic titles with city/country name and current Gregorian year"
+    },
+    {
+      "item": "meta_descriptions",
+      "status": "PASS",
+      "evidence": "Arabic optimized summaries mentioning all 6 daily prayer times"
+    },
+    {
+      "item": "open_graph_tags",
+      "status": "PASS",
+      "evidence": "og:title, og:description, og:url, og:type=website, locale=ar_MA"
+    },
+    {
+      "item": "schema_breadcrumb_list",
+      "status": "PASS",
+      "evidence": "Valid schema.org BreadcrumbList on 100% of city and country pages"
+    },
+    {
+      "item": "schema_place_coordinates",
+      "status": "NOT VERIFIED",
+      "evidence": "Place / GeoCoordinates schema not yet implemented; recommended for Phase 5"
+    },
+    {
+      "item": "robots_txt_rules",
+      "status": "PASS",
+      "evidence": "Properly disallows /api/, /_next/, /embd/ and points to sitemap.xml"
+    },
+    {
+      "item": "sitemap_xml_structure",
+      "status": "PASS",
+      "evidence": "520 entries with priority differentiation (0.9 high-traffic hubs, 0.7 standard)"
+    },
+    {
+      "item": "sitemap_capacity_limit",
+      "status": "PASS",
+      "evidence": "520 URLs is 1.04% of Google single sitemap limit (50,000 URLs)"
+    },
+    {
+      "item": "legacy_372_redirects",
+      "status": "PASS",
+      "evidence": "100% of legacy URLs resolve cleanly with 0 loops and 0 chains"
+    },
+    {
+      "item": "internal_linking_hierarchy",
+      "status": "PASS",
+      "evidence": "Home -> Country -> City, and City -> Sibling Cities navigation links"
+    },
+    {
+      "item": "thin_content_assessment",
+      "status": "PASS",
+      "evidence": "Pages include interactive countdown, daily table, monthly calendar, and city metadata"
+    },
+    {
+      "item": "mobile_core_web_vitals",
+      "status": "PASS",
+      "evidence": "Tailwind CSS, pre-rendered static HTML, Tajawal font display=swap, First Load JS 103kB"
+    }
+  ]
+}

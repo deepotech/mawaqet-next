@@ -48,6 +48,12 @@ export default function Footer() {
           {/* Links */}
           <nav aria-label="روابط التذييل" className="flex items-center gap-6 text-sm flex-wrap justify-center">
             <Link
+              href="/countries/"
+              className="hover:text-white transition-colors focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2 rounded-sm"
+            >
+              جميع الدول
+            </Link>
+            <Link
               href="/سياسة-الخصوصية/"
               className="hover:text-white transition-colors focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2 rounded-sm"
             >

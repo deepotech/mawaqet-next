@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-15T20:07:55.290Z",
+  "upstreamPackage": {
+    "packageName": "city-timezones",
+    "version": "1.3.4",
+    "license": "MIT",
+    "repository": "git+https://github.com/kevinroberts/city-timezones.git",
+    "author": "Kevin Roberts",
+    "upstreamDataSource": "GeoNames.org & SimpleMaps World Cities"
+  },
+  "auditSummary": {
+    "totalAddedCitiesAudited": 100,
+    "matchedManifestEntries": 100,
+    "missingProvenanceCount": 0,
+    "rejectedCandidatesDocumented": 12,
+    "provenanceTagCounts": {
+      "GeoNames (city-timezones v1.3.4)": 100
+    }
+  },
+  "evidenceClassification": {
+    "dataPresent": "Coordinates, IANA timezones, province, and population present for 100% of records in city-timezones data/cityMap.json",
+    "dataDocumented": "Candidate manifest records sourceId, sourceName, coordinates, population, timezone, and calculation method provenance",
+    "dataIndependentlyCrossValidated": "Turkey cities (14) verified to use Diyanet Method 13 parameters with official temkin offsets; non-Turkish cities use standard regional calculation methods without live local mosque schedule cross-validation"
+  },
+  "findings": []
+}

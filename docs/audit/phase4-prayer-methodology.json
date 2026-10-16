@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-10-15T20:20:54.517Z",
+  "engine": {
+    "library": "adhan",
+    "version": "^4.4.6",
+    "license": "MIT",
+    "calculationMode": "Astronomical solar position and twilight angle computation"
+  },
+  "methodsDistribution": {
+    "MAKKAH": {
+      "id": 4,
+      "count": 42,
+      "countries": [
+        "SA"
+      ],
+      "authority": "Umm Al-Qura University, Makkah",
+      "fajrAngle": 18.5,
+      "ishaIntervalMin": 90
+    },
+    "EGYPT": {
+      "id": 3,
+      "count": 26,
+      "countries": [
+        "EG"
+      ],
+      "authority": "Egyptian General Authority of Survey",
+      "fajrAngle": 19.5,
+      "ishaAngle": 17.5
+    },
+    "MOROCCO": {
+      "id": 15,
+      "count": 35,
+      "countries": [
+        "MA"
+      ],
+      "authority": "Ministry of Habous and Islamic Affairs (MoonsightingCommittee)",
+      "fajrAngle": 19,
+      "ishaAngle": 17
+    },
+    "TURKEY": {
+      "id": 13,
+      "count": 29,
+      "countries": [
+        "TR"
+      ],
+      "authority": "Diyanet Isleri Baskanligi",
+      "fajrAngle": 18,
+      "ishaAngle": 17,
+      "methodAdjustments": {
+        "sunrise": -7,
+        "dhuhr": 5,
+        "asr": 4,
+        "maghrib": 7
+      }
+    },
+    "QATAR": {
+      "id": 10,
+      "count": 6,
+      "countries": [
+        "QA"
+      ],
+      "authority": "Qatar Ministry of Awqaf",
+      "fajrAngle": 18,
+      "ishaIntervalMin": 90
+    },
+    "KUWAIT": {
+      "id": 9,
+      "count": 8,
+      "countries": [
+        "KW"
+      ],
+      "authority": "Kuwait Ministry of Awqaf",
+      "fajrAngle": 18,
+      "ishaAngle": 17.5
+    },
+    "GULF": {
+      "id": 8,
+      "count": 332,
+      "countries": [
+        "AE",
+        "BH",
+        "OM",
+        "YE",
+        "SY",
+        "LB",
+        "JO",
+        "IQ",
+        "PS",
+        "SD",
+        "LY",
+        "TN",
+        "DZ",
+        "US",
+        "GB",
+        "IT",
+        "FR",
+        "ES",
+        "IN",
+        "RU",
+        "CA",
+        "DE",
+        "MY",
+        "NO",
+        "SE",
+        "PH",
+        "CN",
+        "GE",
+        "NL",
+        "UA",
+        "UZ",
+        "ID"
+      ],
+      "authority": "Gulf / Muslim World League General Standard"
+    }
+  },
+  "asrMadhab": {
+    "current": "Shafi (Standard 1x shadow length)",
+    "citiesCount": 478,
+    "status": "PASS",
+    "futureEnhancement": "Add Hanafi madhab selection/detection for Pakistan, Turkey, and Central Asia regions"
+  },
+  "highLatitudeRule": {
+    "current": "seventh_of_the_night",
+    "latitudeThreshold": 48,
+    "appliedCitiesCount": 14,
+    "status": "PASS",
+    "sampleCities": [
+      "Stockholm",
+      "Kungsholmen",
+      "Solna",
+      "Bromma",
+      "Nacka",
+      "Sollentuna",
+      "Taby",
+      "Boo",
+      "Hamburg",
+      "Wandsbek",
+      "London",
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague"
+    ]
+  },
+  "referencePilotProposal": {
+    "objective": "Benchmark calculated times against official gazetted mosque timetables in 6 anchor capitals across 4 seasons",
+    "pilotAnchorCities": [
+      {
+        "city": "Makkah",
+        "country": "SA",
+        "officialSource": "Umm Al-Qura Calendar Official Portal"
+      },
+      {
+        "city": "Cairo",
+        "country": "EG",
+        "officialSource": "Egyptian Dar Al-Ifta / General Survey Authority"
+      },
+      {
+        "city": "Casablanca",
+        "country": "MA",
+        "officialSource": "Moroccan Ministry of Habous and Islamic Affairs"
+      },
+      {
+        "city": "Istanbul",
+        "country": "TR",
+        "officialSource": "Turkiye Diyanet Isleri Baskanligi Vakitleri"
+      },
+      {
+        "city": "Dubai",
+        "country": "AE",
+        "officialSource": "Islamic Affairs and Charitable Activities Department (IACAD)"
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "officialSource": "London Central Mosque Trust & Islamic Cultural Centre"
+      }
+    ],
+    "seasonalTestDates": [
+      "2026-03-20 (Vernal Equinox)",
+      "2026-06-21 (Summer Solstice)",
+      "2026-09-22 (Autumnal Equinox)",
+      "2026-12-21 (Winter Solstice)"
+    ],
+    "iqamahDisclaimerConfirmed": true
+  }
+}

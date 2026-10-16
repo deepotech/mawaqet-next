@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-10-15T20:08:21.851Z",
+  "engineMetadata": {
+    "calculationEngine": "adhan",
+    "declaredVersion": "^4.4.6",
+    "installedVersion": "4.4.6"
+  },
+  "auditScope": {
+    "baselineRepresentativeCitiesTested": 7,
+    "phase3CitiesTested": 100,
+    "seasonalAstronomicalDatesTested": 4,
+    "dates": [
+      "2026-03-20T12:00:00Z",
+      "2026-06-21T12:00:00Z",
+      "2026-09-22T12:00:00Z",
+      "2026-12-21T12:00:00Z"
+    ]
+  },
+  "methodologyAssessment": {
+    "testType": "COMPUTATIONAL_DETERMINISTIC_SANITY_AND_CHRONOLOGY",
+    "independentExternalMosqueApiComparison": false,
+    "natureOfVerification": "Verifies non-NaN astronomical calculation and strict chronological progression across seasonal extremes under configured parameter matrix",
+    "calculationPoliciesEvaluated": {
+      "turkey": {
+        "methodId": 13,
+        "methodName": "CalculationMethod.Turkey()",
+        "fajrAngle": 18,
+        "ishaAngle": 17,
+        "offsets": {
+          "sunrise": -7,
+          "dhuhr": 5,
+          "asr": 4,
+          "maghrib": 7
+        },
+        "basis": "Official Turkish Diyanet calendar parameters"
+      },
+      "morocco": {
+        "methodId": 15,
+        "methodName": "CalculationMethod.MoonsightingCommittee()",
+        "fajrAngle": 18,
+        "ishaAngle": 18,
+        "basis": "Habous / Moroccan Ministry of Islamic Affairs astronomical convention"
+      },
+      "internationalBaseline": {
+        "methodId": 8,
+        "methodName": "CalculationMethod.Kuwait() (Gulf Region)",
+        "fajrAngle": 19.5,
+        "ishaInterval": 90,
+        "basis": "Preserves legacy site defaults for international directory locations"
+      }
+    },
+    "highLatitudeEdgeCases": {
+      "europeanCitiesAudited": [
+        "Lille (50.65°N)",
+        "Mannheim (49.50°N)",
+        "Bonn (50.72°N)",
+        "Saarbrucken (49.25°N)",
+        "Karlsruhe (49.00°N)"
+      ],
+      "handling": "High-latitude auto-rule (seventh_of_the_night) activates safely at |lat| >= 48° to avoid summer twilight anomalies"
+    }
+  },
+  "validationResults": {
+    "validAstronomicalTimesCount": 100,
+    "chronologicalSequencesPassed": 100,
+    "failureCount": 0
+  },
+  "limitationsAndDisclaimers": [
+    "Test verifies astronomical arithmetic and angular parameter consistency, NOT live local mosque iqamah schedules.",
+    "No live crawling of national religious authority web portals occurred during this offline test.",
+    "Local mosque loudspeaker azan schedules may apply local administrative offsets."
+  ]
+}
