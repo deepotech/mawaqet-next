@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import { Suspense } from 'react';
 import { Tajawal } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 import './globals.css';
 
 // Load Tajawal via next/font for automatic subsetting & no layout shift
@@ -71,20 +72,15 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* Google Analytics 4 — loaded only when env var is set */}
+        {/*
+         * Google Analytics 4 — loaded only when NEXT_PUBLIC_GA_ID is set.
+         * Wrapped in Suspense because GoogleAnalytics uses useSearchParams()
+         * which requires a Suspense boundary in Next.js 15.
+         */}
         {GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga4-init" strategy="afterInteractive">
-              {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GA_ID}', { page_path: window.location.pathname });`}
-            </Script>
-          </>
+          <Suspense>
+            <GoogleAnalytics gaId={GA_ID} />
+          </Suspense>
         )}
       </body>
     </html>
