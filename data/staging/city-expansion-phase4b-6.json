@@ -1,0 +1,134 @@
+[
+    {
+        "id": 479,
+        "countryId": 2,
+        "countryCode": "EG",
+        "slug": "prayer-times-in-mansoura",
+        "urlPath": "/city/prayer-times-in-mansoura/",
+        "nameAr": "المنصورة",
+        "nameEn": "mansoura",
+        "coordinates": {
+            "latitude": 31.05044191,
+            "longitude": 31.3800378
+        },
+        "timezone": "Africa/Cairo",
+        "calculationMethodId": 3,
+        "seoTitle": "مواقيت الصلاة في المنصورة",
+        "seoDescription": "مواقيت الصلاة في المنصورة اليوم, مواعيد الصلاة والاذان الشهرية في المنصورة",
+        "contentAr": "",
+        "legacyPostId": 10201,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4B expansion candidate. Pop: 540247. Province: Dakahlia."
+    },
+    {
+        "id": 480,
+        "countryId": 15,
+        "countryCode": "IQ",
+        "slug": "prayer-times-in-duhok",
+        "urlPath": "/city/prayer-times-in-duhok/",
+        "nameAr": "دهوك",
+        "nameEn": "duhok",
+        "coordinates": {
+            "latitude": 36.86670013,
+            "longitude": 43.00000263
+        },
+        "timezone": "Asia/Baghdad",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في دهوك",
+        "seoDescription": "مواقيت الصلاة في دهوك اليوم, مواعيد الصلاة والاذان الشهرية في دهوك",
+        "contentAr": "",
+        "legacyPostId": 10202,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4B expansion candidate. Pop: 620500. Province: Duhok."
+    },
+    {
+        "id": 481,
+        "countryId": 15,
+        "countryCode": "IQ",
+        "slug": "prayer-times-in-amarah",
+        "urlPath": "/city/prayer-times-in-amarah/",
+        "nameAr": "العمارة",
+        "nameEn": "amarah",
+        "coordinates": {
+            "latitude": 31.84160809,
+            "longitude": 47.15116817
+        },
+        "timezone": "Asia/Baghdad",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في العمارة",
+        "seoDescription": "مواقيت الصلاة في العمارة اليوم, مواعيد الصلاة والاذان الشهرية في العمارة",
+        "contentAr": "",
+        "legacyPostId": 10203,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4B expansion candidate. Pop: 334155. Province: Maysan."
+    },
+    {
+        "id": 482,
+        "countryId": 15,
+        "countryCode": "IQ",
+        "slug": "prayer-times-in-baqubah",
+        "urlPath": "/city/prayer-times-in-baqubah/",
+        "nameAr": "بعقوبة",
+        "nameEn": "baqubah",
+        "coordinates": {
+            "latitude": 33.74764162,
+            "longitude": 44.65726355
+        },
+        "timezone": "Asia/Baghdad",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في بعقوبة",
+        "seoDescription": "مواقيت الصلاة في بعقوبة اليوم, مواعيد الصلاة والاذان الشهرية في بعقوبة",
+        "contentAr": "",
+        "legacyPostId": 10204,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4B expansion candidate. Pop: 226015. Province: Diyala."
+    },
+    {
+        "id": 483,
+        "countryId": 16,
+        "countryCode": "JO",
+        "slug": "prayer-times-in-jerash",
+        "urlPath": "/city/prayer-times-in-jerash/",
+        "nameAr": "جرش",
+        "nameEn": "jerash",
+        "coordinates": {
+            "latitude": 32.2723,
+            "longitude": 35.8914
+        },
+        "timezone": "Asia/Amman",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في جرش",
+        "seoDescription": "مواقيت الصلاة في جرش اليوم, مواعيد الصلاة والاذان الشهرية في جرش",
+        "contentAr": "",
+        "legacyPostId": 10205,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (ID 248944)",
+        "notes": "Phase 4B expansion candidate. Pop: 50745. Province: Jerash."
+    },
+    {
+        "id": 484,
+        "countryId": 2,
+        "countryCode": "EG",
+        "slug": "prayer-times-in-el-mahalla-el-kubra",
+        "urlPath": "/city/prayer-times-in-el-mahalla-el-kubra/",
+        "nameAr": "المحلة الكبرى",
+        "nameEn": "el mahalla el kubra",
+        "coordinates": {
+            "latitude": 30.97056,
+            "longitude": 31.16694
+        },
+        "timezone": "Africa/Cairo",
+        "calculationMethodId": 3,
+        "seoTitle": "مواقيت الصلاة في المحلة الكبرى",
+        "seoDescription": "مواقيت الصلاة في المحلة الكبرى اليوم, مواعيد الصلاة والاذان الشهرية في المحلة الكبرى",
+        "contentAr": "",
+        "legacyPostId": 10206,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (ID 360526)",
+        "notes": "Phase 4B expansion candidate. Pop: 535278. Province: Gharbia."
+    }
+]

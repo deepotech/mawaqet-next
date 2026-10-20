@@ -1,0 +1,90 @@
+[
+    {
+        "id": 485,
+        "countryId": 15,
+        "countryCode": "IQ",
+        "slug": "prayer-times-in-samarra",
+        "urlPath": "/city/prayer-times-in-samarra/",
+        "nameAr": "سامراء",
+        "nameEn": "samarra",
+        "coordinates": {
+            "latitude": 34.19399705,
+            "longitude": 43.87500062
+        },
+        "timezone": "Asia/Baghdad",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في سامراء",
+        "seoDescription": "مواقيت الصلاة في سامراء اليوم, مواعيد الصلاة والاذان الشهرية في سامراء",
+        "contentAr": "",
+        "legacyPostId": 10207,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4C expansion candidate. Pop: 158508. Province: Saladin."
+    },
+    {
+        "id": 486,
+        "countryId": 16,
+        "countryCode": "JO",
+        "slug": "prayer-times-in-maan",
+        "urlPath": "/city/prayer-times-in-maan/",
+        "nameAr": "معان",
+        "nameEn": "maan",
+        "coordinates": {
+            "latitude": 30.19200312,
+            "longitude": 35.73600358
+        },
+        "timezone": "Asia/Amman",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في معان",
+        "seoDescription": "مواقيت الصلاة في معان اليوم, مواعيد الصلاة والاذان الشهرية في معان",
+        "contentAr": "",
+        "legacyPostId": 10208,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4C expansion candidate. Pop: 50350. Province: Ma'an."
+    },
+    {
+        "id": 487,
+        "countryId": 15,
+        "countryCode": "IQ",
+        "slug": "prayer-times-in-samawah",
+        "urlPath": "/city/prayer-times-in-samawah/",
+        "nameAr": "السماوة",
+        "nameEn": "samawah",
+        "coordinates": {
+            "latitude": 31.3098576,
+            "longitude": 45.28027462
+        },
+        "timezone": "Asia/Baghdad",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في السماوة",
+        "seoDescription": "مواقيت الصلاة في السماوة اليوم, مواعيد الصلاة والاذان الشهرية في السماوة",
+        "contentAr": "",
+        "legacyPostId": 10209,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (city-timezones v1.3.4)",
+        "notes": "Phase 4C expansion candidate. Pop: 163934. Province: Al-Muthanna."
+    },
+    {
+        "id": 488,
+        "countryId": 12,
+        "countryCode": "PS",
+        "slug": "prayer-times-in-jenin",
+        "urlPath": "/city/prayer-times-in-jenin/",
+        "nameAr": "جنين",
+        "nameEn": "jenin",
+        "coordinates": {
+            "latitude": 32.4606,
+            "longitude": 35.2974
+        },
+        "timezone": "Asia/Hebron",
+        "calculationMethodId": 8,
+        "seoTitle": "مواقيت الصلاة في جنين",
+        "seoDescription": "مواقيت الصلاة في جنين اليوم, مواعيد الصلاة والاذان الشهرية في جنين",
+        "contentAr": "",
+        "legacyPostId": 10210,
+        "verificationStatus": "verified_exact",
+        "enrichmentSource": "GeoNames (ID 282806)",
+        "notes": "Phase 4C expansion candidate. Pop: 49908. Governorate: Jenin."
+    }
+]
