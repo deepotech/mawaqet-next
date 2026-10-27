@@ -14,15 +14,15 @@ describe('Geographic Data Enrichment & Relationship Integrity', () => {
     fs.readFileSync(path.join(__dirname, '../data/normalized/enrichment-summary.json'), 'utf8')
   );
 
-  it('contains exactly 38 countries conforming to CountrySchema', () => {
-    expect(countries.length).toBe(38);
+  it('contains exactly 40 countries conforming to CountrySchema', () => {
+    expect(countries.length).toBe(40);
     countries.forEach((c: any) => {
       expect(() => CountrySchema.parse(c)).not.toThrow();
     });
   });
 
-  it('contains exactly 488 cities conforming to CitySchema', () => {
-    expect(cities.length).toBe(488);
+  it('contains exactly 633 cities conforming to CitySchema', () => {
+    expect(cities.length).toBe(633);
     cities.forEach((c: any) => {
       expect(() => CitySchema.parse(c)).not.toThrow();
     });
@@ -36,7 +36,7 @@ describe('Geographic Data Enrichment & Relationship Integrity', () => {
     });
   });
 
-  it('ensures all 38 country slugs are globally unique', () => {
+  it('ensures all 40 country slugs are globally unique', () => {
     const slugs = new Set();
     countries.forEach((c: any) => {
       expect(slugs.has(c.slug)).toBe(false);

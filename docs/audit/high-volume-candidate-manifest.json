@@ -1,0 +1,2633 @@
+{
+  "generatedAt": "2026-10-27T11:41:22.774Z",
+  "totalAccepted": 145,
+  "totalRejected": 36,
+  "initialCityCount": 488,
+  "finalCityCount": 633,
+  "initialCountryCount": 38,
+  "finalCountryCount": 40,
+  "batches": [
+    {
+      "batchId": 1,
+      "name": "New Countries (Pakistan & Singapore)",
+      "citiesAdded": 15,
+      "runningTotalCities": 503,
+      "sampleCity": "karachi",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 2,
+      "name": "North Africa (Algeria, Morocco, Tunisia)",
+      "citiesAdded": 17,
+      "runningTotalCities": 520,
+      "sampleCity": "tiznit",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 3,
+      "name": "Arabian Peninsula (Saudi Arabia, Yemen, Oman, UAE)",
+      "citiesAdded": 14,
+      "runningTotalCities": 534,
+      "sampleCity": "sakakah",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 4,
+      "name": "Turkey, Libya, Sudan, Lebanon, Syria",
+      "citiesAdded": 18,
+      "runningTotalCities": 552,
+      "sampleCity": "kutahya",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 5,
+      "name": "Southeast Asia (Indonesia & Malaysia)",
+      "citiesAdded": 21,
+      "runningTotalCities": 573,
+      "sampleCity": "denpasar",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 6,
+      "name": "Western Europe (France & Germany)",
+      "citiesAdded": 18,
+      "runningTotalCities": 591,
+      "sampleCity": "nantes",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 7,
+      "name": "United Kingdom & Spain",
+      "citiesAdded": 16,
+      "runningTotalCities": 607,
+      "sampleCity": "birmingham",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 8,
+      "name": "Italy, Canada & US (Part 1)",
+      "citiesAdded": 16,
+      "runningTotalCities": 623,
+      "sampleCity": "houston",
+      "status": "PASSED"
+    },
+    {
+      "batchId": 9,
+      "name": "United States (Part 2)",
+      "citiesAdded": 10,
+      "runningTotalCities": 633,
+      "sampleCity": "philadelphia",
+      "status": "PASSED"
+    }
+  ],
+  "acceptedCities": [
+    {
+      "id": 489,
+      "nameEn": "karachi",
+      "nameAr": "كراتشي",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-karachi",
+      "coordinates": {
+        "latitude": 24.86999229,
+        "longitude": 66.99000891
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10211
+    },
+    {
+      "id": 490,
+      "nameEn": "lahore",
+      "nameAr": "لاهور",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-lahore",
+      "coordinates": {
+        "latitude": 31.55997154,
+        "longitude": 74.35002478
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10212
+    },
+    {
+      "id": 491,
+      "nameEn": "faisalabad",
+      "nameAr": "فيصل آباد",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-faisalabad",
+      "coordinates": {
+        "latitude": 31.40998069,
+        "longitude": 73.10999711
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10213
+    },
+    {
+      "id": 492,
+      "nameEn": "rawalpindi",
+      "nameAr": "راولبندي",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-rawalpindi",
+      "coordinates": {
+        "latitude": 33.59997622,
+        "longitude": 73.04002722
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10214
+    },
+    {
+      "id": 493,
+      "nameEn": "multan",
+      "nameAr": "ملتان",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-multan",
+      "coordinates": {
+        "latitude": 30.19997703,
+        "longitude": 71.45500769
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10215
+    },
+    {
+      "id": 494,
+      "nameEn": "gujranwala",
+      "nameAr": "غوجرانوالا",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-gujranwala",
+      "coordinates": {
+        "latitude": 32.16042584,
+        "longitude": 74.18502193
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10216
+    },
+    {
+      "id": 495,
+      "nameEn": "hyderabad pakistan",
+      "nameAr": "حيدر آباد باكستان",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-hyderabad-pk",
+      "coordinates": {
+        "latitude": 25.379987,
+        "longitude": 68.37498897
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10217
+    },
+    {
+      "id": 496,
+      "nameEn": "peshawar",
+      "nameAr": "بيشاور",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-peshawar",
+      "coordinates": {
+        "latitude": 34.00501609,
+        "longitude": 71.53500281
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10218
+    },
+    {
+      "id": 497,
+      "nameEn": "quetta",
+      "nameAr": "كويته",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-quetta",
+      "coordinates": {
+        "latitude": 30.22000165,
+        "longitude": 67.02499385
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10219
+    },
+    {
+      "id": 498,
+      "nameEn": "bahawalpur",
+      "nameAr": "بهاولبور",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-bahawalpur",
+      "coordinates": {
+        "latitude": 29.38997479,
+        "longitude": 71.67499426
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10220
+    },
+    {
+      "id": 499,
+      "nameEn": "sargodha",
+      "nameAr": "سرغودها",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-sargodha",
+      "coordinates": {
+        "latitude": 32.08536582,
+        "longitude": 72.6749849
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10221
+    },
+    {
+      "id": 500,
+      "nameEn": "sialkot",
+      "nameAr": "سيالكوت",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-sialkot",
+      "coordinates": {
+        "latitude": 32.5200163,
+        "longitude": 74.5600378
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10222
+    },
+    {
+      "id": 501,
+      "nameEn": "sukkur",
+      "nameAr": "سكر",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-sukkur",
+      "coordinates": {
+        "latitude": 27.71356549,
+        "longitude": 68.8485518
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10223
+    },
+    {
+      "id": 502,
+      "nameEn": "larkana",
+      "nameAr": "لاركانا",
+      "countryCode": "PK",
+      "countryId": 39,
+      "slug": "prayer-times-in-larkana",
+      "coordinates": {
+        "latitude": 27.56176597,
+        "longitude": 68.20678218
+      },
+      "timezone": "Asia/Karachi",
+      "methodId": 12,
+      "legacyPostId": 10224
+    },
+    {
+      "id": 503,
+      "nameEn": "singapore",
+      "nameAr": "سنغافورة",
+      "countryCode": "SG",
+      "countryId": 40,
+      "slug": "prayer-times-in-singapore",
+      "coordinates": {
+        "latitude": 1.293033466,
+        "longitude": 103.8558207
+      },
+      "timezone": "Asia/Singapore",
+      "methodId": 11,
+      "legacyPostId": 10225
+    },
+    {
+      "id": 504,
+      "nameEn": "tiznit",
+      "nameAr": "تيزنيت",
+      "countryCode": "MA",
+      "countryId": 3,
+      "slug": "prayer-times-in-tiznit",
+      "coordinates": {
+        "latitude": 29.71042035,
+        "longitude": -9.73998458
+      },
+      "timezone": "Africa/Casablanca",
+      "methodId": 15,
+      "legacyPostId": 10226
+    },
+    {
+      "id": 505,
+      "nameEn": "smara",
+      "nameAr": "السمارة",
+      "countryCode": "MA",
+      "countryId": 3,
+      "slug": "prayer-times-in-smara",
+      "coordinates": {
+        "latitude": 26.73328941,
+        "longitude": -11.68332849
+      },
+      "timezone": "Africa/El_Aaiun",
+      "methodId": 15,
+      "legacyPostId": 10227
+    },
+    {
+      "id": 506,
+      "nameEn": "bordj bou arreridj",
+      "nameAr": "برج بوعريريج",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-bordj-bou-arreridj",
+      "coordinates": {
+        "latitude": 36.05900401,
+        "longitude": 4.629996466
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10228
+    },
+    {
+      "id": 507,
+      "nameEn": "guelma",
+      "nameAr": "قالمة",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-guelma",
+      "coordinates": {
+        "latitude": 36.46600213,
+        "longitude": 7.427997486
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10229
+    },
+    {
+      "id": 508,
+      "nameEn": "msila",
+      "nameAr": "المسيلة",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-msila",
+      "coordinates": {
+        "latitude": 35.7000031,
+        "longitude": 4.545000584
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10230
+    },
+    {
+      "id": 509,
+      "nameEn": "laghouat",
+      "nameAr": "الأغواط",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-laghouat",
+      "coordinates": {
+        "latitude": 33.80998924,
+        "longitude": 2.880020303
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10231
+    },
+    {
+      "id": 510,
+      "nameEn": "souk ahras",
+      "nameAr": "سوق أهراس",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-souk-ahras",
+      "coordinates": {
+        "latitude": 36.29038047,
+        "longitude": 7.949995075
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10232
+    },
+    {
+      "id": 511,
+      "nameEn": "saida",
+      "nameAr": "سعيدة",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-saida-dz",
+      "coordinates": {
+        "latitude": 34.84039146,
+        "longitude": 0.14003251
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10233
+    },
+    {
+      "id": 512,
+      "nameEn": "ghardaia",
+      "nameAr": "غرداية",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-ghardaia",
+      "coordinates": {
+        "latitude": 32.48999229,
+        "longitude": 3.669997923
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10234
+    },
+    {
+      "id": 513,
+      "nameEn": "adrar",
+      "nameAr": "أدرار",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-adrar",
+      "coordinates": {
+        "latitude": 27.86999005,
+        "longitude": -0.289967083
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10235
+    },
+    {
+      "id": 514,
+      "nameEn": "tindouf",
+      "nameAr": "تندوف",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-tindouf",
+      "coordinates": {
+        "latitude": 27.67418805,
+        "longitude": -8.147782025
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10236
+    },
+    {
+      "id": 515,
+      "nameEn": "el bayadh",
+      "nameAr": "البيض",
+      "countryCode": "DZ",
+      "countryId": 18,
+      "slug": "prayer-times-in-el-bayadh",
+      "coordinates": {
+        "latitude": 33.6903583,
+        "longitude": 1.009953571
+      },
+      "timezone": "Africa/Algiers",
+      "methodId": 8,
+      "legacyPostId": 10237
+    },
+    {
+      "id": 516,
+      "nameEn": "mahdia",
+      "nameAr": "المهدية",
+      "countryCode": "TN",
+      "countryId": 17,
+      "slug": "prayer-times-in-mahdia",
+      "coordinates": {
+        "latitude": 35.48391304,
+        "longitude": 11.04087662
+      },
+      "timezone": "Africa/Tunis",
+      "methodId": 8,
+      "legacyPostId": 10238
+    },
+    {
+      "id": 517,
+      "nameEn": "kebili",
+      "nameAr": "قبلي",
+      "countryCode": "TN",
+      "countryId": 17,
+      "slug": "prayer-times-in-kebili",
+      "coordinates": {
+        "latitude": 33.68999703,
+        "longitude": 8.971002538
+      },
+      "timezone": "Africa/Tunis",
+      "methodId": 8,
+      "legacyPostId": 10239
+    },
+    {
+      "id": 518,
+      "nameEn": "siliana",
+      "nameAr": "سليانة",
+      "countryCode": "TN",
+      "countryId": 17,
+      "slug": "prayer-times-in-siliana",
+      "coordinates": {
+        "latitude": 36.08330413,
+        "longitude": 9.3833016
+      },
+      "timezone": "Africa/Tunis",
+      "methodId": 8,
+      "legacyPostId": 10240
+    },
+    {
+      "id": 519,
+      "nameEn": "zaghouan",
+      "nameAr": "زغوان",
+      "countryCode": "TN",
+      "countryId": 17,
+      "slug": "prayer-times-in-zaghouan",
+      "coordinates": {
+        "latitude": 36.39999616,
+        "longitude": 10.14699661
+      },
+      "timezone": "Africa/Tunis",
+      "methodId": 8,
+      "legacyPostId": 10241
+    },
+    {
+      "id": 520,
+      "nameEn": "tozeur",
+      "nameAr": "توزر",
+      "countryCode": "TN",
+      "countryId": 17,
+      "slug": "prayer-times-in-tozeur",
+      "coordinates": {
+        "latitude": 33.93042116,
+        "longitude": 8.129984089
+      },
+      "timezone": "Africa/Tunis",
+      "methodId": 8,
+      "legacyPostId": 10242
+    },
+    {
+      "id": 521,
+      "nameEn": "sakakah",
+      "nameAr": "سكاكا",
+      "countryCode": "SA",
+      "countryId": 1,
+      "slug": "prayer-times-in-sakakah",
+      "coordinates": {
+        "latitude": 29.99999706,
+        "longitude": 40.13330454
+      },
+      "timezone": "Asia/Riyadh",
+      "methodId": 4,
+      "legacyPostId": 10243
+    },
+    {
+      "id": 522,
+      "nameEn": "rafha",
+      "nameAr": "رفحاء",
+      "countryCode": "SA",
+      "countryId": 1,
+      "slug": "prayer-times-in-rafha",
+      "coordinates": {
+        "latitude": 29.62021914,
+        "longitude": 43.4948022
+      },
+      "timezone": "Asia/Riyadh",
+      "methodId": 4,
+      "legacyPostId": 10244
+    },
+    {
+      "id": 523,
+      "nameEn": "al wajh",
+      "nameAr": "الوجه",
+      "countryCode": "SA",
+      "countryId": 1,
+      "slug": "prayer-times-in-al-wajh",
+      "coordinates": {
+        "latitude": 26.23241559,
+        "longitude": 36.4635518
+      },
+      "timezone": "Asia/Riyadh",
+      "methodId": 4,
+      "legacyPostId": 10245
+    },
+    {
+      "id": 524,
+      "nameEn": "dawmat al jandal",
+      "nameAr": "دومة الجندل",
+      "countryCode": "SA",
+      "countryId": 1,
+      "slug": "prayer-times-in-dawmat-al-jandal",
+      "coordinates": {
+        "latitude": 29.81529767,
+        "longitude": 39.86639319
+      },
+      "timezone": "Asia/Riyadh",
+      "methodId": 4,
+      "legacyPostId": 10246
+    },
+    {
+      "id": 525,
+      "nameEn": "al quwayiyah",
+      "nameAr": "القويعية",
+      "countryCode": "SA",
+      "countryId": 1,
+      "slug": "prayer-times-in-al-quwayiyah",
+      "coordinates": {
+        "latitude": 24.07371014,
+        "longitude": 45.28063635
+      },
+      "timezone": "Asia/Riyadh",
+      "methodId": 4,
+      "legacyPostId": 10247
+    },
+    {
+      "id": 526,
+      "nameEn": "al qunfudhah",
+      "nameAr": "القنفذة",
+      "countryCode": "SA",
+      "countryId": 1,
+      "slug": "prayer-times-in-al-qunfudhah",
+      "coordinates": {
+        "latitude": 19.12636354,
+        "longitude": 41.07887732
+      },
+      "timezone": "Asia/Riyadh",
+      "methodId": 4,
+      "legacyPostId": 10248
+    },
+    {
+      "id": 527,
+      "nameEn": "al bayda yemen",
+      "nameAr": "البيضاء اليمن",
+      "countryCode": "YE",
+      "countryId": 4,
+      "slug": "prayer-times-in-al-bayda-ye",
+      "coordinates": {
+        "latitude": 13.9789981,
+        "longitude": 45.57400265
+      },
+      "timezone": "Asia/Aden",
+      "methodId": 8,
+      "legacyPostId": 10249
+    },
+    {
+      "id": 528,
+      "nameEn": "ataq",
+      "nameAr": "عتق",
+      "countryCode": "YE",
+      "countryId": 4,
+      "slug": "prayer-times-in-ataq",
+      "coordinates": {
+        "latitude": 14.55000311,
+        "longitude": 46.80000058
+      },
+      "timezone": "Asia/Aden",
+      "methodId": 8,
+      "legacyPostId": 10250
+    },
+    {
+      "id": 529,
+      "nameEn": "marib",
+      "nameAr": "مأرب",
+      "countryCode": "YE",
+      "countryId": 4,
+      "slug": "prayer-times-in-marib",
+      "coordinates": {
+        "latitude": 15.42099607,
+        "longitude": 45.33399954
+      },
+      "timezone": "Asia/Aden",
+      "methodId": 8,
+      "legacyPostId": 10251
+    },
+    {
+      "id": 530,
+      "nameEn": "al ghaydah",
+      "nameAr": "الغيضة",
+      "countryCode": "YE",
+      "countryId": 4,
+      "slug": "prayer-times-in-al-ghaydah",
+      "coordinates": {
+        "latitude": 16.23940798,
+        "longitude": 52.1637821
+      },
+      "timezone": "Asia/Aden",
+      "methodId": 8,
+      "legacyPostId": 10252
+    },
+    {
+      "id": 531,
+      "nameEn": "lahij",
+      "nameAr": "لحج",
+      "countryCode": "YE",
+      "countryId": 4,
+      "slug": "prayer-times-in-lahij",
+      "coordinates": {
+        "latitude": 13.05818097,
+        "longitude": 44.88376135
+      },
+      "timezone": "Asia/Aden",
+      "methodId": 8,
+      "legacyPostId": 10253
+    },
+    {
+      "id": 532,
+      "nameEn": "ibri",
+      "nameAr": "عبري",
+      "countryCode": "OM",
+      "countryId": 9,
+      "slug": "prayer-times-in-ibri",
+      "coordinates": {
+        "latitude": 23.22538983,
+        "longitude": 56.51695308
+      },
+      "timezone": "Asia/Muscat",
+      "methodId": 8,
+      "legacyPostId": 10254
+    },
+    {
+      "id": 533,
+      "nameEn": "samail",
+      "nameAr": "سمائل",
+      "countryCode": "OM",
+      "countryId": 9,
+      "slug": "prayer-times-in-samail",
+      "coordinates": {
+        "latitude": 23.3031887,
+        "longitude": 57.97820756
+      },
+      "timezone": "Asia/Muscat",
+      "methodId": 8,
+      "legacyPostId": 10255
+    },
+    {
+      "id": 534,
+      "nameEn": "umm al quwain",
+      "nameAr": "أم القيوين",
+      "countryCode": "AE",
+      "countryId": 6,
+      "slug": "prayer-times-in-umm-al-quwain",
+      "coordinates": {
+        "latitude": 25.56527285,
+        "longitude": 55.55334265
+      },
+      "timezone": "Asia/Dubai",
+      "methodId": 8,
+      "legacyPostId": 10256
+    },
+    {
+      "id": 535,
+      "nameEn": "kutahya",
+      "nameAr": "كوتاهيا",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-kutahya",
+      "coordinates": {
+        "latitude": 39.42000856,
+        "longitude": 29.92999711
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10257
+    },
+    {
+      "id": 536,
+      "nameEn": "edirne",
+      "nameAr": "أدرنة",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-edirne",
+      "coordinates": {
+        "latitude": 41.67043968,
+        "longitude": 26.56999548
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10258
+    },
+    {
+      "id": 537,
+      "nameEn": "tekirdag",
+      "nameAr": "تكيرداغ",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-tekirdag",
+      "coordinates": {
+        "latitude": 40.99086875,
+        "longitude": 27.50998979
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10259
+    },
+    {
+      "id": 538,
+      "nameEn": "corum",
+      "nameAr": "جوروم",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-corum",
+      "coordinates": {
+        "latitude": 40.5199931,
+        "longitude": 34.95000077
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10260
+    },
+    {
+      "id": 539,
+      "nameEn": "ordu",
+      "nameAr": "أوردو",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-ordu",
+      "coordinates": {
+        "latitude": 41.00042889,
+        "longitude": 37.8699259
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10261
+    },
+    {
+      "id": 540,
+      "nameEn": "tokat",
+      "nameAr": "توقاد",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-tokat",
+      "coordinates": {
+        "latitude": 40.30599617,
+        "longitude": 36.56300452
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10262
+    },
+    {
+      "id": 541,
+      "nameEn": "karaman",
+      "nameAr": "قرمان",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-karaman",
+      "coordinates": {
+        "latitude": 37.18154055,
+        "longitude": 33.21501623
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10263
+    },
+    {
+      "id": 542,
+      "nameEn": "nigde",
+      "nameAr": "نيغدة",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-nigde",
+      "coordinates": {
+        "latitude": 37.97600412,
+        "longitude": 34.69400163
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10264
+    },
+    {
+      "id": 543,
+      "nameEn": "kastamonu",
+      "nameAr": "قسطموني",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-kastamonu",
+      "coordinates": {
+        "latitude": 41.38900215,
+        "longitude": 33.78300349
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10265
+    },
+    {
+      "id": 544,
+      "nameEn": "rize",
+      "nameAr": "ريزة",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-rize",
+      "coordinates": {
+        "latitude": 41.02084108,
+        "longitude": 40.52185705
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10266
+    },
+    {
+      "id": 545,
+      "nameEn": "giresun",
+      "nameAr": "غيرسون",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-giresun",
+      "coordinates": {
+        "latitude": 40.91300115,
+        "longitude": 38.39000452
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10267
+    },
+    {
+      "id": 546,
+      "nameEn": "isparta",
+      "nameAr": "إسبرطة",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-isparta",
+      "coordinates": {
+        "latitude": 37.76998008,
+        "longitude": 30.52996049
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10268
+    },
+    {
+      "id": 547,
+      "nameEn": "usak",
+      "nameAr": "عشاق",
+      "countryCode": "TR",
+      "countryId": 25,
+      "slug": "prayer-times-in-usak",
+      "coordinates": {
+        "latitude": 38.68036379,
+        "longitude": 29.4200024
+      },
+      "timezone": "Europe/Istanbul",
+      "methodId": 13,
+      "legacyPostId": 10269
+    },
+    {
+      "id": 548,
+      "nameEn": "ghat",
+      "nameAr": "غات",
+      "countryCode": "LY",
+      "countryId": 11,
+      "slug": "prayer-times-in-ghat",
+      "coordinates": {
+        "latitude": 24.96474103,
+        "longitude": 10.17275346
+      },
+      "timezone": "Africa/Tripoli",
+      "methodId": 8,
+      "legacyPostId": 10270
+    },
+    {
+      "id": 549,
+      "nameEn": "shahhat",
+      "nameAr": "شحات",
+      "countryCode": "LY",
+      "countryId": 11,
+      "slug": "prayer-times-in-shahhat",
+      "coordinates": {
+        "latitude": 32.82813702,
+        "longitude": 21.86216915
+      },
+      "timezone": "Africa/Tripoli",
+      "methodId": 8,
+      "legacyPostId": 10271
+    },
+    {
+      "id": 550,
+      "nameEn": "berber",
+      "nameAr": "بربر",
+      "countryCode": "SD",
+      "countryId": 13,
+      "slug": "prayer-times-in-berber",
+      "coordinates": {
+        "latitude": 18.01702557,
+        "longitude": 33.98328975
+      },
+      "timezone": "Africa/Khartoum",
+      "methodId": 8,
+      "legacyPostId": 10272
+    },
+    {
+      "id": 551,
+      "nameEn": "tripoli lebanon",
+      "nameAr": "طرابلس لبنان",
+      "countryCode": "LB",
+      "countryId": 14,
+      "slug": "prayer-times-in-tripoli-lb",
+      "coordinates": {
+        "latitude": 34.42000368,
+        "longitude": 35.8699963
+      },
+      "timezone": "Asia/Beirut",
+      "methodId": 8,
+      "legacyPostId": 10273
+    },
+    {
+      "id": 552,
+      "nameEn": "palmyra",
+      "nameAr": "تدمر",
+      "countryCode": "SY",
+      "countryId": 10,
+      "slug": "prayer-times-in-palmyra",
+      "coordinates": {
+        "latitude": 34.55040916,
+        "longitude": 38.28333736
+      },
+      "timezone": "Asia/Damascus",
+      "methodId": 8,
+      "legacyPostId": 10274
+    },
+    {
+      "id": 553,
+      "nameEn": "denpasar",
+      "nameAr": "دنباسار",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-denpasar",
+      "coordinates": {
+        "latitude": -8.650028871,
+        "longitude": 115.2199849
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10275
+    },
+    {
+      "id": 554,
+      "nameEn": "samarinda",
+      "nameAr": "ساماريندا",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-samarinda",
+      "coordinates": {
+        "latitude": -0.500035381,
+        "longitude": 117.1499963
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10276
+    },
+    {
+      "id": 555,
+      "nameEn": "balikpapan",
+      "nameAr": "باليكبابان",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-balikpapan",
+      "coordinates": {
+        "latitude": -1.250015443,
+        "longitude": 116.8300158
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10277
+    },
+    {
+      "id": 556,
+      "nameEn": "pontianak",
+      "nameAr": "بونتياناك",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-pontianak",
+      "coordinates": {
+        "latitude": -0.029986553,
+        "longitude": 109.3199833
+      },
+      "timezone": "Asia/Pontianak",
+      "methodId": 8,
+      "legacyPostId": 10278
+    },
+    {
+      "id": 557,
+      "nameEn": "jambi",
+      "nameAr": "جامبي",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-jambi",
+      "coordinates": {
+        "latitude": -1.589994691,
+        "longitude": 103.6100476
+      },
+      "timezone": "Asia/Jakarta",
+      "methodId": 8,
+      "legacyPostId": 10279
+    },
+    {
+      "id": 558,
+      "nameEn": "manado",
+      "nameAr": "مانادو",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-manado",
+      "coordinates": {
+        "latitude": 1.480024637,
+        "longitude": 124.8499914
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10280
+    },
+    {
+      "id": 559,
+      "nameEn": "mataram",
+      "nameAr": "ماتارام",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-mataram",
+      "coordinates": {
+        "latitude": -8.579542217,
+        "longitude": 116.1350195
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10281
+    },
+    {
+      "id": 560,
+      "nameEn": "bengkulu",
+      "nameAr": "بنغكولو",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-bengkulu",
+      "coordinates": {
+        "latitude": -3.800040671,
+        "longitude": 102.2699743
+      },
+      "timezone": "Asia/Jakarta",
+      "methodId": 8,
+      "legacyPostId": 10282
+    },
+    {
+      "id": 561,
+      "nameEn": "kupang",
+      "nameAr": "كوبانغ",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-kupang",
+      "coordinates": {
+        "latitude": -10.17866941,
+        "longitude": 123.5829886
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10283
+    },
+    {
+      "id": 562,
+      "nameEn": "ambon",
+      "nameAr": "أمبون",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-ambon",
+      "coordinates": {
+        "latitude": -3.716686586,
+        "longitude": 128.2000195
+      },
+      "timezone": "Asia/Jayapura",
+      "methodId": 8,
+      "legacyPostId": 10284
+    },
+    {
+      "id": 563,
+      "nameEn": "banda aceh",
+      "nameAr": "باندا آتشيه",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-banda-aceh",
+      "coordinates": {
+        "latitude": 5.549982929,
+        "longitude": 95.32001094
+      },
+      "timezone": "Asia/Jakarta",
+      "methodId": 8,
+      "legacyPostId": 10285
+    },
+    {
+      "id": 564,
+      "nameEn": "jayapura",
+      "nameAr": "جايابورا",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-jayapura",
+      "coordinates": {
+        "latitude": -2.532986228,
+        "longitude": 140.69998
+      },
+      "timezone": "Asia/Jayapura",
+      "methodId": 8,
+      "legacyPostId": 10286
+    },
+    {
+      "id": 565,
+      "nameEn": "palu",
+      "nameAr": "بالو",
+      "countryCode": "ID",
+      "countryId": 38,
+      "slug": "prayer-times-in-palu",
+      "coordinates": {
+        "latitude": -0.907038962,
+        "longitude": 119.8330367
+      },
+      "timezone": "Asia/Makassar",
+      "methodId": 8,
+      "legacyPostId": 10287
+    },
+    {
+      "id": 566,
+      "nameEn": "alor setar",
+      "nameAr": "ألور سيتار",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-alor-setar",
+      "coordinates": {
+        "latitude": 6.113307718,
+        "longitude": 100.3729325
+      },
+      "timezone": "Asia/Kuala_Lumpur",
+      "methodId": 8,
+      "legacyPostId": 10288
+    },
+    {
+      "id": 567,
+      "nameEn": "kuantan",
+      "nameAr": "كوانتان",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-kuantan",
+      "coordinates": {
+        "latitude": 3.829958719,
+        "longitude": 103.3200394
+      },
+      "timezone": "Asia/Kuala_Lumpur",
+      "methodId": 8,
+      "legacyPostId": 10289
+    },
+    {
+      "id": 568,
+      "nameEn": "kuala terengganu",
+      "nameAr": "كوالا ترينجانو",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-kuala-terengganu",
+      "coordinates": {
+        "latitude": 5.330409769,
+        "longitude": 103.12
+      },
+      "timezone": "Asia/Kuala_Lumpur",
+      "methodId": 8,
+      "legacyPostId": 10290
+    },
+    {
+      "id": 569,
+      "nameEn": "taiping",
+      "nameAr": "تايبينغ",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-taiping",
+      "coordinates": {
+        "latitude": 4.864960143,
+        "longitude": 100.7199914
+      },
+      "timezone": "Asia/Kuala_Lumpur",
+      "methodId": 8,
+      "legacyPostId": 10291
+    },
+    {
+      "id": 570,
+      "nameEn": "tawau",
+      "nameAr": "تاواو",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-tawau",
+      "coordinates": {
+        "latitude": 4.270965392,
+        "longitude": 117.8959973
+      },
+      "timezone": "Asia/Kuching",
+      "methodId": 8,
+      "legacyPostId": 10292
+    },
+    {
+      "id": 571,
+      "nameEn": "miri",
+      "nameAr": "ميري",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-miri",
+      "coordinates": {
+        "latitude": 4.399923929,
+        "longitude": 113.9845048
+      },
+      "timezone": "Asia/Kuching",
+      "methodId": 8,
+      "legacyPostId": 10293
+    },
+    {
+      "id": 572,
+      "nameEn": "bintulu",
+      "nameAr": "بينتولو",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-bintulu",
+      "coordinates": {
+        "latitude": 3.16640749,
+        "longitude": 113.0359838
+      },
+      "timezone": "Asia/Kuching",
+      "methodId": 8,
+      "legacyPostId": 10294
+    },
+    {
+      "id": 573,
+      "nameEn": "kangar",
+      "nameAr": "كانغار",
+      "countryCode": "MY",
+      "countryId": 29,
+      "slug": "prayer-times-in-kangar",
+      "coordinates": {
+        "latitude": 6.433001991,
+        "longitude": 100.1899987
+      },
+      "timezone": "Asia/Kuala_Lumpur",
+      "methodId": 8,
+      "legacyPostId": 10295
+    },
+    {
+      "id": 574,
+      "nameEn": "nantes",
+      "nameAr": "نانت",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-nantes",
+      "coordinates": {
+        "latitude": 47.21038576,
+        "longitude": -1.590016929
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10296
+    },
+    {
+      "id": 575,
+      "nameEn": "strasbourg",
+      "nameAr": "ستراسبورغ",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-strasbourg",
+      "coordinates": {
+        "latitude": 48.57996625,
+        "longitude": 7.750007282
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10297
+    },
+    {
+      "id": 576,
+      "nameEn": "montpellier",
+      "nameAr": "مونبلييه",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-montpellier",
+      "coordinates": {
+        "latitude": 43.61039878,
+        "longitude": 3.869985716
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10298
+    },
+    {
+      "id": 577,
+      "nameEn": "rennes",
+      "nameAr": "رين",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-rennes",
+      "coordinates": {
+        "latitude": 48.10002138,
+        "longitude": -1.670012046
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10299
+    },
+    {
+      "id": 578,
+      "nameEn": "toulon",
+      "nameAr": "تولون",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-toulon",
+      "coordinates": {
+        "latitude": 43.13418645,
+        "longitude": 5.918821566
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10300
+    },
+    {
+      "id": 579,
+      "nameEn": "grenoble",
+      "nameAr": "غرونوبل",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-grenoble",
+      "coordinates": {
+        "latitude": 45.18038047,
+        "longitude": 5.720001992
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10301
+    },
+    {
+      "id": 580,
+      "nameEn": "dijon",
+      "nameAr": "ديجون",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-dijon",
+      "coordinates": {
+        "latitude": 47.33040428,
+        "longitude": 5.030018268
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10302
+    },
+    {
+      "id": 581,
+      "nameEn": "angers",
+      "nameAr": "أنجيه",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-angers",
+      "coordinates": {
+        "latitude": 47.48000755,
+        "longitude": -0.530029949
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10303
+    },
+    {
+      "id": 582,
+      "nameEn": "nimes",
+      "nameAr": "نيم",
+      "countryCode": "FR",
+      "countryId": 22,
+      "slug": "prayer-times-in-nimes",
+      "coordinates": {
+        "latitude": 43.83038535,
+        "longitude": 4.350008096
+      },
+      "timezone": "Europe/Paris",
+      "methodId": 8,
+      "legacyPostId": 10304
+    },
+    {
+      "id": 583,
+      "nameEn": "bielefeld",
+      "nameAr": "بيلفلد",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-bielefeld",
+      "coordinates": {
+        "latitude": 52.02998822,
+        "longitude": 8.530011351
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10305
+    },
+    {
+      "id": 584,
+      "nameEn": "augsburg",
+      "nameAr": "أوغسبورغ",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-augsburg",
+      "coordinates": {
+        "latitude": 48.35000612,
+        "longitude": 10.89999589
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10306
+    },
+    {
+      "id": 585,
+      "nameEn": "braunschweig",
+      "nameAr": "براونشفايغ",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-braunschweig",
+      "coordinates": {
+        "latitude": 52.24997479,
+        "longitude": 10.5000203
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10307
+    },
+    {
+      "id": 586,
+      "nameEn": "chemnitz",
+      "nameAr": "كيمنتس",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-chemnitz",
+      "coordinates": {
+        "latitude": 50.82998395,
+        "longitude": 12.91997595
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10308
+    },
+    {
+      "id": 587,
+      "nameEn": "magdeburg",
+      "nameAr": "ماغديبورغ",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-magdeburg",
+      "coordinates": {
+        "latitude": 52.13042137,
+        "longitude": 11.62000362
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10309
+    },
+    {
+      "id": 588,
+      "nameEn": "freiburg",
+      "nameAr": "فرايبورغ",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-freiburg",
+      "coordinates": {
+        "latitude": 48.00041506,
+        "longitude": 7.869948281
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10310
+    },
+    {
+      "id": 589,
+      "nameEn": "erfurt",
+      "nameAr": "إرفورت",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-erfurt",
+      "coordinates": {
+        "latitude": 50.97005292,
+        "longitude": 11.02996212
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10311
+    },
+    {
+      "id": 590,
+      "nameEn": "rostock",
+      "nameAr": "روستوك",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-rostock",
+      "coordinates": {
+        "latitude": 54.07038047,
+        "longitude": 12.14999711
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10312
+    },
+    {
+      "id": 591,
+      "nameEn": "kassel",
+      "nameAr": "كاسل",
+      "countryCode": "DE",
+      "countryId": 28,
+      "slug": "prayer-times-in-kassel",
+      "coordinates": {
+        "latitude": 51.30000694,
+        "longitude": 9.500029662
+      },
+      "timezone": "Europe/Berlin",
+      "methodId": 8,
+      "legacyPostId": 10313
+    },
+    {
+      "id": 592,
+      "nameEn": "birmingham",
+      "nameAr": "برمنغهام",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-birmingham",
+      "coordinates": {
+        "latitude": 52.47497398,
+        "longitude": -1.919996787
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10314
+    },
+    {
+      "id": 593,
+      "nameEn": "leeds",
+      "nameAr": "ليدز",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-leeds",
+      "coordinates": {
+        "latitude": 53.83000755,
+        "longitude": -1.580017539
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10315
+    },
+    {
+      "id": 594,
+      "nameEn": "edinburgh",
+      "nameAr": "إدنبرة",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-edinburgh",
+      "coordinates": {
+        "latitude": 55.94832786,
+        "longitude": -3.219090618
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10316
+    },
+    {
+      "id": 595,
+      "nameEn": "leicester",
+      "nameAr": "ليستر",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-leicester",
+      "coordinates": {
+        "latitude": 52.62997744,
+        "longitude": -1.133248943
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10317
+    },
+    {
+      "id": 596,
+      "nameEn": "coventry",
+      "nameAr": "كوفنتري",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-coventry",
+      "coordinates": {
+        "latitude": 52.42040367,
+        "longitude": -1.499996583
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10318
+    },
+    {
+      "id": 597,
+      "nameEn": "cardiff",
+      "nameAr": "كارديف",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-cardiff",
+      "coordinates": {
+        "latitude": 51.49999473,
+        "longitude": -3.22500757
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10319
+    },
+    {
+      "id": 598,
+      "nameEn": "nottingham",
+      "nameAr": "نوتنغهام",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-nottingham",
+      "coordinates": {
+        "latitude": 52.97034426,
+        "longitude": -1.170016725
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10320
+    },
+    {
+      "id": 599,
+      "nameEn": "southampton",
+      "nameAr": "ساوثهامبتون",
+      "countryCode": "GB",
+      "countryId": 20,
+      "slug": "prayer-times-in-southampton",
+      "coordinates": {
+        "latitude": 50.90003135,
+        "longitude": -1.399976849
+      },
+      "timezone": "Europe/London",
+      "methodId": 8,
+      "legacyPostId": 10321
+    },
+    {
+      "id": 600,
+      "nameEn": "malaga",
+      "nameAr": "مالقة",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-malaga",
+      "coordinates": {
+        "latitude": 36.7204059,
+        "longitude": -4.419999228
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10322
+    },
+    {
+      "id": 601,
+      "nameEn": "murcia",
+      "nameAr": "مرسية",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-murcia",
+      "coordinates": {
+        "latitude": 37.9799931,
+        "longitude": -1.12996749
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10323
+    },
+    {
+      "id": 602,
+      "nameEn": "palma",
+      "nameAr": "بالما دي مايوركا",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-palma",
+      "coordinates": {
+        "latitude": 39.57426271,
+        "longitude": 2.65424597
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10324
+    },
+    {
+      "id": 603,
+      "nameEn": "alicante",
+      "nameAr": "أليكانتي",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-alicante",
+      "coordinates": {
+        "latitude": 38.3512199,
+        "longitude": -0.483640721
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10325
+    },
+    {
+      "id": 604,
+      "nameEn": "cordoba",
+      "nameAr": "قرطبة",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-cordoba",
+      "coordinates": {
+        "latitude": 37.87999921,
+        "longitude": -4.770003704
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10326
+    },
+    {
+      "id": 605,
+      "nameEn": "valladolid",
+      "nameAr": "بلد الوليد",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-valladolid",
+      "coordinates": {
+        "latitude": 41.65000165,
+        "longitude": -4.750030763
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10327
+    },
+    {
+      "id": 606,
+      "nameEn": "vigo",
+      "nameAr": "فيغو",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-vigo",
+      "coordinates": {
+        "latitude": 42.22001853,
+        "longitude": -8.729994549
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10328
+    },
+    {
+      "id": 607,
+      "nameEn": "gijon",
+      "nameAr": "خيخون",
+      "countryCode": "ES",
+      "countryId": 23,
+      "slug": "prayer-times-in-gijon",
+      "coordinates": {
+        "latitude": 43.53001609,
+        "longitude": -5.670000449
+      },
+      "timezone": "Europe/Madrid",
+      "methodId": 8,
+      "legacyPostId": 10329
+    },
+    {
+      "id": 608,
+      "nameEn": "houston",
+      "nameAr": "هيوستن",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-houston",
+      "coordinates": {
+        "latitude": 29.81997438,
+        "longitude": -95.33997929
+      },
+      "timezone": "America/Chicago",
+      "methodId": 8,
+      "legacyPostId": 10330
+    },
+    {
+      "id": 609,
+      "nameEn": "edmonton",
+      "nameAr": "إدمونتون",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-edmonton",
+      "coordinates": {
+        "latitude": 53.55002464,
+        "longitude": -113.4999819
+      },
+      "timezone": "America/Edmonton",
+      "methodId": 8,
+      "legacyPostId": 10331
+    },
+    {
+      "id": 610,
+      "nameEn": "winnipeg",
+      "nameAr": "وينيبيدغ",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-winnipeg",
+      "coordinates": {
+        "latitude": 49.88298749,
+        "longitude": -97.16599186
+      },
+      "timezone": "America/Winnipeg",
+      "methodId": 8,
+      "legacyPostId": 10332
+    },
+    {
+      "id": 611,
+      "nameEn": "quebec",
+      "nameAr": "كيبك",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-quebec",
+      "coordinates": {
+        "latitude": 46.83996909,
+        "longitude": -71.24561019
+      },
+      "timezone": "America/Montreal",
+      "methodId": 8,
+      "legacyPostId": 10333
+    },
+    {
+      "id": 612,
+      "nameEn": "halifax",
+      "nameAr": "هاليفاكس",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-halifax",
+      "coordinates": {
+        "latitude": 44.65002525,
+        "longitude": -63.60000452
+      },
+      "timezone": "America/Halifax",
+      "methodId": 8,
+      "legacyPostId": 10334
+    },
+    {
+      "id": 613,
+      "nameEn": "saskatoon",
+      "nameAr": "ساسكاتون",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-saskatoon",
+      "coordinates": {
+        "latitude": 52.17003135,
+        "longitude": -106.6699854
+      },
+      "timezone": "America/Regina",
+      "methodId": 8,
+      "legacyPostId": 10335
+    },
+    {
+      "id": 614,
+      "nameEn": "regina",
+      "nameAr": "ريجينا",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-regina",
+      "coordinates": {
+        "latitude": 50.45003298,
+        "longitude": -104.6170099
+      },
+      "timezone": "America/Regina",
+      "methodId": 8,
+      "legacyPostId": 10336
+    },
+    {
+      "id": 615,
+      "nameEn": "windsor",
+      "nameAr": "وندسور",
+      "countryCode": "CA",
+      "countryId": 27,
+      "slug": "prayer-times-in-windsor",
+      "coordinates": {
+        "latitude": 44.98059938,
+        "longitude": -64.12911951
+      },
+      "timezone": "America/Halifax",
+      "methodId": 8,
+      "legacyPostId": 10337
+    },
+    {
+      "id": 616,
+      "nameEn": "palermo",
+      "nameAr": "باليرمو",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-palermo",
+      "coordinates": {
+        "latitude": 38.12502301,
+        "longitude": 13.35002722
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10338
+    },
+    {
+      "id": 617,
+      "nameEn": "genoa",
+      "nameAr": "جنوة",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-genoa",
+      "coordinates": {
+        "latitude": 44.40998822,
+        "longitude": 8.930038614
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10339
+    },
+    {
+      "id": 618,
+      "nameEn": "bologna",
+      "nameAr": "بولونيا",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-bologna",
+      "coordinates": {
+        "latitude": 44.50042198,
+        "longitude": 11.34002071
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10340
+    },
+    {
+      "id": 619,
+      "nameEn": "bari",
+      "nameAr": "باري",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-bari",
+      "coordinates": {
+        "latitude": 41.1142204,
+        "longitude": 16.87275793
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10341
+    },
+    {
+      "id": 620,
+      "nameEn": "catania",
+      "nameAr": "قطانية",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-catania",
+      "coordinates": {
+        "latitude": 37.49997072,
+        "longitude": 15.07999914
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10342
+    },
+    {
+      "id": 621,
+      "nameEn": "verona",
+      "nameAr": "فيرونا",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-verona",
+      "coordinates": {
+        "latitude": 45.44039044,
+        "longitude": 10.99001623
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10343
+    },
+    {
+      "id": 622,
+      "nameEn": "messina",
+      "nameAr": "مسينة",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-messina",
+      "coordinates": {
+        "latitude": 38.2004706,
+        "longitude": 15.5499963
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10344
+    },
+    {
+      "id": 623,
+      "nameEn": "trieste",
+      "nameAr": "ترييستي",
+      "countryCode": "IT",
+      "countryId": 21,
+      "slug": "prayer-times-in-trieste",
+      "coordinates": {
+        "latitude": 45.65037762,
+        "longitude": 13.80002559
+      },
+      "timezone": "Europe/Rome",
+      "methodId": 8,
+      "legacyPostId": 10345
+    },
+    {
+      "id": 624,
+      "nameEn": "philadelphia",
+      "nameAr": "فيلادلفيا",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-philadelphia",
+      "coordinates": {
+        "latitude": 39.99997316,
+        "longitude": -75.16999597
+      },
+      "timezone": "America/New_York",
+      "methodId": 8,
+      "legacyPostId": 10346
+    },
+    {
+      "id": 625,
+      "nameEn": "phoenix",
+      "nameAr": "فينيكس",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-phoenix",
+      "coordinates": {
+        "latitude": 33.53997988,
+        "longitude": -112.0699917
+      },
+      "timezone": "America/Phoenix",
+      "methodId": 8,
+      "legacyPostId": 10347
+    },
+    {
+      "id": 626,
+      "nameEn": "san antonio",
+      "nameAr": "سان أنطونيو",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-san-antonio",
+      "coordinates": {
+        "latitude": 29.48733319,
+        "longitude": -98.50730534
+      },
+      "timezone": "America/Chicago",
+      "methodId": 8,
+      "legacyPostId": 10348
+    },
+    {
+      "id": 627,
+      "nameEn": "san diego",
+      "nameAr": "سان دييغو",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-san-diego",
+      "coordinates": {
+        "latitude": 32.82002382,
+        "longitude": -117.1799899
+      },
+      "timezone": "America/Los_Angeles",
+      "methodId": 8,
+      "legacyPostId": 10349
+    },
+    {
+      "id": 628,
+      "nameEn": "detroit",
+      "nameAr": "ديترويت",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-detroit",
+      "coordinates": {
+        "latitude": 42.32996014,
+        "longitude": -83.08005579
+      },
+      "timezone": "America/Detroit",
+      "methodId": 8,
+      "legacyPostId": 10350
+    },
+    {
+      "id": 629,
+      "nameEn": "atlanta",
+      "nameAr": "أتلانتا",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-atlanta",
+      "coordinates": {
+        "latitude": 33.83001385,
+        "longitude": -84.39994938
+      },
+      "timezone": "America/New_York",
+      "methodId": 8,
+      "legacyPostId": 10351
+    },
+    {
+      "id": 630,
+      "nameEn": "miami",
+      "nameAr": "ميامي",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-miami",
+      "coordinates": {
+        "latitude": 25.7876107,
+        "longitude": -80.22410608
+      },
+      "timezone": "America/New_York",
+      "methodId": 8,
+      "legacyPostId": 10352
+    },
+    {
+      "id": 631,
+      "nameEn": "denver",
+      "nameAr": "دنفر",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-denver",
+      "coordinates": {
+        "latitude": 39.73918805,
+        "longitude": -104.984016
+      },
+      "timezone": "America/Denver",
+      "methodId": 8,
+      "legacyPostId": 10353
+    },
+    {
+      "id": 632,
+      "nameEn": "tampa",
+      "nameAr": "تامبا",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-tampa",
+      "coordinates": {
+        "latitude": 27.94698793,
+        "longitude": -82.45862085
+      },
+      "timezone": "America/New_York",
+      "methodId": 8,
+      "legacyPostId": 10354
+    },
+    {
+      "id": 633,
+      "nameEn": "orlando",
+      "nameAr": "أورلاندو",
+      "countryCode": "US",
+      "countryId": 19,
+      "slug": "prayer-times-in-orlando",
+      "coordinates": {
+        "latitude": 28.50997683,
+        "longitude": -81.38003036
+      },
+      "timezone": "America/New_York",
+      "methodId": 8,
+      "legacyPostId": 10355
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "countryCode": "PK",
+      "countryId": 39,
+      "methodId": 12,
+      "nameEn": "islamabad",
+      "nameAr": "إسلام آباد",
+      "lookupName": "Islamabad",
+      "slugSuffix": "islamabad",
+      "reason": "REJECT_PROXIMITY_COLLISION_INTRABATCH",
+      "details": "Distance to candidate \"rawalpindi\" is 16.16 km (< 20 km threshold)"
+    },
+    {
+      "countryCode": "DZ",
+      "countryId": 18,
+      "methodId": 8,
+      "nameEn": "relizane",
+      "nameAr": "غليزان",
+      "lookupName": "Relizane",
+      "slugSuffix": "relizane",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Relizane\" not found in ISO DZ"
+    },
+    {
+      "countryCode": "DZ",
+      "countryId": 18,
+      "methodId": 8,
+      "nameEn": "khenchela",
+      "nameAr": "خنشلة",
+      "lookupName": "Khenchela",
+      "slugSuffix": "khenchela",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Khenchela\" not found in ISO DZ"
+    },
+    {
+      "countryCode": "DZ",
+      "countryId": 18,
+      "methodId": 8,
+      "nameEn": "ain oussera",
+      "nameAr": "عين وسارة",
+      "lookupName": "Ain Oussera",
+      "slugSuffix": "ain-oussera",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Ain Oussera\" not found in ISO DZ"
+    },
+    {
+      "countryCode": "DZ",
+      "countryId": 18,
+      "methodId": 8,
+      "nameEn": "tamanrasset",
+      "nameAr": "تمنراست",
+      "lookupName": "Tamanghasset",
+      "slugSuffix": "tamanrasset",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Tamanghasset\" not found in ISO DZ"
+    },
+    {
+      "countryCode": "TR",
+      "countryId": 25,
+      "methodId": 13,
+      "nameEn": "afyonkarahisar",
+      "nameAr": "أفيون قره حصار",
+      "lookupName": "Afyonkarahisar",
+      "slugSuffix": "afyonkarahisar",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Afyonkarahisar\" not found in ISO TR"
+    },
+    {
+      "countryCode": "TR",
+      "countryId": 25,
+      "methodId": 13,
+      "nameEn": "aksaray",
+      "nameAr": "أق سراي",
+      "lookupName": "Aksaray",
+      "slugSuffix": "aksaray",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Aksaray\" not found in ISO TR"
+    },
+    {
+      "countryCode": "TR",
+      "countryId": 25,
+      "methodId": 13,
+      "nameEn": "duzce",
+      "nameAr": "دوزجة",
+      "lookupName": "Duzce",
+      "slugSuffix": "duzce",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Duzce\" not found in ISO TR"
+    },
+    {
+      "countryCode": "ID",
+      "countryId": 38,
+      "methodId": 8,
+      "nameEn": "banjarmasin",
+      "nameAr": "بنجارماسين",
+      "lookupName": "Banjarmasin",
+      "slugSuffix": "banjarmasin",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Banjarmasin\" not found in ISO ID"
+    },
+    {
+      "countryCode": "LY",
+      "countryId": 11,
+      "methodId": 8,
+      "nameEn": "tarhuna",
+      "nameAr": "ترهونة",
+      "lookupName": "Tarhuna",
+      "slugSuffix": "tarhuna",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Tarhuna\" not found in ISO LY"
+    },
+    {
+      "countryCode": "LY",
+      "countryId": 11,
+      "methodId": 8,
+      "nameEn": "zliten",
+      "nameAr": "زليتن",
+      "lookupName": "Zlitan",
+      "slugSuffix": "zliten",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Zlitan\" not found in ISO LY"
+    },
+    {
+      "countryCode": "LY",
+      "countryId": 11,
+      "methodId": 8,
+      "nameEn": "murzuk",
+      "nameAr": "مرزق",
+      "lookupName": "Murzuq",
+      "slugSuffix": "murzuk",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Murzuq\" not found in ISO LY"
+    },
+    {
+      "countryCode": "LY",
+      "countryId": 11,
+      "methodId": 8,
+      "nameEn": "awbari",
+      "nameAr": "أوباري",
+      "lookupName": "Awbari",
+      "slugSuffix": "awbari",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Awbari\" not found in ISO LY"
+    },
+    {
+      "countryCode": "YE",
+      "countryId": 4,
+      "methodId": 8,
+      "nameEn": "zinjibar",
+      "nameAr": "زنجبار",
+      "lookupName": "Zinjibar",
+      "slugSuffix": "zinjibar",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Zinjibar\" not found in ISO YE"
+    },
+    {
+      "countryCode": "OM",
+      "countryId": 9,
+      "methodId": 8,
+      "nameEn": "khasab",
+      "nameAr": "خصب",
+      "lookupName": "Khasab",
+      "slugSuffix": "khasab",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Khasab\" not found in ISO OM"
+    },
+    {
+      "countryCode": "AE",
+      "countryId": 6,
+      "methodId": 8,
+      "nameEn": "khor fakkan",
+      "nameAr": "خورفكان",
+      "lookupName": "Khawr Fakkan",
+      "slugSuffix": "khor-fakkan",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Khawr Fakkan\" not found in ISO AE"
+    },
+    {
+      "countryCode": "AE",
+      "countryId": 6,
+      "methodId": 8,
+      "nameEn": "kalba",
+      "nameAr": "كلباء",
+      "lookupName": "Kalba",
+      "slugSuffix": "kalba",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Kalba\" not found in ISO AE"
+    },
+    {
+      "countryCode": "SD",
+      "countryId": 13,
+      "methodId": 8,
+      "nameEn": "singa",
+      "nameAr": "سنجة",
+      "lookupName": "Sinjah",
+      "slugSuffix": "singa",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Sinjah\" not found in ISO SD"
+    },
+    {
+      "countryCode": "SD",
+      "countryId": 13,
+      "methodId": 8,
+      "nameEn": "rabak",
+      "nameAr": "ربك",
+      "lookupName": "Rabak",
+      "slugSuffix": "rabak",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Rabak\" not found in ISO SD"
+    },
+    {
+      "countryCode": "SD",
+      "countryId": 13,
+      "methodId": 8,
+      "nameEn": "dongola",
+      "nameAr": "دنقلا",
+      "lookupName": "Dunqulah",
+      "slugSuffix": "dongola",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Dunqulah\" not found in ISO SD"
+    },
+    {
+      "countryCode": "SD",
+      "countryId": 13,
+      "methodId": 8,
+      "nameEn": "karima",
+      "nameAr": "كريمة",
+      "lookupName": "Kuraymah",
+      "slugSuffix": "karima",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Kuraymah\" not found in ISO SD"
+    },
+    {
+      "countryCode": "LB",
+      "countryId": 14,
+      "methodId": 8,
+      "nameEn": "tyre",
+      "nameAr": "صور",
+      "lookupName": "Sour",
+      "slugSuffix": "tyre",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Sour\" not found in ISO LB"
+    },
+    {
+      "countryCode": "SY",
+      "countryId": 10,
+      "methodId": 8,
+      "nameEn": "afrin",
+      "nameAr": "عفرين",
+      "lookupName": "Afrin",
+      "slugSuffix": "afrin",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Afrin\" not found in ISO SY"
+    },
+    {
+      "countryCode": "SY",
+      "countryId": 10,
+      "methodId": 8,
+      "nameEn": "al bab",
+      "nameAr": "الباب",
+      "lookupName": "Al Bab",
+      "slugSuffix": "al-bab",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Al Bab\" not found in ISO SY"
+    },
+    {
+      "countryCode": "SY",
+      "countryId": 10,
+      "methodId": 8,
+      "nameEn": "salamiyah",
+      "nameAr": "سلمية",
+      "lookupName": "As Salamiyah",
+      "slugSuffix": "salamiyah",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"As Salamiyah\" not found in ISO SY"
+    },
+    {
+      "countryCode": "DE",
+      "countryId": 28,
+      "methodId": 8,
+      "nameEn": "halle",
+      "nameAr": "هاله",
+      "lookupName": "Halle",
+      "slugSuffix": "halle",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Halle\" not found in ISO DE"
+    },
+    {
+      "countryCode": "DE",
+      "countryId": 28,
+      "methodId": 8,
+      "nameEn": "krefeld",
+      "nameAr": "كريفلد",
+      "lookupName": "Krefeld",
+      "slugSuffix": "krefeld",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Krefeld\" not found in ISO DE"
+    },
+    {
+      "countryCode": "DE",
+      "countryId": 28,
+      "methodId": 8,
+      "nameEn": "mainz",
+      "nameAr": "ماينتس",
+      "lookupName": "Mainz",
+      "slugSuffix": "mainz",
+      "reason": "REJECT_PROXIMITY_COLLISION_EXISTING",
+      "details": "Distance to existing \"wiesbaden\" is 11.01 km (< 20 km threshold)"
+    },
+    {
+      "countryCode": "GB",
+      "countryId": 20,
+      "methodId": 8,
+      "nameEn": "bradford",
+      "nameAr": "برادفورد",
+      "lookupName": "Bradford",
+      "slugSuffix": "bradford",
+      "reason": "REJECT_PROXIMITY_COLLISION_INTRABATCH",
+      "details": "Distance to candidate \"leeds\" is 11.65 km (< 20 km threshold)"
+    },
+    {
+      "countryCode": "GB",
+      "countryId": 20,
+      "methodId": 8,
+      "nameEn": "newcastle upon tyne",
+      "nameAr": "نيوكاسل",
+      "lookupName": "Newcastle upon Tyne",
+      "slugSuffix": "newcastle-upon-tyne",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Newcastle upon Tyne\" not found in ISO GB"
+    },
+    {
+      "countryCode": "IT",
+      "countryId": 21,
+      "methodId": 8,
+      "nameEn": "padua",
+      "nameAr": "بادوفا",
+      "lookupName": "Padua",
+      "slugSuffix": "padua",
+      "reason": "REJECT_GEODATA_NOT_FOUND",
+      "details": "Lookup name \"Padua\" not found in ISO IT"
+    },
+    {
+      "countryCode": "SA",
+      "nameEn": "ad damman",
+      "reason": "REJECT_NEAR_DUPLICATE_PHONETIC",
+      "details": "Phonetic variant of Dammam"
+    },
+    {
+      "countryCode": "TR",
+      "nameEn": "icel",
+      "reason": "REJECT_METROPOLITAN_COLLISION",
+      "details": "Icel is historical Mersin center (< 5km)"
+    },
+    {
+      "countryCode": "MA",
+      "nameEn": "sale",
+      "reason": "REJECT_EXISTING_RECORD",
+      "details": "Sale is already in cities.json"
+    },
+    {
+      "countryCode": "US",
+      "nameEn": "cambridge",
+      "reason": "REJECT_METROPOLITAN_PROXIMITY_COLLISION",
+      "details": "Across river from Boston (< 5km)"
+    },
+    {
+      "countryCode": "JP",
+      "nameEn": "tokyo",
+      "reason": "REJECT_UNSUPPORTED_COUNTRY",
+      "details": "Japan is not an authorized expansion country"
+    }
+  ]
+}

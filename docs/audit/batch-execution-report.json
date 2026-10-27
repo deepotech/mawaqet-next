@@ -1,0 +1,74 @@
+[
+  {
+    "batchId": 1,
+    "name": "New Countries (Pakistan & Singapore)",
+    "citiesAdded": 15,
+    "runningTotalCities": 503,
+    "sampleCity": "karachi",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 2,
+    "name": "North Africa (Algeria, Morocco, Tunisia)",
+    "citiesAdded": 17,
+    "runningTotalCities": 520,
+    "sampleCity": "tiznit",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 3,
+    "name": "Arabian Peninsula (Saudi Arabia, Yemen, Oman, UAE)",
+    "citiesAdded": 14,
+    "runningTotalCities": 534,
+    "sampleCity": "sakakah",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 4,
+    "name": "Turkey, Libya, Sudan, Lebanon, Syria",
+    "citiesAdded": 18,
+    "runningTotalCities": 552,
+    "sampleCity": "kutahya",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 5,
+    "name": "Southeast Asia (Indonesia & Malaysia)",
+    "citiesAdded": 21,
+    "runningTotalCities": 573,
+    "sampleCity": "denpasar",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 6,
+    "name": "Western Europe (France & Germany)",
+    "citiesAdded": 18,
+    "runningTotalCities": 591,
+    "sampleCity": "nantes",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 7,
+    "name": "United Kingdom & Spain",
+    "citiesAdded": 16,
+    "runningTotalCities": 607,
+    "sampleCity": "birmingham",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 8,
+    "name": "Italy, Canada & US (Part 1)",
+    "citiesAdded": 16,
+    "runningTotalCities": 623,
+    "sampleCity": "houston",
+    "status": "PASSED"
+  },
+  {
+    "batchId": 9,
+    "name": "United States (Part 2)",
+    "citiesAdded": 10,
+    "runningTotalCities": 633,
+    "sampleCity": "philadelphia",
+    "status": "PASSED"
+  }
+]

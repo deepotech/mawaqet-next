@@ -18,8 +18,8 @@ describe('Phase 4C — Expansion Batch 2: Samarra, Maan, Samawah, Jenin', () => 
   ];
 
   describe('1. Batch Presence & ID Sequencing', () => {
-    it('contains exactly 488 cities in dataset', () => {
-      expect(cities).toHaveLength(488);
+    it('contains at least 488 cities in dataset', () => {
+      expect(cities.length).toBeGreaterThanOrEqual(488);
     });
 
     it('contains all 4 new cities with sequential IDs 485..488', () => {
@@ -31,11 +31,11 @@ describe('Phase 4C — Expansion Batch 2: Samarra, Maan, Samawah, Jenin', () => 
       });
     });
 
-    it('ensures all 488 city IDs and slugs are unique', () => {
+    it('ensures all city IDs and slugs are unique', () => {
       const ids = new Set(cities.map((c) => c.id));
       const slugs = new Set(cities.map((c) => c.slug));
-      expect(ids.size).toBe(488);
-      expect(slugs.size).toBe(488);
+      expect(ids.size).toBe(cities.length);
+      expect(slugs.size).toBe(cities.length);
     });
   });
 

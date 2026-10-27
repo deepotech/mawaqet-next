@@ -23,8 +23,8 @@ import { buildPrayerConfig } from '@/lib/prayer-config';
 describe('City Data Integrity', () => {
   const cities = getAllCities();
 
-  it('loads exactly 488 cities', () => {
-    expect(cities).toHaveLength(488);
+  it('loads exactly 633 cities', () => {
+    expect(cities).toHaveLength(633);
   });
 
   it('every city has a slug, urlPath, nameAr, nameEn', () => {
@@ -81,8 +81,8 @@ describe('City Data Integrity', () => {
 describe('Country Data Integrity', () => {
   const countries = getAllCountries();
 
-  it('loads exactly 38 countries', () => {
-    expect(countries).toHaveLength(38);
+  it('loads exactly 40 countries', () => {
+    expect(countries).toHaveLength(40);
   });
 
   it('every country has required fields', () => {
@@ -129,13 +129,13 @@ describe('Country-City Relationships', () => {
     }
   });
 
-  it('total cities across all countries equals 488', () => {
+  it('total cities across all countries equals 633', () => {
     const countries = getAllCountries();
     let total = 0;
     for (const country of countries) {
       total += getCitiesByCountryId(country.id).length;
     }
-    expect(total).toBe(488);
+    expect(total).toBe(633);
   });
 
   it('no city belongs to a non-existent country', () => {
@@ -294,12 +294,12 @@ describe('Search Functionality', () => {
 });
 
 describe('Sitemap Coverage', () => {
-  it('total pages to be sitemapped: 531 (5 static + 38 country + 488 city)', () => {
+  it('total pages to be sitemapped: 678 (5 static + 40 country + 633 city)', () => {
     const cities = getAllCities();
     const countries = getAllCountries();
     const staticPages = 5;
     const total = staticPages + countries.length + cities.length;
-    expect(total).toBe(531);
+    expect(total).toBe(678);
   });
 
   it('sample-page is NOT in city or country data (correctly excluded)', () => {

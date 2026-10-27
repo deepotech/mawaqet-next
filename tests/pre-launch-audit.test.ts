@@ -120,9 +120,9 @@ describe('Phase 4.5 — Pre-Launch Comprehensive Technical Audit', () => {
     const cities = getAllCities();
     const countries = getAllCountries();
 
-    it('contains exactly 488 cities and 38 countries', () => {
-      expect(cities).toHaveLength(488);
-      expect(countries).toHaveLength(38);
+    it('contains exactly 633 cities and 40 countries', () => {
+      expect(cities).toHaveLength(633);
+      expect(countries).toHaveLength(40);
     });
 
     it('every city slug and ID is unique', () => {
