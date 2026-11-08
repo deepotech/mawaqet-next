@@ -13,8 +13,8 @@ describe('Phase 6A — Expansion Batch 1: Morocco (8) & Iraq (6) Verification', 
   const batch1Cities = cities.filter((c) => c.id >= 634 && c.id <= 647);
 
   describe('1. Dataset Volume and ID Sequencing', () => {
-    it('contains exactly 647 cities and 40 countries', () => {
-      expect(cities).toHaveLength(647);
+    it('contains at least 647 cities and 40 countries', () => {
+      expect(cities.length).toBeGreaterThanOrEqual(647);
       expect(countries).toHaveLength(40);
     });
 
@@ -25,11 +25,11 @@ describe('Phase 6A — Expansion Batch 1: Morocco (8) & Iraq (6) Verification', 
       });
     });
 
-    it('ensures all 647 city IDs and slugs are unique', () => {
+    it('ensures all city IDs and slugs are unique', () => {
       const ids = new Set(cities.map((c) => c.id));
       const slugs = new Set(cities.map((c) => c.slug));
-      expect(ids.size).toBe(647);
-      expect(slugs.size).toBe(647);
+      expect(ids.size).toBe(cities.length);
+      expect(slugs.size).toBe(cities.length);
     });
 
     it('verifies all 14 new cities follow canonical slug and urlPath formats', () => {

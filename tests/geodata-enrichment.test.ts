@@ -21,8 +21,8 @@ describe('Geographic Data Enrichment & Relationship Integrity', () => {
     });
   });
 
-  it('contains exactly 647 cities conforming to CitySchema', () => {
-    expect(cities.length).toBe(647);
+  it('contains exactly 661 cities conforming to CitySchema', () => {
+    expect(cities.length).toBe(661);
     cities.forEach((c: any) => {
       expect(() => CitySchema.parse(c)).not.toThrow();
     });

@@ -14060,5 +14060,299 @@
     "verificationStatus": "verified_exact",
     "enrichmentSource": "GeoNames / OSM",
     "notes": "Phase 6A Batch 1 expansion. Governorate: Saladin."
+  },
+  {
+    "id": 648,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-6th-of-october",
+    "urlPath": "/city/prayer-times-in-6th-of-october/",
+    "nameAr": "السادس من أكتوبر",
+    "nameEn": "6th of october",
+    "coordinates": {
+      "latitude": 29.9737,
+      "longitude": 30.9472
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في مدينة السادس من أكتوبر %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة السادس من أكتوبر، مواعيد الصلاة والأذان اليوم في السادس من أكتوبر، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10370,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 649,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-10th-of-ramadan",
+    "urlPath": "/city/prayer-times-in-10th-of-ramadan/",
+    "nameAr": "العاشر من رمضان",
+    "nameEn": "10th of ramadan",
+    "coordinates": {
+      "latitude": 30.3,
+      "longitude": 31.74
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في مدينة العاشر من رمضان %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة العاشر من رمضان، مواعيد الصلاة والأذان اليوم في العاشر من رمضان، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10371,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 650,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-marsa-alam",
+    "urlPath": "/city/prayer-times-in-marsa-alam/",
+    "nameAr": "مرسى علم",
+    "nameEn": "marsa alam",
+    "coordinates": {
+      "latitude": 25.0676,
+      "longitude": 34.879
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في مرسى علم %sitename%",
+    "seoDescription": "مواقيت الصلاة في مرسى علم، مواعيد الصلاة والأذان اليوم في مرسى علم بالبحر الأحمر، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10372,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 651,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-sallum",
+    "urlPath": "/city/prayer-times-in-sallum/",
+    "nameAr": "السلوم",
+    "nameEn": "sallum",
+    "coordinates": {
+      "latitude": 31.5492,
+      "longitude": 25.1558
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في السلوم %sitename%",
+    "seoDescription": "مواقيت الصلاة في السلوم، مواعيد الصلاة والأذان اليوم في السلوم على الحدود الليبية، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10373,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 652,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-saint-catherine",
+    "urlPath": "/city/prayer-times-in-saint-catherine/",
+    "nameAr": "سانت كاترين",
+    "nameEn": "saint catherine",
+    "coordinates": {
+      "latitude": 28.5636,
+      "longitude": 33.9575
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في سانت كاترين %sitename%",
+    "seoDescription": "مواقيت الصلاة في سانت كاترين بجنوب سيناء، مواعيد الصلاة والأذان اليوم في سانت كاترين، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10374,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 653,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-dahab",
+    "urlPath": "/city/prayer-times-in-dahab/",
+    "nameAr": "دهب",
+    "nameEn": "dahab",
+    "coordinates": {
+      "latitude": 28.5097,
+      "longitude": 34.5136
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في دهب %sitename%",
+    "seoDescription": "مواقيت الصلاة في دهب بجنوب سيناء على خليج العقبة، مواعيد الصلاة والأذان اليوم في دهب، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10375,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 654,
+    "countryId": 2,
+    "countryCode": "EG",
+    "slug": "prayer-times-in-mallawi",
+    "urlPath": "/city/prayer-times-in-mallawi/",
+    "nameAr": "ملوي",
+    "nameEn": "mallawi",
+    "coordinates": {
+      "latitude": 27.7314,
+      "longitude": 30.8417
+    },
+    "timezone": "Africa/Cairo",
+    "calculationMethodId": 3,
+    "seoTitle": "مواقيت الصلاة في ملوي %sitename%",
+    "seoDescription": "مواقيت الصلاة في ملوي بمحافظة المنيا، مواعيد الصلاة والأذان اليوم في ملوي، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10376,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 655,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-ar-rass",
+    "urlPath": "/city/prayer-times-in-ar-rass/",
+    "nameAr": "الرس",
+    "nameEn": "ar rass",
+    "coordinates": {
+      "latitude": 25.8694,
+      "longitude": 43.4975
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في الرس %sitename%",
+    "seoDescription": "مواقيت الصلاة في الرس بمنطقة القصيم، مواعيد الصلاة والأذان اليوم في الرس، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10377,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 656,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-sabya",
+    "urlPath": "/city/prayer-times-in-sabya/",
+    "nameAr": "صبيا",
+    "nameEn": "sabya",
+    "coordinates": {
+      "latitude": 17.1495,
+      "longitude": 42.6254
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في صبيا %sitename%",
+    "seoDescription": "مواقيت الصلاة في صبيا بمنطقة جازان، مواعيد الصلاة والأذان اليوم في صبيا، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10378,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 657,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-abu-arish",
+    "urlPath": "/city/prayer-times-in-abu-arish/",
+    "nameAr": "أبو عريش",
+    "nameEn": "abu arish",
+    "coordinates": {
+      "latitude": 16.9691,
+      "longitude": 42.8306
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في أبو عريش %sitename%",
+    "seoDescription": "مواقيت الصلاة في أبو عريش بمنطقة جازان، مواعيد الصلاة والأذان اليوم في أبو عريش، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10379,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 658,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-sharurah",
+    "urlPath": "/city/prayer-times-in-sharurah/",
+    "nameAr": "شرورة",
+    "nameEn": "sharurah",
+    "coordinates": {
+      "latitude": 17.4753,
+      "longitude": 47.1147
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في شرورة %sitename%",
+    "seoDescription": "مواقيت الصلاة في شرورة بمنطقة نجران على حدود الربع الخالي، مواعيد الصلاة والأذان اليوم في شرورة، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10380,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 659,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-haql",
+    "urlPath": "/city/prayer-times-in-haql/",
+    "nameAr": "حقل",
+    "nameEn": "haql",
+    "coordinates": {
+      "latitude": 29.2844,
+      "longitude": 34.9306
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في حقل %sitename%",
+    "seoDescription": "مواقيت الصلاة في حقل بمنطقة تبوك على خليج العقبة، مواعيد الصلاة والأذان اليوم في حقل، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10381,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 660,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-tayma",
+    "urlPath": "/city/prayer-times-in-tayma/",
+    "nameAr": "تيماء",
+    "nameEn": "tayma",
+    "coordinates": {
+      "latitude": 27.6311,
+      "longitude": 38.5444
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في تيماء %sitename%",
+    "seoDescription": "مواقيت الصلاة في تيماء بمنطقة تبوك، مواعيد الصلاة والأذان اليوم في تيماء، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10382,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 661,
+    "countryId": 1,
+    "countryCode": "SA",
+    "slug": "prayer-times-in-rabigh",
+    "urlPath": "/city/prayer-times-in-rabigh/",
+    "nameAr": "رابغ",
+    "nameEn": "rabigh",
+    "coordinates": {
+      "latitude": 22.7986,
+      "longitude": 39.0347
+    },
+    "timezone": "Asia/Riyadh",
+    "calculationMethodId": 4,
+    "seoTitle": "مواقيت الصلاة في رابغ %sitename%",
+    "seoDescription": "مواقيت الصلاة في رابغ بمنطقة مكة المكرمة، مواعيد الصلاة والأذان اليوم في رابغ، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10383,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
   }
 ]
