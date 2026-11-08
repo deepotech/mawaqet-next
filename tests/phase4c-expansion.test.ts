@@ -47,11 +47,11 @@ describe('Phase 4C — Expansion Batch 2: Samarra, Maan, Samawah, Jenin', () => 
       expect(iqCities.length).toBeGreaterThanOrEqual(19);
     });
 
-    it('synchronizes Jordan (JO) to exactly 10 cities', () => {
+    it('synchronizes Jordan (JO) to at least 10 cities', () => {
       const jo = countries.find((c) => c.code === 'JO')!;
       const joCities = cities.filter((c) => c.countryCode === 'JO');
-      expect(jo.totalCities).toBe(10);
-      expect(joCities).toHaveLength(10);
+      expect(jo.totalCities).toBeGreaterThanOrEqual(10);
+      expect(joCities.length).toBeGreaterThanOrEqual(10);
     });
 
     it('synchronizes Palestine (PS) to exactly 10 cities', () => {

@@ -69,7 +69,7 @@
     "defaultMethodId": 8,
     "contentAr": "",
     "legacyPostId": 295,
-    "totalCities": 8
+    "totalCities": 11
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "defaultMethodId": 10,
     "contentAr": "",
     "legacyPostId": 296,
-    "totalCities": 6
+    "totalCities": 8
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "defaultMethodId": 9,
     "contentAr": "",
     "legacyPostId": 297,
-    "totalCities": 8
+    "totalCities": 10
   },
   {
     "id": 9,
@@ -117,7 +117,7 @@
     "defaultMethodId": 8,
     "contentAr": "",
     "legacyPostId": 299,
-    "totalCities": 17
+    "totalCities": 20
   },
   {
     "id": 11,
@@ -189,7 +189,7 @@
     "defaultMethodId": 8,
     "contentAr": "",
     "legacyPostId": 305,
-    "totalCities": 10
+    "totalCities": 14
   },
   {
     "id": 17,
@@ -465,7 +465,7 @@
     "defaultMethodId": 12,
     "contentAr": "مواقيت الصلاة في مدن ومحافظات باكستان",
     "legacyPostId": 20001,
-    "totalCities": 14
+    "totalCities": 18
   },
   {
     "id": 40,

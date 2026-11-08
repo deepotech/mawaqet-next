@@ -14354,5 +14354,383 @@
     "legacyPostId": 10383,
     "verificationStatus": "verified_regional",
     "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 662,
+    "countryId": 39,
+    "countryCode": "PK",
+    "slug": "prayer-times-in-islamabad",
+    "urlPath": "/city/prayer-times-in-islamabad/",
+    "nameAr": "إسلام آباد",
+    "nameEn": "islamabad",
+    "coordinates": {
+      "latitude": 33.6999,
+      "longitude": 73.1666
+    },
+    "timezone": "Asia/Karachi",
+    "calculationMethodId": 12,
+    "seoTitle": "مواقيت الصلاة في إسلام آباد %sitename%",
+    "seoDescription": "مواقيت الصلاة في إسلام آباد عاصمة باكستان اليوم، مواعيد الأذان والصلاة في إسلام آباد، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10384,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames (city-timezones)"
+  },
+  {
+    "id": 663,
+    "countryId": 39,
+    "countryCode": "PK",
+    "slug": "prayer-times-in-gwadar",
+    "urlPath": "/city/prayer-times-in-gwadar/",
+    "nameAr": "غوادر",
+    "nameEn": "gwadar",
+    "coordinates": {
+      "latitude": 25.1264,
+      "longitude": 62.3225
+    },
+    "timezone": "Asia/Karachi",
+    "calculationMethodId": 12,
+    "seoTitle": "مواقيت الصلاة في غوادر %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة وميناء غوادر في بلوشستان، مواعيد الأذان والصلاة في غوادر اليوم، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء بدقة.",
+    "contentAr": "",
+    "legacyPostId": 10385,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 664,
+    "countryId": 39,
+    "countryCode": "PK",
+    "slug": "prayer-times-in-abbottabad",
+    "urlPath": "/city/prayer-times-in-abbottabad/",
+    "nameAr": "أبوت آباد",
+    "nameEn": "abbottabad",
+    "coordinates": {
+      "latitude": 34.1463,
+      "longitude": 73.2117
+    },
+    "timezone": "Asia/Karachi",
+    "calculationMethodId": 12,
+    "seoTitle": "مواقيت الصلاة في أبوت آباد %sitename%",
+    "seoDescription": "مواقيت الصلاة في أبوت آباد في إقليم خيبر بختونخوا، مواعيد الأذان والصلاة في أبوت آباد، احصل على جدول مواقيت الفجر والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10386,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 665,
+    "countryId": 39,
+    "countryCode": "PK",
+    "slug": "prayer-times-in-mardan",
+    "urlPath": "/city/prayer-times-in-mardan/",
+    "nameAr": "مردان",
+    "nameEn": "mardan",
+    "coordinates": {
+      "latitude": 34.1958,
+      "longitude": 72.0447
+    },
+    "timezone": "Asia/Karachi",
+    "calculationMethodId": 12,
+    "seoTitle": "مواقيت الصلاة في مردان %sitename%",
+    "seoDescription": "مواقيت الصلاة في مردان، مواعيد الأذان والصلاة اليوم في مردان بإقليم خيبر بختونخوا، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10387,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 666,
+    "countryId": 16,
+    "countryCode": "JO",
+    "slug": "prayer-times-in-tafilah",
+    "urlPath": "/city/prayer-times-in-tafilah/",
+    "nameAr": "الطفيلة",
+    "nameEn": "tafilah",
+    "coordinates": {
+      "latitude": 30.8375,
+      "longitude": 35.6042
+    },
+    "timezone": "Asia/Amman",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في الطفيلة %sitename%",
+    "seoDescription": "مواقيت الصلاة في محافظة الطفيلة بالأردن اليوم، مواعيد الأذان والصلاة في الطفيلة، احصل على مواقيت الفجر والشروق والظهر والعصر والمغرب والعشاء بدقة.",
+    "contentAr": "",
+    "legacyPostId": 10388,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 667,
+    "countryId": 16,
+    "countryCode": "JO",
+    "slug": "prayer-times-in-ajloun",
+    "urlPath": "/city/prayer-times-in-ajloun/",
+    "nameAr": "عجلون",
+    "nameEn": "ajloun",
+    "coordinates": {
+      "latitude": 32.3328,
+      "longitude": 35.7517
+    },
+    "timezone": "Asia/Amman",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في عجلون %sitename%",
+    "seoDescription": "مواقيت الصلاة في عجلون ومرتفعات جبل عجلون وقلعة عجلون، مواعيد الأذان والصلاة اليوم في محافظة عجلون الأردنية، احصل على مواعيد الفجر والظهر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10389,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 668,
+    "countryId": 16,
+    "countryCode": "JO",
+    "slug": "prayer-times-in-ramtha",
+    "urlPath": "/city/prayer-times-in-ramtha/",
+    "nameAr": "الرمثا",
+    "nameEn": "ramtha",
+    "coordinates": {
+      "latitude": 32.5592,
+      "longitude": 36.0069
+    },
+    "timezone": "Asia/Amman",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في الرمثا %sitename%",
+    "seoDescription": "مواقيت الصلاة في الرمثا وسهل حوران شمال الأردن، مواعيد الأذان والصلاة اليوم في لواء الرمثا، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10390,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 669,
+    "countryId": 16,
+    "countryCode": "JO",
+    "slug": "prayer-times-in-wadi-musa",
+    "urlPath": "/city/prayer-times-in-wadi-musa/",
+    "nameAr": "وادي موسى",
+    "nameEn": "wadi musa",
+    "coordinates": {
+      "latitude": 30.3216,
+      "longitude": 35.4801
+    },
+    "timezone": "Asia/Amman",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في وادي موسى (البتراء) %sitename%",
+    "seoDescription": "مواقيت الصلاة في وادي موسى ومركز لواء البتراء السياحي، مواعيد الأذان والصلاة اليوم في وادي موسى بالأردن، جدول مواعيد الفجر والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10391,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 670,
+    "countryId": 10,
+    "countryCode": "SY",
+    "slug": "prayer-times-in-jableh",
+    "urlPath": "/city/prayer-times-in-jableh/",
+    "nameAr": "جبلة",
+    "nameEn": "jableh",
+    "coordinates": {
+      "latitude": 35.3614,
+      "longitude": 35.9264
+    },
+    "timezone": "Asia/Damascus",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في جبلة %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة جبلة الساحلية بمحافظة اللاذقية، مواعيد الأذان والصلاة اليوم في جبلة، احصل على مواقيت الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10392,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 671,
+    "countryId": 10,
+    "countryCode": "SY",
+    "slug": "prayer-times-in-douma",
+    "urlPath": "/city/prayer-times-in-douma/",
+    "nameAr": "دوما",
+    "nameEn": "douma",
+    "coordinates": {
+      "latitude": 33.5714,
+      "longitude": 36.4028
+    },
+    "timezone": "Asia/Damascus",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في دوما (ريف دمشق) %sitename%",
+    "seoDescription": "مواقيت الصلاة في دوما مركز محافظة ريف دمشق والغوطة الشرقية، مواعيد الأذان والصلاة اليوم في دوما، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10393,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 672,
+    "countryId": 10,
+    "countryCode": "SY",
+    "slug": "prayer-times-in-salamiyah",
+    "urlPath": "/city/prayer-times-in-salamiyah/",
+    "nameAr": "سلمية",
+    "nameEn": "salamiyah",
+    "coordinates": {
+      "latitude": 35.0114,
+      "longitude": 37.0531
+    },
+    "timezone": "Asia/Damascus",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في سلمية %sitename%",
+    "seoDescription": "مواقيت الصلاة في سلمية بمحافظة حماة على تخوم البادية السورية، مواعيد الأذان والصلاة اليوم في سلمية، احصل على مواقيت الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10394,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 673,
+    "countryId": 6,
+    "countryCode": "AE",
+    "slug": "prayer-times-in-khor-fakkan",
+    "urlPath": "/city/prayer-times-in-khor-fakkan/",
+    "nameAr": "خورفكان",
+    "nameEn": "khor fakkan",
+    "coordinates": {
+      "latitude": 25.3375,
+      "longitude": 56.3422
+    },
+    "timezone": "Asia/Dubai",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في خورفكان %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة خورفكان الساحلية التابعة لإمارة الشارقة على خليج عمان، مواعيد الأذان والصلاة اليوم في خورفكان، احصل على مواقيت الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10395,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 674,
+    "countryId": 6,
+    "countryCode": "AE",
+    "slug": "prayer-times-in-madinat-zayed",
+    "urlPath": "/city/prayer-times-in-madinat-zayed/",
+    "nameAr": "مدينة زايد",
+    "nameEn": "madinat zayed",
+    "coordinates": {
+      "latitude": 23.6558,
+      "longitude": 53.7053
+    },
+    "timezone": "Asia/Dubai",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في مدينة زايد (الظفرة) %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة زايد عاصمة منطقة الظفرة في أبوظبي، مواعيد الأذان والصلاة اليوم في مدينة زايد، احصل على جدول مواقيت الفجر والشروق والظهر والعصر والمغرب والعشاء بدقة.",
+    "contentAr": "",
+    "legacyPostId": 10396,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 675,
+    "countryId": 6,
+    "countryCode": "AE",
+    "slug": "prayer-times-in-al-ruwais",
+    "urlPath": "/city/prayer-times-in-al-ruwais/",
+    "nameAr": "الرويس",
+    "nameEn": "al ruwais",
+    "coordinates": {
+      "latitude": 24.1103,
+      "longitude": 52.7306
+    },
+    "timezone": "Asia/Dubai",
+    "calculationMethodId": 8,
+    "seoTitle": "مواقيت الصلاة في الرويس %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة الرويس الصناعية بمنطقة الظفرة في أبوظبي، مواعيد الأذان والصلاة اليوم في الرويس، احصل على مواقيت الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10397,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 676,
+    "countryId": 7,
+    "countryCode": "QA",
+    "slug": "prayer-times-in-lusail",
+    "urlPath": "/city/prayer-times-in-lusail/",
+    "nameAr": "لوسيل",
+    "nameEn": "lusail",
+    "coordinates": {
+      "latitude": 25.42,
+      "longitude": 51.49
+    },
+    "timezone": "Asia/Qatar",
+    "calculationMethodId": 10,
+    "seoTitle": "مواقيت الصلاة في مدينة لوسيل %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة لوسيل الحديثة ولوسيل مارينا في قطر، مواعيد الأذان والصلاة اليوم في لوسيل ببلدية الظعاين، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10398,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 677,
+    "countryId": 7,
+    "countryCode": "QA",
+    "slug": "prayer-times-in-madinat-ash-shamal",
+    "urlPath": "/city/prayer-times-in-madinat-ash-shamal/",
+    "nameAr": "مدينة الشمال",
+    "nameEn": "madinat ash shamal",
+    "coordinates": {
+      "latitude": 26.1158,
+      "longitude": 51.2186
+    },
+    "timezone": "Asia/Qatar",
+    "calculationMethodId": 10,
+    "seoTitle": "مواقيت الصلاة في مدينة الشمال %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة الشمال عاصمة بلدية الشمال في أقصى شمال قطر، مواعيد الأذان والصلاة اليوم في مدينة الشمال، احصل على مواقيت الفجر والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10399,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 678,
+    "countryId": 8,
+    "countryCode": "KW",
+    "slug": "prayer-times-in-sabah-al-ahmad",
+    "urlPath": "/city/prayer-times-in-sabah-al-ahmad/",
+    "nameAr": "مدينة صباح الأحمد",
+    "nameEn": "sabah al-ahmad",
+    "coordinates": {
+      "latitude": 28.8472,
+      "longitude": 48.0681
+    },
+    "timezone": "Asia/Kuwait",
+    "calculationMethodId": 9,
+    "seoTitle": "مواقيت الصلاة في مدينة صباح الأحمد %sitename%",
+    "seoDescription": "مواقيت الصلاة في مدينة صباح الأحمد السكنية والبحرية جنوب الكويت، مواعيد الأذان والصلاة اليوم في مدينة صباح الأحمد، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10400,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
+  },
+  {
+    "id": 679,
+    "countryId": 8,
+    "countryCode": "KW",
+    "slug": "prayer-times-in-al-wafra",
+    "urlPath": "/city/prayer-times-in-al-wafra/",
+    "nameAr": "الوفرة",
+    "nameEn": "al-wafra",
+    "coordinates": {
+      "latitude": 28.5911,
+      "longitude": 48.0772
+    },
+    "timezone": "Asia/Kuwait",
+    "calculationMethodId": 9,
+    "seoTitle": "مواقيت الصلاة في الوفرة %sitename%",
+    "seoDescription": "مواقيت الصلاة في منطقة ومزارع الوفرة جنوب الكويت على الحدود السعودية، مواعيد الأذان والصلاة اليوم في الوفرة، احصل على مواعيد الفجر والشروق والظهر والعصر والمغرب والعشاء.",
+    "contentAr": "",
+    "legacyPostId": 10401,
+    "verificationStatus": "verified_regional",
+    "enrichmentSource": "GeoNames / OpenStreetMap"
   }
 ]

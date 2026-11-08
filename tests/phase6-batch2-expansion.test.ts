@@ -13,8 +13,8 @@ describe('Phase 6A — Expansion Batch 2: Egypt (7) & Saudi Arabia (7) Verificat
   const batch2Cities = cities.filter((c) => c.id >= 648 && c.id <= 661);
 
   describe('1. Dataset Volume and ID Sequencing', () => {
-    it('contains exactly 661 cities and 40 countries', () => {
-      expect(cities).toHaveLength(661);
+    it('contains at least 661 cities and 40 countries', () => {
+      expect(cities.length).toBeGreaterThanOrEqual(661);
       expect(countries).toHaveLength(40);
     });
 
@@ -25,11 +25,11 @@ describe('Phase 6A — Expansion Batch 2: Egypt (7) & Saudi Arabia (7) Verificat
       });
     });
 
-    it('ensures all 661 city IDs and slugs are unique', () => {
+    it('ensures all city IDs and slugs are unique', () => {
       const ids = new Set(cities.map((c) => c.id));
       const slugs = new Set(cities.map((c) => c.slug));
-      expect(ids.size).toBe(661);
-      expect(slugs.size).toBe(661);
+      expect(ids.size).toBe(cities.length);
+      expect(slugs.size).toBe(cities.length);
     });
 
     it('verifies all 14 new cities follow canonical slug and urlPath formats', () => {
