@@ -18,6 +18,8 @@ export const CalculationMethodIdSchema = z.enum([
   'FRANCE', // Union des Organisations Islamiques de France (12/12)
   'TURKEY', // Diyanet İşleri Başkanlığı - Method 13
   'MOROCCO', // Ministry of Endowments and Islamic Affairs / Moonsighting - Method 15
+  'JORDAN', // Jordan regional calculation (18.0/17.0)
+  'SYRIA', // Syria regional calculation (19.5/17.5)
 ]);
 
 export type CalculationMethodId = z.infer<typeof CalculationMethodIdSchema>;

@@ -18,6 +18,18 @@ export const SUPPORTED_METHODS: MethodOption[] = [
     parameters: 'فجر 19.0° / عشاء 17.0°',
   },
   {
+    id: 'JORDAN',
+    nameAr: 'المعيار الأردني',
+    authority: 'المملكة الأردنية الهاشمية',
+    parameters: 'فجر 18.0° / عشاء 17.0°',
+  },
+  {
+    id: 'SYRIA',
+    nameAr: 'المعيار السوري',
+    authority: 'الجمهورية العربية السورية',
+    parameters: 'فجر 19.5° / عشاء 17.5°',
+  },
+  {
     id: 'MAKKAH',
     nameAr: 'جامعة أم القرى، مكة المكرمة',
     authority: 'المملكة العربية السعودية',
@@ -194,6 +206,58 @@ export default function PrayerControls({
         </div>
       </div>
 
+      {/* ── Prominent Iraq Methodology Notice (Visible initially in SSG output) ── */}
+      {countryCode === 'IQ' && (
+        <div className="p-4 bg-blue-50/80 border-b border-blue-100 text-xs text-blue-900" dir="rtl">
+          <div className="flex items-start gap-2.5">
+            <span className="text-base leading-none select-none">📌</span>
+            <div className="space-y-1.5 flex-1">
+              <p className="font-bold text-blue-950">
+                تنويه حول معايير حساب مواقيت الصلاة في {countryName || 'العراق'}:
+              </p>
+              <p className="text-blue-900 leading-relaxed">
+                تتعدد المرجعيات الفقهية في العراق لتحديد الزوايا الفلكية؛ فالأوقاف السنية تعتمد غالباً معيار <strong>رابطة العالم الإسلامي</strong> (فجر 18° / عشاء 17°)، بينما تعتمد المراجع الشيعية معيار <strong>معهد طهران</strong> (فجر 17.7° وتأخير المغرب لمغيب الشفق 4.5°)، في حين يعتمد الموقع افتراضياً <strong>معيار الخليج</strong> الموروث. يمكنك التبديل بين هذه الخيارات بحرية:
+              </p>
+              <div className="flex flex-wrap gap-2 pt-1">
+                <button
+                  type="button"
+                  onClick={() => onMethodChange('GULF')}
+                  className={`text-xs px-2.5 py-1 rounded-lg border font-medium transition-colors ${
+                    currentMethod === 'GULF'
+                      ? 'bg-blue-700 text-white border-blue-700 shadow-xs'
+                      : 'bg-white text-blue-800 border-blue-200 hover:bg-blue-100'
+                  }`}
+                >
+                  معيار الخليج (الافتراضي التراثي)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onMethodChange('MWL')}
+                  className={`text-xs px-2.5 py-1 rounded-lg border font-medium transition-colors ${
+                    currentMethod === 'MWL'
+                      ? 'bg-blue-700 text-white border-blue-700 shadow-xs'
+                      : 'bg-white text-blue-800 border-blue-200 hover:bg-blue-100'
+                  }`}
+                >
+                  رابطة العالم الإسلامي (الوقف السني)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onMethodChange('TEHRAN')}
+                  className={`text-xs px-2.5 py-1 rounded-lg border font-medium transition-colors ${
+                    currentMethod === 'TEHRAN'
+                      ? 'bg-blue-700 text-white border-blue-700 shadow-xs'
+                      : 'bg-white text-blue-800 border-blue-200 hover:bg-blue-100'
+                  }`}
+                >
+                  معهد طهران (المرجعيات الشيعية)
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* ── Expandable Controls Panel ── */}
       {isOpen && (
         <div className="p-5 sm:p-6 space-y-6 bg-white" dir="rtl">
@@ -248,7 +312,7 @@ export default function PrayerControls({
                 />
                 <div>
                   <span className="block text-sm font-bold text-gray-900">
-                    المذهب الحنفي
+                    المذهب الحنفي{defaultMadhhab === 'hanafi' ? ' — الافتراضي' : ''}
                   </span>
                   <span className="block text-xs text-gray-500 mt-0.5">
                     يدخل وقت العصر إذا صار ظل كل شيء مثليه سوى ظل الزوال (يتأخر العصر قرابة 45-60 دقيقة).

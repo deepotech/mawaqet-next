@@ -49,8 +49,8 @@ describe('Prayer Controls & Calculation Engine Quality Assurance', () => {
   });
 
   describe('Supported Calculation Methods Completeness', () => {
-    it('verifies all 12 genuinely implemented methods produce valid and sequential prayer times', () => {
-      expect(SUPPORTED_METHODS).toHaveLength(12);
+    it('verifies all 14 genuinely implemented methods produce valid and sequential prayer times', () => {
+      expect(SUPPORTED_METHODS).toHaveLength(14);
 
       const ammanCoords = { latitude: 31.953949, longitude: 35.910635 };
       const ammanTz = 'Asia/Amman';

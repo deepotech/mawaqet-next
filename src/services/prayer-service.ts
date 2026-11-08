@@ -126,6 +126,14 @@ export class PrayerTimeService {
       case 'SINGAPORE':
         params = CalculationMethod.Singapore();
         break;
+      case 'JORDAN':
+        // Jordan regional calculation: 18.0 deg Fajr, 17.0 deg Isha
+        params = new CalculationParameters('Other', 18.0, 17.0);
+        break;
+      case 'SYRIA':
+        // Syria regional calculation: 19.5 deg Fajr, 17.5 deg Isha
+        params = new CalculationParameters('Other', 19.5, 17.5);
+        break;
       case 'MWL':
       default:
         params = CalculationMethod.MuslimWorldLeague();
@@ -519,6 +527,10 @@ export class PrayerTimeService {
         return 'معهد الجيوفيزياء بجامعة طهران';
       case 'GULF':
         return 'حساب منطقة الخليج العربي';
+      case 'JORDAN':
+        return 'المعيار الأردني (فجر 18° / عشاء 17°)';
+      case 'SYRIA':
+        return 'المعيار السوري (فجر 19.5° / عشاء 17.5°)';
       case 'MWL':
       default:
         return 'رابطة العالم الإسلامي (MWL)';

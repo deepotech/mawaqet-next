@@ -27,7 +27,7 @@ export default async function EmbedPage({
     cities[0];
 
   const cityName = cityArParam || matchedCity.nameAr;
-  const config = buildPrayerConfig(matchedCity.calculationMethodId, matchedCity.coordinates.latitude);
+  const config = buildPrayerConfig(matchedCity.calculationMethodId, matchedCity.coordinates.latitude, matchedCity.countryCode);
   const now = new Date();
 
   let timings = { fajr: '—', sunrise: '—', dhuhr: '—', asr: '—', maghrib: '—', isha: '—' };

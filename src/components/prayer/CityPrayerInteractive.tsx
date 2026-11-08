@@ -39,6 +39,7 @@ export interface CityPrayerInteractiveProps {
     totalCities: number;
   };
   defaultMethod: CalculationMethodId;
+  defaultMadhhab?: Madhhab;
   isIndependentlyVerified: boolean;
   initialDailySchedule: DailyPrayerSchedule;
   initialMonthlySchedule: MonthlyPrayerSchedule;
@@ -53,6 +54,7 @@ export default function CityPrayerInteractive({
   city,
   country,
   defaultMethod,
+  defaultMadhhab,
   isIndependentlyVerified,
   initialDailySchedule,
   initialMonthlySchedule,
@@ -60,9 +62,13 @@ export default function CityPrayerInteractive({
   currentYear,
   currentMonth,
 }: CityPrayerInteractiveProps) {
+  const effectiveDefaultMadhhab: Madhhab =
+    defaultMadhhab ??
+    (city.countryCode === 'PK' || defaultMethod === 'KARACHI' ? 'hanafi' : 'shafi');
+
   // State for calculation parameters
   const [method, setMethod] = useState<CalculationMethodId>(defaultMethod);
-  const [madhhab, setMadhhab] = useState<Madhhab>('shafi');
+  const [madhhab, setMadhhab] = useState<Madhhab>(effectiveDefaultMadhhab);
   const [selectedMonth, setSelectedMonth] = useState<number>(currentMonth);
   const [isHydrated, setIsHydrated] = useState(false);
 
@@ -78,29 +84,24 @@ export default function CityPrayerInteractive({
       if (stored) {
         const parsed = JSON.parse(stored);
         let updatedMethod = defaultMethod;
-        let updatedMadhhab: Madhhab = 'shafi';
-
-        if (parsed.madhhab === 'shafi' || parsed.madhhab === 'hanafi') {
-          updatedMadhhab = parsed.madhhab;
-        }
-
-        // Check if there is a method preference
-        if (parsed.method && typeof parsed.method === 'string') {
-          updatedMethod = parsed.method as CalculationMethodId;
-        }
+        let updatedMadhhab: Madhhab = effectiveDefaultMadhhab;
 
         // Per-city override takes priority if stored
         if (parsed.perCity && parsed.perCity[city.slug]) {
           const cityPref = parsed.perCity[city.slug];
-          if (cityPref.method) updatedMethod = cityPref.method;
-          if (cityPref.madhhab) updatedMadhhab = cityPref.madhhab;
+          if (cityPref.method && typeof cityPref.method === 'string') {
+            updatedMethod = cityPref.method as CalculationMethodId;
+          }
+          if (cityPref.madhhab === 'shafi' || cityPref.madhhab === 'hanafi') {
+            updatedMadhhab = cityPref.madhhab;
+          }
         }
 
         setMethod(updatedMethod);
         setMadhhab(updatedMadhhab);
 
         // Recalculate if anything differs from initial
-        if (updatedMethod !== defaultMethod || updatedMadhhab !== 'shafi') {
+        if (updatedMethod !== defaultMethod || updatedMadhhab !== effectiveDefaultMadhhab) {
           const highLatitudeRule: HighLatitudeRule | undefined =
             Math.abs(city.coordinates.latitude) >= 48 ? 'seventh_of_the_night' : undefined;
           const config: PrayerCalculationConfig = {
@@ -132,7 +133,7 @@ export default function CityPrayerInteractive({
     } catch {
       // Storage unavailable or parsing error — keep server defaults
     }
-  }, [city.coordinates, city.slug, city.timezone, currentMonth, currentYear, defaultMethod]);
+  }, [city.coordinates, city.slug, city.timezone, currentMonth, currentYear, defaultMethod, effectiveDefaultMadhhab]);
 
   // Recalculate whenever method, madhhab, or selectedMonth changes (user interaction)
   const recalculateSchedules = useCallback(
@@ -190,9 +191,23 @@ export default function CityPrayerInteractive({
 
   const handleReset = () => {
     setMethod(defaultMethod);
-    setMadhhab('shafi');
-    recalculateSchedules(defaultMethod, 'shafi', selectedMonth);
-    savePreferences(defaultMethod, 'shafi');
+    setMadhhab(effectiveDefaultMadhhab);
+    recalculateSchedules(defaultMethod, effectiveDefaultMadhhab, selectedMonth);
+
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed.perCity && parsed.perCity[city.slug]) {
+          delete parsed.perCity[city.slug];
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+          return;
+        }
+      }
+    } catch {
+      // Ignore localStorage errors
+    }
+    savePreferences(defaultMethod, effectiveDefaultMadhhab);
   };
 
   const savePreferences = (saveMethod: CalculationMethodId, saveMadhhab: Madhhab) => {
@@ -207,7 +222,7 @@ export default function CityPrayerInteractive({
     }
   };
 
-  const isCustomized = isHydrated && (method !== defaultMethod || madhhab !== 'shafi');
+  const isCustomized = isHydrated && (method !== defaultMethod || madhhab !== effectiveDefaultMadhhab);
 
   // Convert daily timings to PrayerTimesTable format
   const prayerTimesArr = useMemo(() => {
@@ -257,7 +272,7 @@ export default function CityPrayerInteractive({
         currentMethod={method}
         defaultMethod={defaultMethod}
         currentMadhhab={madhhab}
-        defaultMadhhab="shafi"
+        defaultMadhhab={effectiveDefaultMadhhab}
         countryCode={city.countryCode}
         cityName={city.nameAr}
         countryName={country?.nameAr ?? ''}

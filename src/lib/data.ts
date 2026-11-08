@@ -60,7 +60,13 @@ const METHOD_ID_MAP: Record<number, CalculationMethodId> = {
   11: 'SINGAPORE',
 };
 
-export function toCalculationMethodId(numericId: number): CalculationMethodId {
+export function toCalculationMethodId(numericId: number, countryCode?: string): CalculationMethodId {
+  if (countryCode === 'JO') {
+    return 'JORDAN';
+  }
+  if (countryCode === 'SY') {
+    return 'SYRIA';
+  }
   return METHOD_ID_MAP[numericId] ?? 'GULF';
 }
 

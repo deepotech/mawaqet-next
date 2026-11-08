@@ -73,8 +73,9 @@ export default async function CityPage({
   const siblings = getSiblingCities(city.id, city.countryId, 12);
 
   // ── Server-side Prayer Time Calculation (Defaults for SSR) ─────────────────
-  const defaultMethod = toCalculationMethodId(city.calculationMethodId);
-  const config = buildPrayerConfig(city.calculationMethodId, city.coordinates.latitude);
+  const countryCode = city.countryCode || country?.code || '';
+  const defaultMethod = toCalculationMethodId(city.calculationMethodId, countryCode);
+  const config = buildPrayerConfig(city.calculationMethodId, city.coordinates.latitude, countryCode);
   const now = new Date();
   const year = now.getUTCFullYear();
   const month = now.getUTCMonth() + 1;
@@ -222,11 +223,12 @@ export default async function CityPage({
                   timezone: city.timezone,
                   calculationMethodId: city.calculationMethodId,
                   countryId: city.countryId,
-                  countryCode: country?.code ?? '',
+                  countryCode: countryCode,
                   verificationStatus: city.verificationStatus,
                 }}
                 country={country}
                 defaultMethod={defaultMethod}
+                defaultMadhhab={config.madhhab ?? 'shafi'}
                 isIndependentlyVerified={isIndependentlyVerifiedHub}
                 initialDailySchedule={dailySchedule}
                 initialMonthlySchedule={monthlySchedule}

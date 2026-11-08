@@ -64,7 +64,7 @@ export default async function CountryPage({
   const otherCountries = allCountries.filter((c) => c.id !== country.id);
 
   const year = new Date().getFullYear();
-  const defaultMethod = toCalculationMethodId(country.defaultMethodId);
+  const defaultMethod = toCalculationMethodId(country.defaultMethodId, country.code);
 
   // ── Structured data — BreadcrumbList ──────────────────────────────────────
   const breadcrumbJsonLd = {
