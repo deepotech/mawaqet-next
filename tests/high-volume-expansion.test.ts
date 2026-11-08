@@ -13,8 +13,8 @@ describe('High-Volume City Expansion (145 Cities) Verification', () => {
   const newCities = cities.filter((c) => c.id >= 489 && c.id <= 633);
 
   describe('1. Dataset Volume and ID Sequencing', () => {
-    it('contains exactly 633 cities and 40 countries', () => {
-      expect(cities).toHaveLength(633);
+    it('contains at least 633 cities and 40 countries', () => {
+      expect(cities.length).toBeGreaterThanOrEqual(633);
       expect(countries).toHaveLength(40);
     });
 
@@ -25,11 +25,11 @@ describe('High-Volume City Expansion (145 Cities) Verification', () => {
       });
     });
 
-    it('ensures all 633 city IDs and slugs are unique', () => {
+    it('ensures all city IDs and slugs are unique', () => {
       const ids = new Set(cities.map((c) => c.id));
       const slugs = new Set(cities.map((c) => c.slug));
-      expect(ids.size).toBe(633);
-      expect(slugs.size).toBe(633);
+      expect(ids.size).toBe(cities.length);
+      expect(slugs.size).toBe(cities.length);
     });
 
     it('verifies all new cities follow canonical slug and urlPath formats', () => {

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T12:03:35.861Z",
+  "timestamp": "2026-11-08T08:51:30.984Z",
   "status": "PASSED",
   "summary": {
     "totalChecks": 15,
@@ -12,7 +12,7 @@
       "name": "Data files parsed cleanly as valid JSON",
       "status": "PASSED",
       "details": {
-        "cities": 633,
+        "cities": 647,
         "countries": 40,
         "legacyUrls": 372
       }
@@ -113,16 +113,16 @@
       }
     },
     {
-      "name": "Sitemap URL count exactly matches expected sum (678 URLs)",
+      "name": "Sitemap URL count exactly matches expected sum (692 URLs)",
       "status": "PASSED",
       "details": {
-        "sitemapUrlCount": 678,
-        "expectedTotal": 678
+        "sitemapUrlCount": 692,
+        "expectedTotal": 692
       }
     }
   ],
   "details": {
-    "cityCount": 633,
+    "cityCount": 647,
     "countryCount": 40,
     "legacyUrlCount": 372
   }
