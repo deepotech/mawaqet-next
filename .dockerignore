@@ -1,0 +1,35 @@
+# ---- Ignore everything that shouldn't be in the Docker image ----
+
+# Source control
+.git
+.gitignore
+
+# Dependencies (re-installed inside the image)
+node_modules
+
+# Next.js build output (rebuilt inside the image)
+.next
+out
+build
+dist
+
+# Environment files – inject via Railway variables, never bake in
+.env
+.env.local
+.env.*.local
+
+# Dev/test tooling
+coverage
+tests
+docs
+scripts
+legacy-data
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.idea
+.vscode
+*.swp
